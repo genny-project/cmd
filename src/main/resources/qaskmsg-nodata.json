@@ -1,0 +1,105 @@
+{
+    "items": [{
+            "created": "2017-06-29T01:22:22",
+            "updated": "2017-06-29T11:22:22",
+            "id": 1,
+            "name": "Firstname",
+            "question": {
+                "created": "2017-06-29T01:22:22",
+                "updated": "2017-06-29T11:22:22",
+                "id": 1,
+                "name": "Firstname",
+                "code": "QUE_FIRSTNAME",
+                "attribute": {
+                    "created": "2017-06-29T01:22:22",
+                    "updated": "2017-06-29T11:22:22",
+                    "id": 3,
+                    "name": "FIRSTNAME",
+                    "code": "PRI_FIRSTNAME",
+                    "dataType": {
+                        "className": "java.lang.String",
+                        "validationList": {
+
+                        }
+                    }
+                },
+                "contextList": {
+                    "contextList": []
+                }
+            },
+            "answerList": { },
+            "contextList": {
+                "contextList": []
+            }
+        },
+        {
+            "created": "2017-06-29T01:22:22",
+            "updated": "2017-06-29T11:22:22",
+            "id": 2,
+            "name": "Lastname",
+            "question": {
+                "created": "2017-06-29T01:22:22",
+                "updated": "2017-06-29T11:22:22",
+                "id": 2,
+                "name": "Lastname",
+                "code": "QUE_LASTNAME",
+                "attribute": {
+                    "created": "2017-06-29T01:22:22",
+                    "updated": "2017-06-29T11:22:22",
+                    "id": 4,
+                    "name": "LASTNAME",
+                    "code": "PRI_LASTNAME",
+                    "dataType": {
+                        "className": "java.lang.String",
+                        "validationList": {
+
+                        }
+                    }
+                },
+                "contextList": {
+                    "contextList": []
+                }
+            },
+            "answerList": { },
+            "contextList": {
+                "contextList": []
+            }
+        },
+        {
+            "created": "2017-06-29T01:22:22",
+            "updated": "2017-06-29T11:22:22",
+            "id": 3,
+            "name": "Birthdate",
+            "question": {
+                "created": "2017-06-29T01:22:22",
+                "updated": "2017-06-29T11:22:22",
+                "id": 3,
+                "name": "Birthdate",
+                "code": "QUE_BIRTHDATE",
+                "attribute": {
+                    "created": "2017-06-29T01:22:22",
+                    "updated": "2017-06-29T11:22:22",
+                    "id": 8,
+                    "name": "Date of Birth",
+                    "code": "PRI_BIRTHDATE",
+                    "dataType": {
+                        "className": "java.time.LocalDateTime",
+                        "validationList": {
+
+                        }
+                    }
+                },
+                "contextList": {
+                    "contextList": []
+                }
+            },
+            "answerList": { },
+            "contextList": {
+                "contextList": []
+            }
+        }
+    ],
+    "data_type": "Ask",
+    "delete": false,
+    "msg_type": "DATA_MSG"
+}
