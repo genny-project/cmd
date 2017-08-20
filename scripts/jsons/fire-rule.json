@@ -1,0 +1,10 @@
+/**
+ *
+ */
+{
+        "msg_type":"RULES",
+        "data":{
+                "businessType":"rule",
+                "businessEvent":"fire"
+        }
+ }

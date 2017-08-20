@@ -4,10 +4,10 @@
 {
 	"msg_type":"RULES",
 	"data":{
-                "businessType":"workitem",
+                "businessType":"process",
                 "businessEvent":"start",
                 "container": "example",
-		"itemId": 3,
+		"itemId": 1,
                 "processId":"evaluation",
 		"processInstanceId": 1,
 		"params":{
