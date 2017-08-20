@@ -1,0 +1,21 @@
+/**
+ *
+ */
+{
+	"msg_type":"RULES",
+	"data":{
+                "businessType":"workitem",
+                "businessEvent":"start",
+                "container": "example",
+		"itemId": 3,
+                "processId":"evaluation",
+		"processInstanceId": 1,
+		"params":{
+ 			"employee":"kieserver",
+        	        "performance":"kieserver",
+                	"reason": "Performance sadsadduring the semester"
+
+		}
+	}
+ }
+
