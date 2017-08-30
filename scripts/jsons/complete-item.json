@@ -1,0 +1,10 @@
+{
+        "msg_type":"RULES",
+        "data":{
+                "businessType":"workitem",
+                "businessEvent":"start",
+		"container":"client",
+		"processInstanceId": 2,
+		"itemId": 9 
+        }
+ }

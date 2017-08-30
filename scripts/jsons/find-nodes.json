@@ -1,0 +1,10 @@
+{
+        "msg_type":"RULES",
+        "data":{
+                "businessType":"node",
+                "businessEvent":"find",
+		"container":"client",
+		"processInstanceId": 88888888 
+        }
+ }
+~

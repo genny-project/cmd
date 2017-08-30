@@ -5,6 +5,7 @@
         "msg_type":"RULES",
         "data":{
                 "businessType":"rule",
+		"code":"layout1",
                 "businessEvent":"fire"
         }
  }
