@@ -1,0 +1,8 @@
+{
+        "msg_type":"RULES",
+        "data":{
+                "businessType":"rule",
+                "code":"layout3",
+                "businessEvent":"fire"
+        }
+ }
