@@ -1,5 +1,5 @@
 {
-        "msg_type":"RULES",
+        "msg_type":"EVT_MSG",
         "data":{
                 "businessType":"rule",
                 "code":"AUTH_INIT",

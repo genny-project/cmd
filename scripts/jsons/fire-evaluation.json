@@ -1,8 +1,8 @@
 {
-        "msg_type":"EVT_MSG",
+        "msg_type":"RULES",
         "data":{
                 "businessType":"rule",
-                "code":"layout2",
+                "code":"evaluation",
                 "businessEvent":"fire"
         }
  }
