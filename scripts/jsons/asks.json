@@ -1,0 +1,11 @@
+/**
+ *
+ */
+{
+        "msg_type":"EVT_MSG",
+        "data":{
+                "businessType":"rule",
+		"code":"asks",
+                "businessEvent":"fire"
+        }
+ }

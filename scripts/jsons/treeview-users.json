@@ -1,0 +1,7 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "event_type":"TreeviewExpand",
+   "data":{
+             "code":"GRP_USERS"
+         }
+}

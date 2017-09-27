@@ -1,0 +1,6 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "data":{
+             "code":"layout1"
+         }
+}
