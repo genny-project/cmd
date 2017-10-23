@@ -1,0 +1,11 @@
+					{
+						"created": "2017-06-30T15:41:12",
+						"valueString": "Bob",
+						"expired": false,
+						"refused": false,
+						"weight": 1,
+						"version": 1,
+						"targeCoded": "PER_USER1",
+						"sourceCode": "PER_USER1",
+						"attributeCode": "PRI_FIRSTNAME"
+					}
