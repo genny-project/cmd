@@ -1,11 +1,14 @@
 {
-	"created": "2017-06-30T15:41:12",
-	"value": "Bob",
-	"expired": false,
-	"refused": false,
-	"weight": 1,
-	"version": 1,
-	"targetCode": "PER_USER1",
-	"sourceCode": "PER_USER1",
-	"attributeCode": "PRI_FIRSTNAME"
+	"msg_type":"DATA_MSG",
+	"data_type":"Answer",
+	"items":{
+		"value":"somefacebookcode",
+		"attributeCode":"PRI_FB_BASIC",
+		"askId":6,
+		"targetCode":"PER_USER1",
+		"sourceCode":"PER_USER1",
+		"expired":false,
+		"refused":false,
+		"weight":0.0
+	}
 }
