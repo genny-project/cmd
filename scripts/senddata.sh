@@ -1,8 +1,4 @@
 #!/bin/bash
-TOKEN=$(./gettoken.sh )
-echo "${TOKEN}"
-CALLSCRIPT=./update.sh 
-$CALLSCRIPT "$1"
 myip=
 while IFS=$': \t' read -a line ;do
     [ -z "${line%inet}" ] && ip=${line[${#line[1]}>4?1:2]} &&
@@ -14,9 +10,14 @@ if [ -z "${myip}" ]; then
    myip=127.0.0.1
 fi
 
-if [ -z "${2}" ]; then
-java -jar ../target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${TOKEN} -d $1.json -a "http://${myip}:8088/api/data"
-else
-  echo "not this"
-#java -jar ../target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${1} -d $1.json -a "http://${myip}:8081/commander"
-fi
+
+TOKEN=$(./gettoken.sh )
+CALLSCRIPT=./update.sh 
+$CALLSCRIPT "$1"
+TOKEN2=`echo "${TOKEN%?}"`
+cp -f jsons/$1.json jsons/$1-token.json
+sed -i '' -e  's|TTOKENN|'"${TOKEN2}"'|g' jsons/${1}-token.json 
+
+java -jar ../target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${TOKEN} -d jsons/$1-token.json -a "http://${myip}:8088/api/data"
+
+rm -f jsons/$1-token.json
