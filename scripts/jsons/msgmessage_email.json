@@ -1,0 +1,11 @@
+{
+	"msg_type": "MSG_MESSAGE",
+	"msgMessageData": {
+		"source": "rpgayatri@gmail.com",
+		"target": "rpgayatri@gmail.com",
+		"priority": "high",
+		"subject": "test_subject",
+		"msgMessageData": "hello world!! Hello outcome.life!! This message travels from json to message via bridge!!",
+		"msgMessageType": "EMAIL"
+	}
+}

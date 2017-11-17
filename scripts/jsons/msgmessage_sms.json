@@ -1,0 +1,15 @@
+/**
+ *source : Twilio free fromPhoneNumber ; target : Twilio registered toPhoneNumber
+ */
+
+{
+	"msg_type": "MSG_MESSAGE",
+	"msgMessageData": {
+		"source": "+61488807705",
+		"target": "", 
+		"priority": "high",
+		"subject": "test_subject",
+		"msgMessageData": "hello world!!",
+		"msgMessageType": "SMS"
+	}
+}
