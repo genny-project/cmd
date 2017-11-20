@@ -1,11 +1,43 @@
-{
+/* {
 	"msg_type": "MSG_MESSAGE",
 	"msgMessageData": {
 		"source": "rpgayatri@gmail.com",
 		"target": "rpgayatri@gmail.com",
 		"priority": "high",
-		"subject": "test_subject",
-		"msgMessageData": "hello world!! Hello outcome.life!! This message travels from json to message via bridge!!",
-		"msgMessageType": "EMAIL"
+		"subject": "test_subject_attachments",
+		"msgMessageData": "hello world!! Hello outcome.life!! This message with attachments travels from cmd to messages via bridge!!",
+		"msgMessageType": "EMAIL",
+		"attachments":["bornstein-airbnb.png","mountains.jpg"]
 	}
+} */
+
+{
+	"msg_type": "MSG_MESSAGE",
+	"event_type": "message",
+	"msgMessageData": [
+		{
+			"source": "rpgayatri@gmail.com",
+			"target": "rpgayatri@gmail.com",
+			"priority": "high",
+			"subject": "test_subject",
+			"msgMessageData": "hello world",
+			"attachments": [
+				"bornstein-airbnb.png",
+				"mountains.jpg"
+			],
+			"msgMessageType": "EMAIL"
+		},
+		{
+			"source": "rpgayatri@gmail.com",
+			"target": "rpgayatri@gmail.com",
+			"priority": "high",
+			"subject": "test_subject_something",
+			"msgMessageData": "hello world again",
+			"attachments": [
+				"bornstein-airbnb.png",
+				"mountains.jpg"
+			],
+			"msgMessageType": "EMAIL"
+		}
+	]
 }
