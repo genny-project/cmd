@@ -22,8 +22,8 @@
 			"subject": "test_subject",
 			"msgMessageData": "hello world",
 			"attachments": [
-				"bornstein-airbnb.png",
-				"mountains.jpg"
+				"attachments/bornstein-airbnb.png",
+				"attachments/mountains.jpg"
 			],
 			"msgMessageType": "EMAIL"
 		},
@@ -34,10 +34,19 @@
 			"subject": "test_subject_something",
 			"msgMessageData": "hello world again",
 			"attachments": [
-				"bornstein-airbnb.png",
-				"mountains.jpg"
+				"attachments/bornstein-airbnb.png",
+				"attachments/mountains.jpg"
 			],
 			"msgMessageType": "EMAIL"
+		},
+		{
+			"source": "",
+			"target": "", 
+			"priority": "high",
+			"subject": "test_subject_something",
+			"msgMessageData": "hello world again",
+			"attachments": [],
+			"msgMessageType": "SMS"
 		}
 	]
 }

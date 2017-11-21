@@ -4,12 +4,13 @@
 
 {
 	"msg_type": "MSG_MESSAGE",
-	"msgMessageData": {
-		"source": "+61488807705",
+	"msgMessageData": [{
+		"source": "",
 		"target": "", 
 		"priority": "high",
 		"subject": "test_subject",
 		"msgMessageData": "hello world!!",
-		"msgMessageType": "SMS"
-	}
+		"msgMessageType": "SMS",
+		"attachments":[]
+	}]
 }
