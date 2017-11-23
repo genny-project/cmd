@@ -12,36 +12,33 @@
 } */
 
 {
-	"msg_type": "MSG_MESSAGE",
+	"msg_type": "EVT_MSG",
 	"event_type": "message",
+	"code":"FENCE_ENTER",
 	"msgMessageData": [
 		{
-			"source": "rpgayatri@gmail.com",
+			"source": "genny.life.user@gmail.com",
 			"target": "rpgayatri@gmail.com",
 			"priority": "high",
 			"subject": "test_subject",
 			"msgMessageData": "hello world",
 			"attachments": [
-				"/attachments/bornstein-airbnb.png",
-				"/attachments/mountains.jpg"
 			],
 			"msgMessageType": "EMAIL"
 		},
 		{
-			"source": "rpgayatri@gmail.com",
+			"source": "genny.life.user@gmail.com",
 			"target": "rpgayatri@gmail.com",
 			"priority": "high",
 			"subject": "test_subject_something",
 			"msgMessageData": "hello world again",
 			"attachments": [
-				"/attachments/bornstein-airbnb.png",
-				"/attachments/mountains.jpg"
 			],
 			"msgMessageType": "EMAIL"
 		},
 		{
 			"source": "+61488807705",
-			"target": "+61468497227", 
+			"target": "+61449286357", 
 			"priority": "high",
 			"subject": "test_subject_something",
 			"msgMessageData": "hello world again",
