@@ -1,0 +1,8 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "event_type":"GEOFENCE_EXIT",
+   "data":{
+           "code":"BEG_0000004_EXIT_SOURCE",
+            "value": "GEOFENCE_EXIT"
+         }
+}
