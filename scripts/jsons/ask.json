@@ -1,0 +1,9 @@
+
+{
+     "name": "Firstname",
+     "questionCode":"QUE_FIRSTNAME",
+     "sourceCode": "PRI_USER1",
+     "targetCode": "PRI_USER1",
+     "attributeCode":"PRI_FIRSTNAME",
+     "questiom_id":"1"
+}

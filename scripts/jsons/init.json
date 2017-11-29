@@ -1,1 +1,1 @@
-{"data":{"code":"AUTH_INIT","id":2,"value":"AUTH_INIT"},"msg_type":"EVT_MSG"}
+{"data":{"code":"AUTH_INIT","id":2,"value":"AUTH_INIT"},"event_type":"AUTH_INIT","msg_type":"EVT_MSG"}

@@ -1,0 +1,8 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "event_type":"GEOFENCE_ENTRY",
+   "data":{
+           "code":"BEG_0000003_ENTER",
+            "value": "GEOFENCE_ENTRY"
+         }
+}

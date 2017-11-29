@@ -1,0 +1,11 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "event_type":"EVT_LINK_CHANGE",
+   "sourceBaseEntityCode": “GRP_QUOTES”,
+    "targetBaseEntityCode": “GRP_APPROVED”,
+     "linkCode": “LNK_CORE”,
+     "data":{
+               "code": “BEG_0000001”,
+               "value": “LOD_LOAD1”
+              }
+}

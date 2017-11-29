@@ -1,0 +1,7 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "event_type":"LOGOUT",
+   "data":{
+           "code":"LOGOUT"
+         }
+}
