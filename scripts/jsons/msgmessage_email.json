@@ -9,30 +9,32 @@
 		"msgMessageType": "EMAIL",
 		"attachments":["bornstein-airbnb.png","mountains.jpg"]
 	}
-} */
+}
 
 {
 	"msg_type": "MSG_MESSAGE",
 	"event_type": "message",
 	"msgMessageData": [
 		{
+			"template_name":""
 			"source": "rpgayatri@gmail.com",
-			"target": "rpgayatri@gmail.com",
+			"target": "adamcrow63@gmail.com",
 			"priority": "high",
-			"subject": "test_subject",
-			"msgMessageData": "hello world",
+			"subject": "Good afternoon",
+			"msgMessageData": "This mail contains attachments!",
 			"attachments": [
 				"/attachments/bornstein-airbnb.png",
 				"/attachments/mountains.jpg"
 			],
-			"msgMessageType": "EMAIL"
+			"msgMessageType": "EMAIL",
+			"contextMap": 
 		},
 		{
 			"source": "rpgayatri@gmail.com",
 			"target": "rpgayatri@gmail.com",
-			"priority": "high",
-			"subject": "test_subject_something",
-			"msgMessageData": "hello world again",
+			"priority": "normal",
+			"subject": "Good morning",
+			"msgMessageData": "This main contains attachments too!! And the message appears in bold",
 			"attachments": [
 				"/attachments/bornstein-airbnb.png",
 				"/attachments/mountains.jpg"
@@ -49,4 +51,18 @@
 			"msgMessageType": "SMS"
 		}
 	]
+} */
+
+
+{
+	"msg_type": "MSG_MESSAGE",
+	"msgMessageType": "SMS",
+	"template_code": "MSG_CH40_MOVE",
+	"msgMessageData": [
+		"code:BEG_0000003",
+        "recipient:OWNER",
+        "sourceBE:GRP_APPROVED",
+        "targetBE:GRP_QUOTES"
+	]
 }
+
