@@ -12,38 +12,40 @@
 }
 
 {
-	"msg_type": "MSG_MESSAGE",
+	"msg_type": "EVT_MSG",
 	"event_type": "message",
+	"code":"FENCE_ENTER",
 	"msgMessageData": [
 		{
+<<<<<<< HEAD
 			"template_name":""
 			"source": "rpgayatri@gmail.com",
 			"target": "adamcrow63@gmail.com",
+=======
+			"source": "genny.life.user@gmail.com",
+			"target": "rpgayatri@gmail.com",
+>>>>>>> eaac867e5b2973f360c4d3b61ef8893004c70701
 			"priority": "high",
 			"subject": "Good afternoon",
 			"msgMessageData": "This mail contains attachments!",
 			"attachments": [
-				"/attachments/bornstein-airbnb.png",
-				"/attachments/mountains.jpg"
 			],
 			"msgMessageType": "EMAIL",
 			"contextMap": 
 		},
 		{
-			"source": "rpgayatri@gmail.com",
+			"source": "genny.life.user@gmail.com",
 			"target": "rpgayatri@gmail.com",
 			"priority": "normal",
 			"subject": "Good morning",
 			"msgMessageData": "This main contains attachments too!! And the message appears in bold",
 			"attachments": [
-				"/attachments/bornstein-airbnb.png",
-				"/attachments/mountains.jpg"
 			],
 			"msgMessageType": "EMAIL"
 		},
 		{
 			"source": "+61488807705",
-			"target": "+61468497227", 
+			"target": "+61449286357", 
 			"priority": "high",
 			"subject": "test_subject_something",
 			"msgMessageData": "hello world again",
@@ -51,6 +53,7 @@
 			"msgMessageType": "SMS"
 		}
 	]
+<<<<<<< HEAD
 } */
 
 
@@ -66,3 +69,6 @@
 	]
 }
 
+=======
+}
+>>>>>>> eaac867e5b2973f360c4d3b61ef8893004c70701
