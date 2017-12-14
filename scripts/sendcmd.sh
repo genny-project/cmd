@@ -15,7 +15,7 @@ if [ -z "${myip}" ]; then
 fi
 
 if [ -z "${2}" ]; then
-java -jar ../target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${TOKEN} -d $1.json -a "http://${myip}:8081/api/cmds"
+java -jar ../target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${TOKEN} -d $1.json -a "http://${myip}:8088/api/cmds"
 else
   echo "not this"
 #java -jar ../target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${1} -d $1.json -a "http://${myip}:8081/commander"
