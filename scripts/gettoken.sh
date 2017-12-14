@@ -23,8 +23,4 @@ ACCESS_TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
 printf "${ACCESS_TOKEN} \n\n"
 fi
 
-#java -jar target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${ACCESS_TOKEN} -d init.json  -a "http://${myip}:8081/api/events"
-#else
-#java -jar target/gebcmd-0.0.1-SNAPSHOT-jar-with-dependencies.jar -t ${1} -d init.json  -a "http://${myip}:8081/api/events"
-#fi
 
