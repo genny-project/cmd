@@ -1,0 +1,12 @@
+
+{
+	"msg_type": "MSG_MESSAGE",
+	"msgMessageType": "EMAIL",
+	"code":"TST_COMMS",
+	"template_code": "MSG_CH40_MOVE_GRP_PAID",
+	"msgMessageData": [
+		"code:BEG_0000003",
+		"recipient:OWNER"
+	]
+}
+

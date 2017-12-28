@@ -1,6 +1,6 @@
 {
    "data":{
-           "code":"QUE_TEST_COMMS_SMS"
+           "code":"QUE_TEST_COMMS_SEND_SMS"
           },
     "event_type":"BTN_CLICK",
     "msg_type":"EVT_MSG"
