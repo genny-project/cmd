@@ -99,9 +99,9 @@ public class App {
 
 			try {
 				ClientRequest request = new ClientRequest(eventBusAddress);
-			//	List<String> headerStringList = new ArrayList<String>();
-			//	headerStringList.add("Bearer "+token);
-			//	request.getHeaders().put("Authorization", headerStringList);
+				List<String> headerStringList = new ArrayList<String>();
+				headerStringList.add("Bearer "+token);
+				request.getHeaders().put("Authorization", headerStringList);
 				request.getQueryParameters().add("token", token);
 				request.accept("application/json");
 				request.body("text/plain", buf.toString());
