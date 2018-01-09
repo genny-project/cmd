@@ -1,0 +1,7 @@
+{
+	"data": {
+		"code": "PAYMENTS"
+	},
+	"event_type": "PAYMENTS",
+	"msg_type": "EVT_MSG"
+}
