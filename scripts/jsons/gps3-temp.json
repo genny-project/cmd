@@ -1,0 +1,12 @@
+{
+   
+	"data_type": "GPS",
+	"items": [
+		{
+			"latitude": "-37.873510",
+			"longitude": "144.966479"
+		}
+	],
+	"msg_type": "DATA_MSG"
+
+}

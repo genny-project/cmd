@@ -1,0 +1,10 @@
+{ 
+   "msg_type":"EVT_MSG",
+   "event_type":"BTN_CLICK",
+   "data":{
+           "code":"BTN_CONFIRM_OFFER",
+            "value": {
+		"itemCode":"OFR_JOMU3CAE362854F2473DB9AE5DDFA927D1BD"
+	}
+         }
+}
