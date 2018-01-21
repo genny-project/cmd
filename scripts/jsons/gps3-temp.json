@@ -3,8 +3,8 @@
 	"data_type": "GPS",
 	"items": [
 		{
-			"latitude": "-37.873510",
-			"longitude": "144.966479"
+			"latitude": "-37.801815",
+			"longitude": "144.966699"
 		}
 	],
 	"msg_type": "DATA_MSG"
