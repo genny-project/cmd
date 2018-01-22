@@ -1,0 +1,16 @@
+{
+	"msg_type": "MSG_MESSAGE",
+	"msgMessageType": "EMAIL",
+	"template_code": "MSG_CH40_MOVE_GRP_PAID",
+	"recipientArr": [
+		"PER_USER1",
+		"PER_USER2",
+		"PER_USER3"
+	],
+	"messageContextMap": {
+		"LOAD":"LOD_LOAD5",
+		"BEG":"BEG_0000003",
+		"OWNER":"PER_USER1",
+		"DRIVER":"PER_USER2"
+	}
+}
