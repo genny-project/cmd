@@ -1,0 +1,4 @@
+select ea.pk.baseEntity  from BaseEntity be2
+       inner join be2.baseEntityAttributes ea
+       where  ea.attributeCode='PRI_LASTNAME'
+       and ea.valueString like '%CROW%'

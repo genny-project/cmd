@@ -10,7 +10,7 @@ while IFS=$': \t' read -a line ;do
 if [ -z "${myip}" ]; then
    myip=127.0.0.1
 fi
-myip=localhost
+#myip=localhost
 
 KEYCLOAK_RESPONSE=`curl -s -X POST http://${myip}:8180/auth/realms/genny/protocol/openid-connect/token  -H "Content-Type: application/x-www-form-urlencoded" -d 'username=user1' -d 'password=password1' -d 'grant_type=password' -d 'client_id=curl'  -d 'client_secret=056b73c1-7078-411d-80ec-87d41c55c3b4'`
 TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
