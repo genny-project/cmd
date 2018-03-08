@@ -24,6 +24,12 @@
       "weight" : 1.0
     },
     {
+      "attributeCode": "PRI_LASTNAME",
+      "attributeName": "LIKE",
+      "valueString": "%CROW%",
+      "weight" : 1.0
+    },
+    {
       "attributeCode": "SCH_PAGE_SIZE",
       "valueInteger": 5
     }

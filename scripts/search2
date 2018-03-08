@@ -11,7 +11,7 @@
     {
       "attributeCode": "COL_PRI_LASTNAME",
       "valueString": "Last Name",
-      "weight": 1.0
+      "weight": 2.0
     },
     {
       "attributeCode": "COL_PRI_DOB",
@@ -25,6 +25,18 @@
     {
       "attributeCode": "SRT_PRI_LASTNAME",
       "valueString": "ASC",
+      "weight" : 1.0
+    },
+    {
+      "attributeCode": "PRI_LASTNAME",
+      "attributeName": "LIKE",
+      "valueString": "%CROW%",
+      "weight" : 1.0
+    },
+    {
+      "attributeCode": "PRI_DOB",
+      "attributeName": ">",
+      "valueDate": "1940-01-01",
       "weight" : 1.0
     },
     {
