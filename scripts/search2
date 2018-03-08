@@ -28,16 +28,9 @@
       "weight" : 1.0
     },
     {
-      "attributeCode": "PRI_LASTNAME",
-      "attributeName": "LIKE",
-      "valueString": "%CROW%",
-      "weight" : 1.0
-    },
-    {
       "attributeCode": "PRI_DOB",
       "attributeName": ">",
-      "valueDate": "1940-01-01",
-      "weight" : 1.0
+      "valueDate": "1940-01-01"
     },
     {
       "attributeCode": "SCH_PAGE_SIZE",
