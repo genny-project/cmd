@@ -20,5 +20,5 @@ echo $TOKEN
 curl -sS   -X POST   \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $TOKEN" --data-binary @${HQLFILE} \
- http://localhost:8280/qwanda/baseentitys/search2  | jq -C
+ http://localhost:8280/qwanda/baseentitys/search3  | jq -C
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-HQLFILE=$1
+BEFILE=$1
 myip=
 while IFS=$': \t' read -a line ;do
     [ -z "${line%inet}" ] && ip=${line[${#line[1]}>4?1:2]} &&
@@ -19,6 +19,6 @@ TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
 echo $TOKEN
 curl -sS   -X POST   \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer $TOKEN" --data-binary @${HQLFILE} \
- http://localhost:8280/qwanda/baseentitys/search2  | jq -C
+  -H "Authorization: Bearer $TOKEN" --data-binary @${BEFILE} \
+ http://localhost:8280/qwanda/baseentitys/search  | jq -C
 
