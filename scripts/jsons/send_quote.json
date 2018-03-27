@@ -1,0 +1,9 @@
+{ 
+    "msg_type":"EVT_MSG",
+    "event_type":"FORM_SUBMIT",
+    "data":{
+              "code" : "QUE_OFFER_DETAILS_GRP",
+	      "value" : "OFR_OFFER1"  	
+          }
+ }
+ 

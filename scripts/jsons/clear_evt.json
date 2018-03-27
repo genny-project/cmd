@@ -1,0 +1,8 @@
+{ 
+    "msg_type":"EVT_MSG",
+    "event_type":"BTN_CLICK",
+    "data":{
+              "code":"BTN_CLEAR"
+          }
+ }
+ 

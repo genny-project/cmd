@@ -1,0 +1,9 @@
+{ 
+    "msg_type":"EVT_MSG",
+    "event_type":"SEND_FB_FRIENDS",
+    "data":{
+              "code":"SEND_FB_FRIENDS",
+              "value":"6"
+          }
+ }
+ 
