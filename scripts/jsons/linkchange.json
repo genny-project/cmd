@@ -9,3 +9,18 @@
               "value":"LOD_LOAD1"
          }
 }
+
+{
+    "msg_type":"DATA_MSG",
+    "data_type":"LINK_CHANGE",
+    "recipientCodeArray":["PER_JANICE_AT_CROWCOM"],
+    "items":[
+       {
+         "sourceCode":"BEG_JACR042FFE8251634C35A33F87D38D94E32A",
+         "targetCode":"OFR_RUCRA8790B58B05A48DEA8DD1A11FBC09100",
+         "attributeCode":"LNK_BEG",
+         "linkValue":"OFFER",
+         "weight":1.0
+      }
+   ],
+    "token":"@@TOKEN@@"}

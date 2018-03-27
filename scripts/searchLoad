@@ -1,0 +1,39 @@
+{
+  "code" : "SBE_GET_ALL_LOADS",
+  "name" : "Test Search for All Loads",
+  "realm" : "genny",
+  "baseEntityAttributes": [
+    {
+      "attributeCode": "COL_PRI_NAME",
+      "valueString": "First Name",
+      "weight": 1.0
+    },
+    {
+      "attributeCode": "COL_PRI_JOB_ID",
+      "valueString": "Last Name",
+      "weight": 2.0
+    },
+    {
+      "attributeCode": "COL_PRI_PICKUP_ADDRESS_FULL",
+      "valueString": "Birthday"
+    },
+    {
+      "attributeCode": "SRT_PRI_NAME",
+      "valueString": "ASC",
+      "weight" : 2.0
+    },
+    {
+      "attributeCode":"PRI_CODE",
+       "attributeName": "LIKE",
+       "valueString":"BEG_%%"    
+    },
+    {
+      "attributeCode": "SCH_PAGE_START",
+      "valueInteger": 0
+    },
+    {
+      "attributeCode": "SCH_PAGE_SIZE",
+      "valueInteger": 500 
+    }
+  ]
+  }

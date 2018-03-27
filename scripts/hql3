@@ -1,0 +1,1 @@
+SELECT ea.pk.baseEntity FROM EntityAttribute ea where  ea.attributeCode='PRI_FIRSTNAME'

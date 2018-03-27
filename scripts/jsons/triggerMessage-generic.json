@@ -1,16 +1,15 @@
 {
 	"msg_type": "MSG_MESSAGE",
 	"msgMessageType": "EMAIL",
-	"template_code": "MSG_CH40_MOVE_GRP_PAID",
+	"template_code": "MSG_CH40_CANCEL_OFFER_DRIVER",
 	"recipientArr": [
-		"PER_USER1",
-		"PER_USER2",
-		"PER_USER3"
+		"PER_USER2"
 	],
 	"messageContextMap": {
-		"LOAD":"LOD_LOAD5",
-		"BEG":"BEG_0000003",
-		"OWNER":"PER_USER1",
-		"DRIVER":"PER_USER2"
+		"JOB": "BEG_TOCA56E987B2CA5045A2A132062F2BD2A3A7",
+		"OWNER": "PER_USER1",
+		"DRIVER": "PER_USER2",
+		"QUOTER": "PER_USER2",
+		"PROJECT": "PRJ_CHANNEL40"
 	}
 }

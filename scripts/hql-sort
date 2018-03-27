@@ -1,0 +1,8 @@
+select distinct be  from BaseEntity be,EntityAttribute  ea, EntityAttribute eb
+       where  
+       be.code = ea.pk.baseEntity.code
+       and be.code = eb.pk.baseEntity.code
+       and ea.attributeCode='PRI_LASTNAME'
+       and ea.valueString like '%CROW%'
+       and eb.attributeCode='PRI_FIRSTNAME'
+order by eb.valueString DESC

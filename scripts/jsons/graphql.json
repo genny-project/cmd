@@ -1,0 +1,8 @@
+{
+    "query":"query getBaseEntity($code:String){data: getbaseEntityByCode(code:$code) { code,name, updated, realm, created, baseEntityAttributes{ inferred, privacyFlag, baseEntityCode, attributeCode }, links { created, link { attributeCode, targetCode, sourceCode, linkValue, weight, childColor, parentColor, rule}}}}",
+	"variables":{
+		"code":"GRP_MESSAGES"
+	}
+
+}
+

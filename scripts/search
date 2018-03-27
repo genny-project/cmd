@@ -1,0 +1,37 @@
+{
+  "code" : "SBE_FIRSTNAME_LASTNAME",
+  "name" : "Test Search for Firstname Lastname Only",
+  "realm" : "genny",
+  "baseEntityAttributes": [
+    {
+      "attributeCode": "COL_PRI_FIRSTNAME",
+      "valueString": "First Name",
+      "weight": 1.0
+    },
+    {
+      "attributeCode": "COL_PRI_LASTNAME",
+      "valueString": "Last Name",
+      "weight": 1.0
+    },
+    {
+      "attributeCode": "SRT_PRI_FIRSTNAME",
+      "valueString": "ASC",
+      "weight" : 2.0
+    },
+    {
+      "attributeCode": "SRT_PRI_LASTNAME",
+      "valueString": "ASC",
+      "weight" : 1.0
+    },
+    {
+      "attributeCode": "PRI_LASTNAME",
+      "attributeName": "LIKE",
+      "valueString": "%CROW%",
+      "weight" : 1.0
+    },
+    {
+      "attributeCode": "SCH_PAGE_SIZE",
+      "valueInteger": 5
+    }
+  ]
+  }
