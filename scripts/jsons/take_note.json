@@ -1,0 +1,9 @@
+{ 
+    "msg_type":"EVT_MSG",
+    "event_type":"BTN_CLICK",
+    "data":{
+              "code" : "BTN_TAKE_NOTE",
+	      "value" : "{"itemCode":"BEG_0000002","userCode":"PER_USER2"}"	
+          }
+ }
+ 

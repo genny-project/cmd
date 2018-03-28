@@ -22,6 +22,7 @@ printf "${TOKEN} \n\n"
 #$CALLSCRIPT "$1"
 echo ""
 echo "curl -S -v -H 'Bearer: ${TOKEN}' http://${myip}:8280/qwanda/answers"
-curl -X POST --header "Content-Type: application/json" -H "Authorization: Bearer $TOKEN"  --header "Accept: application/json" -d '{  "created": "2016-06-30T15:41:12",  "value": "Sudan Test",  "expired": false,  "refused": false,  "weight": 1,  "targetCode": "PER_USER1",  "sourceCode": "PER_USER1",  "attributeCode": "PRI_NEW_ATTRIBUTE3"  }' "http://${myip}:8280/qwanda/answers"
+#curl -X POST --header "Content-Type: application/json" -H "Authorization: Bearer $TOKEN"  --header "Accept: application/json" -d '{  "created": "2016-06-30T15:41:12",  "value": "Sudan Test",  "expired": false,  "refused": false,  "weight": 1,  "targetCode": "PER_USER1",  "sourceCode": "PER_USER1",  "attributeCode": "PRI_NEW_ATTRIBUTE3"  }' "http://${myip}:8280/qwanda/answers"
+curl -X POST --header "Content-Type: application/json" -H "Authorization: Bearer $TOKEN"  --header "Accept: application/json" -d '{  "created": "2016-06-30T15:41:12",  "value": "https://uppych40.outcome-hub.com",  "expired": false,  "refused": false,  "weight": 1,  "targetCode": "PRJ_INTERNMATCH",  "sourceCode": "PRJ_INTERNMATCH",  "attributeCode": "PRI_UPPY_URL"  }' "http://${myip}:8280/qwanda/answers"
 echo ""
 

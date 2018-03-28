@@ -1,0 +1,14 @@
+{
+    "msg_type":"DATA_MSG",
+    "data_type":"Answer",
+    "token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSRFgtcEFoUUlxQWZabXZjTDlMUkhIdmlaQzNwUlF5OG5vTGNRREZ6NU1nIn0.eyJqdGkiOiJhMWRmMTNjYS0xZWE1LTQ3MTYtOWE3OC05ZDQwMDA3MjYxNWUiLCJleHAiOjE1MTM1NzYxMzAsIm5iZiI6MCwiaWF0IjoxNTEzNTU4MTMwLCJpc3MiOiJodHRwOi8vMTAuMS4xMjAuMTUwOjgxODAvYXV0aC9yZWFsbXMvZ2VubnkiLCJhdWQiOiJnZW5ueSIsInN1YiI6ImJjMzdmMjY1LTZkYzYtNDVlZC1hZDgwLTA3YmU2NGMyODlkNiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imdlbm55IiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiNWNmMTIxNjItZWMwOS00MjdiLWFmMDItYzUxYjdjNjg4YmIyIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjgyODAiLCJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwidXNlciJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiJBbHlzb24gR2VubnkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VyMSIsImdpdmVuX25hbWUiOiJBbHlzb24iLCJmYW1pbHlfbmFtZSI6Ikdlbm55IiwiZW1haWwiOiJnZW5ueUBnZW5ueS5saXZlIn0.jAt9uWBClsFq3bwf2NRhqB82G8y2Va-RAvN0jsJ9b4wB4XAVYi42wrFDlv6sOCzhMjTt38o6hjeG1bHzQmgCwUdqav9i2_HwAjF1CDcS9DVIqqXDoGpiz-HDuIsTfpeO3D2qSHGRQQ5nKrrUSoMTz7RoiS7Jkip539Bx8IvI9fJNzO-StsrAf3r57i7VjS6wQHhIUWrRExFJhY4wVm-XWataO5fV1kI9zA0dOzJTKECFPM-LHdULQj-m57LaiMoIAYeqYYoKFgGyGwHpu25N4kERJBQjQs2wb3R6gpkm4dyPCdI5QrHuse71TSv0I-rRXYRwp0PdbqvI-p09gTmFwg",
+    "items":[
+        {
+            "sourceCode":"PER_USER1",
+            "targetCode":"PER_USER1",
+            "attributeCode":"PRI_FIRSTNAME",
+            "askId":"8",
+            "value":"Anish"
+        }
+    ]
+}   
