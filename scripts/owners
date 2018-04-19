@@ -1,6 +1,6 @@
 {
-  "code" : "SBE_FIRSTNAME_LASTNAME",
-  "name" : "Test Search for Firstname Lastname Only",
+  "code" : "SBE_OWNERS",
+  "name" : "Test Search for Owner",
   "realm" : "genny",
   "baseEntityAttributes": [
     {
@@ -29,8 +29,12 @@
       "valueString": "PER_%"
     },
     {
-      "attributeCode": "PRI_DRIVER",
+      "attributeCode": "PRI_OWNER",
       "valueBoolean": true 
+    },
+    {
+      "attributeCode": "SCH_PAGE_START",
+      "valueInteger": 6
     },
     {
       "attributeCode": "SCH_PAGE_SIZE",

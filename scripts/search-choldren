@@ -10,8 +10,12 @@
     },
     {
       "attributeCode": "SCH_PARENT_CODE",
-      "valueString": "BEG_OWCRCE22B4574766404A895C62E9F7F2E2C7",
+      "valueString": "GRP_USERS",
       "weight" : 1.0
+    },
+    {
+      "attributeCode": "SCH_LINK_VALUE",
+      "valueString": "LNK_CORE"
     },
     {
       "attributeCode": "SCH_PAGE_SIZE",
