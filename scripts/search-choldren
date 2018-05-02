@@ -1,0 +1,25 @@
+{
+  "code" : "SBE_KIDS",
+  "name" : "Test Search for Kids Only",
+  "realm" : "genny",
+  "baseEntityAttributes": [
+    {
+      "attributeCode": "COL_FIRSTNAME",
+      "valueString": "Firstname",
+      "weight": 1.0
+    },
+    {
+      "attributeCode": "SCH_PARENT_CODE",
+      "valueString": "GRP_USERS",
+      "weight" : 1.0
+    },
+    {
+      "attributeCode": "SCH_LINK_VALUE",
+      "valueString": "LNK_CORE"
+    },
+    {
+      "attributeCode": "SCH_PAGE_SIZE",
+      "valueInteger": 500
+    }
+  ]
+  }

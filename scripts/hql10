@@ -1,0 +1,1 @@
+select distinct ea.pk.baseEntity from EntityAttribute ea ,EntityAttribute ea0,EntityAttribute ea1 where  ea.pk.baseEntity.realm in ('genny')   and ( ea0.pk.baseEntity.id=ea.pk.baseEntity.id and ea0.pk.attribute.code='PRI_FIRSTNAME'  and ea1.pk.baseEntity.id=ea.pk.baseEntity.id and ea1.pk.attribute.code='PRI_OWNER'  and ea1.valueBoolean=1)   order by ea0.valueString ASC
