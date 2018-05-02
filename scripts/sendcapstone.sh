@@ -22,6 +22,6 @@ printf "${TOKEN} \n\n"
 #$CALLSCRIPT "$1"
 echo ""
 echo "curl -S -v -H 'Bearer: ${TOKEN}' http://${myip}:8280/qwanda/answers"
-curl -X POST --header "Content-Type: application/json" -H "Authorization: Bearer $TOKEN"  --header "Accept: application/json" -d '{  "created": "2016-06-30T15:41:12",  "value": "https://uppych40.outcome-hub.com",  "expired": false,  "refused": false,  "weight": 1,  "targetCode": "PRJ_CAPSTONE",  "sourceCode": "PRJ_INTERNMATCH",  "attributeCode": "PRI_UPPY_URL"  }' "http://${myip}:8280/qwanda/answers"
+curl -X POST --header "Content-Type: application/json" -H "Authorization: Bearer $TOKEN"  --header "Accept: application/json" -d '{  "created": "2016-06-30T15:41:12",  "value": "https://uppych40.outcome-hub.com",  "expired": false,  "refused": false,  "weight": 1,  "targetCode": "PRJ_CAPSTONE",  "sourceCode": "PRJ_CAPSTONE",  "attributeCode": "PRI_UPPY_URL"  }' "http://${myip}:8280/qwanda/answers"
 echo ""
 
