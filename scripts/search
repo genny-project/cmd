@@ -3,6 +3,30 @@
   "name" : "Test Search for Firstname Lastname Only",
   "realm" : "genny",
   "baseEntityAttributes": [
+{
+       "attributeCode": "COL_PRI_EMAIL",
+       "attributeName": "Email",
+      "created": "2018-04-26T14:05:06.843",
+      "weight": 6.0,
+      "inferred": false,
+      "privacyFlag": false
+     },
+{
+      "attributeCode": "COL_PRI_MOBILE",
+      "attributeName": "Mobile",
+     "created": "2018-04-26T14:05:06.843",
+      "weight": 5.0,
+    "inferred": false,
+       "privacyFlag": false
+     },
+   {
+      "attributeCode": "COL_PRI_IMAGE_URL",
+       "attributeName": "Image",
+       "created": "2018-04-26T14:05:06.843",
+       "weight": 1.0,
+       "inferred": false,
+       "privacyFlag": false
+    },
     {
       "attributeCode": "COL_PRI_FIRSTNAME",
       "valueString": "First Name",
@@ -27,10 +51,6 @@
       "attributeCode": "PRI_CODE",
       "attributeName": "LIKE",
       "valueString": "PER_%"
-    },
-    {
-      "attributeCode": "PRI_DRIVER",
-      "valueBoolean": true 
     },
     {
       "attributeCode": "SCH_PAGE_SIZE",

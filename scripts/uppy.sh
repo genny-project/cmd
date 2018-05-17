@@ -7,7 +7,7 @@ KEYCLOAK_RESPONSE=`curl -s -X POST https://bouncer.channel40.com.au/auth/realms/
 #printf "${RED}Parsing access_token field, as we don't need the other elements:${NORMAL}\n"
 TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
 echo $TOKEN
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN" -d '{  "value": "Payment has been deposited and held at escrow",  "attributeCode": "PRI_PAYMENT_STATUS",  "targetCode": "BEG_TOCA48D588D0287F40AFBE78D4DACE134BB5",  "sourceCode": "PER_USER1",  "expired": false,  "refused": false,  "weight": 1.0,  "inferred": false  }' 'https://qwanda-service.channel40.com.au/qwanda/answers'
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN" -d '{  "value": "https://uppych40.channel40.com.au",  "attributeCode": "PRI_UPPY_URL",  "targetCode": "PRJ_CHANNEL40",  "sourceCode": "PER_USER1",  "expired": false,  "refused": false,  "weight": 1.0,  "inferred": false  }' 'https://qwanda-service.channel40.com.au/qwanda/answers'
 
 
 

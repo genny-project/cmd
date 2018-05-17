@@ -1,0 +1,60 @@
+{
+  "baseEntityAttributes": [
+  {
+      "baseEntityCode": "SBE_STAKEHOLDER_ITEMS",
+      "attributeCode": "SCH_STAKEHOLDER_CODE",
+      "attributeName": "Stakeholder",
+      "created": "2018-05-08T15:34:08.703",
+      "valueString": "PER_ADAMCROW63_AT_GMAILCOM",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_STAKEHOLDER_ITEMS",
+      "attributeCode": "SRT_PRI_CREATED",
+      "attributeName": "Created",
+      "created": "2018-05-08T15:30:15.333",
+      "valueString": "DESC",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_STAKEHOLDER_ITEMS",
+      "attributeCode": "SCH_PAGE_START",
+      "attributeName": "PageStart",
+      "created": "2018-05-08T15:30:15.333",
+      "valueInteger": 0,
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_STAKEHOLDER_ITEMS",
+      "attributeCode": "PRI_CODE",
+      "attributeName": "LIKE",
+      "created": "2018-05-08T15:30:15.333",
+      "valueString": "BEG_%",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_STAKEHOLDER_ITEMS",
+      "attributeCode": "SCH_PAGE_SIZE",
+      "attributeName": "PageSize",
+      "created": "2018-05-08T15:30:15.333",
+      "valueInteger": 10000,
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    }
+  ],
+  "links": [],
+  "code": "SBE_STAKEHOLDER_ITEMS",
+  "index": 0,
+  "created": "2018-05-08T15:30:15.333",
+  "name": "All Stakeholder Items",
+  "realm": "genny"
+}

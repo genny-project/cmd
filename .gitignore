@@ -1,2 +1,4 @@
 /target/
 scripts/search-prod.sh
+scripts/triggerPrice.sh
+scripts/synch-cache.sh

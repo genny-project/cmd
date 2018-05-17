@@ -1,0 +1,43 @@
+{
+  "code" : "SBE_AVAIL_JOBS",
+  "name" : "Test Search for All New Jobs",
+  "realm" : "genny",
+  "baseEntityAttributes": [
+    {
+      "attributeCode": "COL_PRI_NAME",
+      "valueString": "Name",
+      "weight": 1.0
+    },
+    {
+      "attributeCode": "COL_PRI_JOB_ID",
+      "valueString": "Job ID",
+      "weight": 2.0
+    },
+    {
+      "attributeCode": "COL_PRI_PICKUP_ADDRESS_FULL",
+      "valueString": "Address"
+    },
+    {
+      "attributeCode": "SRT_PRI_CREATED",
+      "valueString": "DESC",
+      "weight" : 2.0
+    },
+    {
+      "attributeCode":"PRI_CODE",
+       "attributeName": "LIKE",
+       "valueString":"BEG_%%"    
+    },
+    {
+      "attributeCode": "SCH_SOURCE_CODE",
+      "valueString": "GRP_NEW_ITEMS" 
+    },
+    {
+      "attributeCode": "SCH_PAGE_START",
+      "valueInteger": 0
+    },
+    {
+      "attributeCode": "SCH_PAGE_SIZE",
+      "valueInteger": 50 
+    }
+  ]
+  }
