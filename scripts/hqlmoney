@@ -1,0 +1,1 @@
+SELECT distinct be  FROM BaseEntity be, EntityAttribute ea where ea.baseEntityCode=be.code and  be.code LIKE 'BEG_%' and ea.attributeCode='PRI_IS_RELEASE_PAYMENT_DONE' and ea.valueBoolean=1  and ea.updated > '2018-04-22' 

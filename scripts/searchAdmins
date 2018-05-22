@@ -1,0 +1,132 @@
+{
+  "baseEntityAttributes": [
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "PRI_CODE",
+      "attributeName": "LIKE",
+      "created": "2018-05-17T15:00:02.981",
+      "valueString": "PER_%",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_LAST_LOGIN_DATETIME",
+      "attributeName": "Last Login Date",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 8.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "SRT_PRI_FIRSTNAME",
+      "attributeName": "Firstname",
+      "created": "2018-05-17T15:00:02.979",
+      "valueString": "ASC",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_REGISTRATION_DATETIME",
+      "attributeName": "Registered Date",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 7.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_IMAGE_URL",
+      "attributeName": "Image",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_LASTNAME",
+      "attributeName": "Surname",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 4.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "SCH_PAGE_SIZE",
+      "attributeName": "PageSize",
+      "created": "2018-05-17T15:00:02.981",
+      "valueInteger": 100,
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "PRI_IS_ADMIN",
+      "attributeName": "\u003d",
+      "created": "2018-05-17T15:00:02.981",
+      "valueBoolean": true,
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_EMAIL",
+      "attributeName": "Email",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 6.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "SCH_PAGE_START",
+      "attributeName": "PageStart",
+      "created": "2018-05-17T15:00:02.981",
+      "valueInteger": 0,
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_USERNAME",
+      "attributeName": "Username",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 2.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_MOBILE",
+      "attributeName": "Mobile",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 5.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_ADMINS",
+      "attributeCode": "COL_PRI_FIRSTNAME",
+      "attributeName": "Firstname",
+      "created": "2018-05-17T15:00:02.977",
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    }
+  ],
+  "links": [],
+  "code": "SBE_ADMINS",
+  "index": 0,
+  "created": "2018-05-17T15:00:02.976",
+  "name": "List of Admins",
+  "realm": "genny"
+}
