@@ -7,7 +7,7 @@ KEYCLOAK_RESPONSE=`curl -s -X POST https://keycloak.genny.life/auth/realms/genny
 #printf "${RED}Parsing access_token field, as we don't need the other elements:${NORMAL}\n"
 TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
 echo $TOKEN
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN" -d '{  "value": "https://uppych40.alyson.genny.life",  "attributeCode": "PRI_UPPY_URL",  "targetCode": "PRJ_CHANNEL40",  "sourceCode": "PER_USER1",  "expired": false,  "refused": false,  "weight": 1.0,  "inferred": false  }' 'https://qwanda-service.alyson.genny.life/qwanda/answers'
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN" -d '{  "value": "https://uppych40.alyson.genny.life",  "attributeCode": "PRI_UPPY_URL",  "targetCode": "PRJ_GENNY",  "sourceCode": "PER_USER1",  "expired": false,  "refused": false,  "weight": 1.0,  "inferred": false  }' 'https://qwanda-service.alyson.genny.life/qwanda/answers'
 
 
 
