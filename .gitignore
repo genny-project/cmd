@@ -5,3 +5,5 @@ scripts/synch-cache.sh
 scripts/synch-staging-cache.sh
 scripts/firerulegroup.sh
 scripts/generateNewItems.sh
+scripts/setAnswer.sh
+scripts/saveAnswer.sh

@@ -1,0 +1,60 @@
+{
+  "baseEntityAttributes": [
+    {
+      "baseEntityCode": "GENERATE BUCKET CACHES",
+      "attributeCode": "SCH_SOURCE_CODE",
+      "attributeName": "SCH_SOURCE_CODE",
+      "created": "2018-05-23T05:06:50.648",
+      "valueString": "GRP_NEW_ITEMS",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "GENERATE BUCKET CACHES",
+      "attributeCode": "SCH_PAGE_START",
+      "attributeName": "SCH_PAGE_START",
+      "created": "2018-05-23T05:06:50.648",
+      "valueInteger": 0,
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "GENERATE BUCKET CACHES",
+      "attributeCode": "SRT_PRI_CREATED",
+      "attributeName": "SRT_PRI_CREATED",
+      "created": "2018-05-23T05:06:50.648",
+      "valueString": "DESC",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "GENERATE BUCKET CACHES",
+      "attributeCode": "SCH_PAGE_SIZE",
+      "attributeName": "SCH_PAGE_SIZE",
+      "created": "2018-05-23T05:06:50.648",
+      "valueInteger": 10000,
+      "weight": 3.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "GENERATE BUCKET CACHES",
+      "attributeCode": "PRI_CODE",
+      "attributeName": "LIKE",
+      "created": "2018-05-23T05:06:50.648",
+      "valueString": "BEG_%",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    }
+  ],
+  "links": [],
+  "code": "GENERATE BUCKET CACHES",
+  "index": 0,
+  "created": "2018-05-23T05:06:50.648",
+  "name": "All New Items",
+  "realm": "genny"
+}

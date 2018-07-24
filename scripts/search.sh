@@ -10,5 +10,5 @@ echo $TOKEN
 curl -sS   -X POST   \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $TOKEN" --data-binary @${BEFILE} \
- http://qwanda-service.genny.life/qwanda/baseentitys/search  | jq -C
+ http://keycloak.genny.life:8280/qwanda/baseentitys/search  | jq -C
 

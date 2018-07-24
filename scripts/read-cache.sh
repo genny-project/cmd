@@ -32,7 +32,7 @@ else
         SEDFIX=
 fi
 #printf "${RED}Getting OAuth2 token from Keycloak (includes access_token, refresh_token, etc):${NORMAL}\n"
-KEYCLOAK_RESPONSE=`curl -s -X POST https://bouncer.channel40.com.au/auth/realms/channel40/protocol/openid-connect/token  -H "Content-Type: application/x-www-form-urlencoded" -d 'username=sharoncrow66@gmail.com' -d 'password=asdf1234' -d 'grant_type=password' -d 'client_id=channel40'  -d 'client_secret=03db7042-1d46-4fce-abf7-8c0349ab5478'`
+KEYCLOAK_RESPONSE=`curl -s -X POST https://keycloak.genny.life/auth/realms/genny/protocol/openid-connect/token  -H "Content-Type: application/x-www-form-urlencoded" -d 'username=sharoncrow66@gmail.com' -d 'password=asdf1234' -d 'grant_type=password' -d 'client_id=genny'  -d 'client_secret=03db7042-1d46-4fce-abf7-8c0349ab5478'`
 #printf "$KEYCLOAK_RESPONSE \n\n"
 
 #printf "${RED}Parsing access_token field, as we don't need the other elements:${NORMAL}\n"
@@ -41,7 +41,7 @@ echo $TOKEN
 json=$(curl -sS   -X GET   \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $TOKEN"  \
- https://bridge.channel40.com.au/read/${key}  | jq -C -r '.value')
+ https://bridge.alyson.genny.life/read/${key}  | jq -C -r '.value')
 newjson=${json//\\"/"}
 echo $newjson | jq -C . | less -R
 #myout=$(echo $newjson | jq -C  .)

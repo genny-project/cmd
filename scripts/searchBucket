@@ -4,7 +4,7 @@
       "baseEntityCode": "SBE_NEW_ITEMS",
       "attributeCode": "SCH_PAGE_START",
       "attributeName": "PageStart",
-      "created": "2018-05-23T05:05:37.126",
+      "created": "2018-05-23T02:37:27.573",
       "valueInteger": 0,
       "weight": 3.0,
       "inferred": false,
@@ -12,19 +12,9 @@
     },
     {
       "baseEntityCode": "SBE_NEW_ITEMS",
-      "attributeCode": "SCH_SOURCE_CODE",
-      "attributeName": "SourceCode",
-      "created": "2018-05-23T05:05:37.125",
-      "valueString": "GRP_NEW_ITEMS",
-      "weight": 1.0,
-      "inferred": false,
-      "privacyFlag": false
-    },
-    {
-      "baseEntityCode": "SBE_NEW_ITEMS",
       "attributeCode": "SRT_PRI_CREATED",
       "attributeName": "Created",
-      "created": "2018-05-23T05:05:37.125",
+      "created": "2018-05-23T02:37:27.573",
       "valueString": "DESC",
       "weight": 1.0,
       "inferred": false,
@@ -34,7 +24,7 @@
       "baseEntityCode": "SBE_NEW_ITEMS",
       "attributeCode": "SCH_PAGE_SIZE",
       "attributeName": "PageSize",
-      "created": "2018-05-23T05:05:37.126",
+      "created": "2018-05-23T02:37:27.573",
       "valueInteger": 10000,
       "weight": 3.0,
       "inferred": false,
@@ -44,8 +34,18 @@
       "baseEntityCode": "SBE_NEW_ITEMS",
       "attributeCode": "PRI_CODE",
       "attributeName": "LIKE",
-      "created": "2018-05-23T05:05:37.126",
+      "created": "2018-05-23T02:37:27.573",
       "valueString": "BEG_%",
+      "weight": 1.0,
+      "inferred": false,
+      "privacyFlag": false
+    },
+    {
+      "baseEntityCode": "SBE_NEW_ITEMS",
+      "attributeCode": "SCH_SOURCE_CODE",
+      "attributeName": "SourceCode",
+      "created": "2018-05-23T03:39:21.425",
+      "valueString": "GRP_NEW_ITEMS",
       "weight": 1.0,
       "inferred": false,
       "privacyFlag": false
@@ -54,7 +54,7 @@
   "links": [],
   "code": "SBE_NEW_ITEMS",
   "index": 0,
-  "created": "2018-05-23T05:05:37.125",
+  "created": "2018-05-23T02:37:27.573",
   "name": "All New Items",
   "realm": "genny"
 }

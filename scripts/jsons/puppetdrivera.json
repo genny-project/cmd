@@ -1,0 +1,321 @@
+{
+baseEntityAttributes: [
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_LONGITUDE",
+created: "2018-02-19T05:49:27",
+valueString: "145.092359",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_FIRSTNAME",
+created: "2018-02-19T05:48:55",
+updated: "2018-05-04T15:19:53",
+valueString: "Puppet",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_FULL",
+created: "2018-02-19T05:49:26",
+valueString: "64 Fakenham Rd, Ashburton VIC 3147, Australia",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_POSTCODE",
+created: "2018-02-19T05:49:27",
+valueString: "3147",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_LASTNAME",
+created: "2018-02-19T05:48:55",
+updated: "2018-04-16T03:27:10",
+valueString: "DriverA",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_DOB",
+created: "2018-02-19T05:49:10",
+updated: "2018-04-04T04:13:31",
+valueDate: "1966-07-17",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ONLINE",
+created: "2018-04-19T08:06:56",
+updated: "2018-05-23T02:20:24",
+valueString: "TRUE",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_IMAGE_URL",
+created: "2018-02-19T05:48:56",
+updated: "2018-02-22T20:44:14",
+valueString: "https://s3.ap-southeast-2.amazonaws.com/genny-images/88Kn4phlCl0GuPWisrykIKsSjfgrSZlz",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_VERIFICATION_CODE",
+created: "2018-03-26T10:38:16",
+valueString: "1642",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_USER_PROFILE_PICTURE",
+created: "2018-02-22T20:44:14",
+updated: "2018-05-18T10:30:58",
+valueString: "[{"source":"Dashboard","id":"88Kn4phlCl0GuPWisrykIKsSjfgrSZlz","name":"16E3CAB7-0C7C-43E5-B326-01081563B258.jpeg","extension":"jpeg","meta":{"name":"16E3CAB7-0C7C-43E5-B326-01081563B258.jpeg","type":"image/jpeg","acl":"public-read","key":"88Kn4phlCl0GuPWisrykIKsSjfgrSZlz","success_action_status":"201","content-type":"image/jpeg","bucket":"genny-images","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAJTMU2764ULPIRU4A/20180222/ap-southeast-2/s3/aws4_request","X-Amz-Date":"20180222T204411Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAxOC0wMi0yMlQyMDo0OToxMVoiLCJjb25kaXRpb25zIjpbeyJhY2wiOiJwdWJsaWMtcmVhZCJ9LHsia2V5IjoiODhLbjRwaGxDbDBHdVBXaXNyeWtJS3NTamZnclNabHoifSx7InN1Y2Nlc3NfYWN0aW9uX3N0YXR1cyI6IjIwMSJ9LHsiY29udGVudC10eXBlIjoiaW1hZ2UvanBlZyJ9LHsiYnVja2V0IjoiY2hhbm5lbDQwLWltYWdlcyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFKVE1VMjc2NFVMUElSVTRBLzIwMTgwMjIyL2FwLXNvdXRoZWFzdC0yL3MzL2F3czRfcmVxdWVzdCJ9LHsiWC1BbXotRGF0ZSI6IjIwMTgwMjIyVDIwNDQxMVoifV19","X-Amz-Signature":"4acb7570d10c1ec378e17827fc3a886ea9a0252423d7f1902d05abcc8a496489"},"type":"image/jpeg","data":{},"progress":{"percentage":100,"bytesUploaded":2294707,"bytesTotal":2294753,"uploadComplete":true,"uploadStarted":1519332251765},"size":2292845,"isRemote":false,"remote":"","preview":"blob:http://v2.alyson.genny.life/b3de613d-0210-425e-a380-db102ed4a8f1","xhrUpload":{"method":"post","formData":true,"endpoint":"https://s3.ap-southeast-2.amazonaws.com/genny-images","metaFields":["acl","key","success_action_status","content-type","bucket","X-Amz-Algorithm","X-Amz-Credential","X-Amz-Date","Policy","X-Amz-Signature"]},"uploadURL":"https://s3.ap-southeast-2.amazonaws.com/genny-images/88Kn4phlCl0GuPWisrykIKsSjfgrSZlz","isPaused":false,"uploaded":true}]",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_DRIVING_LICENCE_NO",
+created: "2018-06-08T05:38:07",
+valueString: "9845098345",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_IS_PROFILE_COMPLETED",
+created: "2018-02-19T05:48:56",
+updated: "2018-02-19T05:49:48",
+valueBoolean: true,
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_EMAIL",
+created: "2018-02-19T05:48:55",
+valueString: "puppetdrivera@example.com",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_RATING",
+created: "2018-02-19T08:31:56",
+updated: "2018-04-02T05:20:37",
+valueString: "4",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_MOBILE",
+created: "2018-02-19T05:49:21",
+valueString: "0403372603",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ACCEPTANCE_TERMS_CONDITIONS",
+created: "2018-02-19T05:49:47",
+valueString: "true",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_USERNAME",
+created: "2018-02-19T05:48:55",
+valueString: "puppetdrivera@example.com",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_NUMBER_RATING",
+created: "2018-02-19T08:31:56",
+updated: "2018-04-24T03:29:18",
+valueDouble: 9,
+valueString: "2.0",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_IS_SELLER",
+created: "2018-02-19T05:49:06",
+valueBoolean: true,
+weight: 1,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_LATITUDE",
+created: "2018-02-19T05:49:27",
+valueString: "-37.863208",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_ADDRESS1",
+created: "2018-02-19T05:49:26",
+valueString: "64 Fakenham Road",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_COUNTRY",
+created: "2018-02-19T05:49:26",
+valueString: "AU",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_GENDER",
+created: "2018-02-19T05:49:06",
+valueString: "female",
+weight: 0.99,
+inferred: true,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "LNK_USER_ROLE_LISTS",
+created: "2018-02-19T05:49:06",
+valueString: "SEL_DRIVER",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_DRIVER_RATING",
+created: "2018-02-19T08:31:57",
+updated: "2018-04-24T03:29:18",
+valueDouble: 0.5096533289241623,
+valueString: "4.5",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_IS_BUYER",
+created: "2018-02-19T05:49:06",
+valueBoolean: false,
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_VERIFICATION_CODE_USER",
+created: "2018-05-18T09:34:29",
+valueString: "1642",
+weight: 1,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_CODE",
+created: "2018-04-17T04:43:07",
+valueString: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+weight: 1,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_NAME",
+created: "2018-02-19T05:48:55",
+valueString: "Puppet Driver A",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_LAST_LOGIN_DATETIME",
+created: "2018-05-01T08:46:34",
+updated: "2018-06-14T00:15:50",
+valueDateTime: "2018-06-14T00:15:49",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_REALM",
+created: "2018-02-19T05:48:55",
+valueString: "Channel40",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_ADDRESS_STATE",
+created: "2018-02-19T05:49:27",
+valueString: "VIC",
+weight: 0,
+inferred: false,
+privacyFlag: false
+},
+{
+baseEntityCode: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+attributeCode: "PRI_MOBILE_VERIFICATION_COMPLETED",
+created: "2018-03-26T10:38:34",
+valueBoolean: true,
+weight: 0,
+inferred: false,
+privacyFlag: false
+}
+],
+links: [ ],
+code: "PER_PUPPETDRIVERA_AT_EXAMPLECOM",
+index: 0,
+created: "2018-02-19T05:48:55",
+id: 167,
+name: "Puppet Driver A",
+realm: "genny"
+}
