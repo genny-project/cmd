@@ -277,7 +277,7 @@
 "baseEntityCode": "PER_PUPPETOWNER_AT_EXAMPLECOM",
 "attributeCode": "PRI_REALM",
 "created": "2018-02-19T05:48:55",
-"valueString": "Channel40",
+"valueString": "genny",
 "weight": 0,
 "inferred": false,
 "privacyFlag": false
