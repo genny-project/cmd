@@ -1,1 +1,0 @@
-SELECT distinct count(be)  FROM BaseEntity be, EntityEntity ee where ee.link.targetCode=be.code and ee.link.targetCode LIKE 'BEG_%' and ee.link.sourceCode='GRP_NEW_ITEMS'

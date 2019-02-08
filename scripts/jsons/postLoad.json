@@ -1,8 +1,0 @@
-{
-  "data":{
-         "code":"GRP_NO_QUOTES",
-          "value":"ADD_NEW_LOAD"
-         },
-    "event_type":"BTN_CLICK",
-     "msg_type":"EVT_MSG"
-}

@@ -1,1 +1,0 @@
-select count(distinct ea.pk.baseEntity) from EntityAttribute ea  ,EntityEntity ff  where  ea.pk.baseEntity.realm in ('genny')   and ea.pk.baseEntity.code LIKE :v0  and ((ff.pk.targetCode=PER_SERVICE and ff.pk.source.code=ea.pk.baseEntity.code) or (ff.pk.source.code=PER_SERVICE and ff.pk.targetCode=ea.pk.baseEntity.code)

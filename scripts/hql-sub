@@ -1,4 +1,0 @@
-select distinct be
-     from EntityAttribute as ea
-     join ea.pk.baseEntity as be
-     where ea.attributeCode='PRI_FIRSTNAME'

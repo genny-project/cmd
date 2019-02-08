@@ -1,0 +1,52 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "TEST_LAYOUT_DASHBOARD",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Dashboard Layout",
+          "valueString": "Dashboard Layout"
+        }
+      ],
+      "code": "TEST_LAYOUT_DASHBOARD",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1001,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "CENTRE",
+            "sourceCode": "TEST_LAYOUT_DASHBOARD",
+            "targetCode": "THEME_THEME1",
+            "weight": 6
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 6
+        }
+      ],
+      "name": "Dashboard Layout",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

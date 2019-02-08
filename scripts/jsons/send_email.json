@@ -1,7 +1,0 @@
-{
-   "data":{
-           "code":"QUE_TEST_COMMS_SEND_EMAIL"
-          },
-    "event_type":"BTN_CLICK",
-    "msg_type":"EVT_MSG"
-}

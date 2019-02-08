@@ -1,5 +1,0 @@
-{
-	"msg_type" : "CMD_MSG",
-	"cmd_type" : "CMD_REDIRECT",
-	"redirect_url" : "https://google.com.au"
-}

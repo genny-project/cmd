@@ -1,7 +1,0 @@
-select be from BaseEntity be 
-               , EntityAttribute ea0
-where
-       ea0.baseEntityCode=be.code 
-  and  ea0.pk.attribute.code='PRI_LASTNAME'
-  and  ea0.valueString like '%CROW%'
- 

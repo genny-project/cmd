@@ -1,8 +1,0 @@
-select distinct ea.pk.baseEntity  from EntityAttribute ea , EntityAttribute eb
-where  
-       ea.attributeCode='PRI_LASTNAME'
-       and ea.valueString like '%CROW%'
-       and eb.pk.baseEntity.code = ea.pk.baseEntity.code 
-       and eb.attributeCode='PRI_FIRSTNAME'
-
-order by ea.valueString ASC,eb.valueString DESC 

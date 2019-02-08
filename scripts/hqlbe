@@ -1,1 +1,0 @@
-SELECT distinct( be)  FROM BaseEntity be JOIN be.baseEntityAttributes bee where be.code='PRJ_GENNY' and bee.baseEntityCode=be.code

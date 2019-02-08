@@ -1,1 +1,0 @@
-select distinct ea.pk.baseEntity   from EntityAttribute ea ,EntityEntity ee   where ea.pk.baseEntity.realm in ('genny') and   ee.pk.targetCode='PER_ADAMCROW63_PLUS_DRIVER_AT_GMAILCOM' and ee.pk.source.code=ea.pk.baseEntity.code

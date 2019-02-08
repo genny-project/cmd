@@ -1,8 +1,0 @@
-{ 
-   "msg_type":"EVT_MSG",
-   "event_type":"TV_EXPAND",
-   "data":{
-             "code":"TV1",
-              "value":"GRP_IN-TRANSIT"
-         }
-}

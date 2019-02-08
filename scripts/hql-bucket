@@ -1,1 +1,0 @@
-SELECT distinct be FROM BaseEntity be,EntityEntity ff JOIN be.baseEntityAttributes bff,EntityEntity ee JOIN be.baseEntityAttributes bee where ee.link.targetCode=be.code and ee.link.attributeCode='LNK_CORE' and ee.link.sourceCode='GRP_NEW_ITEMS'  and be.realm='genny' and ee.pk.source.realm='genny' and ff.link.targetCode='PER_ADMIN_AT_EMSGROUPCOMAU' and ff.link.sourceCode=be.code

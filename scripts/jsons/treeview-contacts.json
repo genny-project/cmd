@@ -1,6 +1,0 @@
-{ 
-   "msg_type":"EVT_MSG",
-   "data":{
-             "code":"GRP_CONTACTS"
-         }
-}
