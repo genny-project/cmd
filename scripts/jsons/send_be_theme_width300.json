@@ -7,36 +7,34 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_DASHBOARD",
+          "baseEntityCode": "THEME_WIDTH_300",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Dashboard Frame",
-          "valueString": "Dashboard Frame"
+          "value": "Theme Width 300px",
+          "valueString": "Theme Width 300px"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THEME_WIDTH_300",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "width": 300 },
+          "valueString": { "width": 300 }
         }
       ],
-      "code": "FRAME_DASHBOARD",
+      "code": "THEME_WIDTH_300",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1001,
+      "id": 1000,
       "index": 0,
       "links": [
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_FRAME",
-            "linkValue": "CENTRE",
-            "sourceCode": "FRAME_DASHBOARD",
-            "targetCode": "TEST_QQQ_DASHBOARD",
-            "weight": 1
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 1
-        }
       ],
-      "name": "Dashboard Frame",
+      "name": "Theme Width 300px",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

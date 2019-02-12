@@ -1,0 +1,117 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRAME_MAIN",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Main Frame",
+          "valueString": "Main Frame"
+        }
+      ],
+      "code": "FRAME_MAIN",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1000,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "FRAME_DASHBOARD",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "FRAME_HEADER",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "SOUTH",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "FRAME_FOOTER",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "SOUTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "EAST",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "FRAME_NOTES",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "EAST",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "WEST",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "FRAME_SIDEBAR",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "WEST",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "WEST",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "THEME_WIDTH_300",
+            "weight": 6
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "WEST",
+          "weight": 6
+        }
+      ],
+      "name": "Main Frame",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

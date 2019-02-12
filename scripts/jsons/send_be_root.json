@@ -7,16 +7,16 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "TEST_LAYOUT_ROOT",
+          "baseEntityCode": "FRAME_ROOT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Root Layout",
-          "valueString": "Root Layout"
+          "value": "Root Frame",
+          "valueString": "Root Frame"
         }
       ],
-      "code": "TEST_LAYOUT_ROOT",
+      "code": "FRAME_ROOT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
@@ -25,10 +25,23 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_LAYOUT",
+            "attributeCode": "LNK_FRAME",
             "linkValue": "CENTRE",
-            "sourceCode": "TEST_LAYOUT_ROOT",
-            "targetCode": "TEST_LAYOUT_DASHBOARD",
+            "sourceCode": "FRAME_ROOT",
+            "targetCode": "FRAME_MAIN",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRAME_MAIN",
+            "targetCode": "THEME_THEME2",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
@@ -36,7 +49,7 @@
           "weight": 6
         }
       ],
-      "name": "Root Layout",
+      "name": "Root Frame",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

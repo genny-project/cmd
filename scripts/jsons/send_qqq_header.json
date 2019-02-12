@@ -7,36 +7,22 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_DASHBOARD",
+          "baseEntityCode": "TEST_QQQ_HEADER",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Dashboard Frame",
-          "valueString": "Dashboard Frame"
+          "value": "Header Question Group",
+          "valueString": "Header Question Group"
         }
       ],
-      "code": "FRAME_DASHBOARD",
+      "code": "TEST_QQQ_HEADER",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1001,
+      "id": 2000,
       "index": 0,
-      "links": [
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_FRAME",
-            "linkValue": "CENTRE",
-            "sourceCode": "FRAME_DASHBOARD",
-            "targetCode": "TEST_QQQ_DASHBOARD",
-            "weight": 1
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 1
-        }
-      ],
-      "name": "Dashboard Frame",
+      "links": [],
+      "name": "Header Question Group",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

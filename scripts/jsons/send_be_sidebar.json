@@ -7,28 +7,41 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_DASHBOARD",
+          "baseEntityCode": "FRAME_SIDEBAR",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Dashboard Frame",
-          "valueString": "Dashboard Frame"
+          "value": "Sidebar Frame",
+          "valueString": "Sidebar Frame"
         }
       ],
-      "code": "FRAME_DASHBOARD",
+      "code": "FRAME_SIDEBAR",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1001,
+      "id": 1002,
       "index": 0,
       "links": [
         {
           "created": "2019-02-06T04:24:58",
           "link": {
             "attributeCode": "LNK_FRAME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRAME_SIDEBAR",
+            "targetCode": "TEST_QQQ_SIDEBAR",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_DASHBOARD",
-            "targetCode": "TEST_QQQ_DASHBOARD",
+            "sourceCode": "FRAME_SIDEBAR",
+            "targetCode": "TEST_QQQ_TREE",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -36,7 +49,7 @@
           "weight": 1
         }
       ],
-      "name": "Dashboard Frame",
+      "name": "Sidebar Frame",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
