@@ -16,6 +16,17 @@
           "valueString": "Theme Width 50px"
         },
         {
+          "attributeCode": "PRI_IS_INHERITABLE",
+          "attributeName": "Is Content Inheritable?",
+          "baseEntityCode": "THEME_WIDTH_50",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": false,
+          "valueBoolean": false
+        },
+        {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
           "baseEntityCode": "THEME_WIDTH_50",

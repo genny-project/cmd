@@ -40,7 +40,7 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_MAIN",
+            "sourceCode": "FRAME_ROOT",
             "targetCode": "THEME_THEME2",
             "weight": 6
           },

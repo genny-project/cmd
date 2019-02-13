@@ -25,7 +25,7 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_FRAME",
+            "attributeCode": "LNK_ASK",
             "linkValue": "NORTH",
             "sourceCode": "FRAME_NOTES",
             "targetCode": "TEST_QQQ_NOTES",

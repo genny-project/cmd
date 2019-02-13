@@ -25,7 +25,7 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_FRAME",
+            "attributeCode": "LNK_ASK",
             "linkValue": "NORTH",
             "sourceCode": "FRAME_SIDEBAR",
             "targetCode": "TEST_QQQ_SIDEBAR",
@@ -38,7 +38,7 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_FRAME",
+            "attributeCode": "LNK_ASK",
             "linkValue": "CENTRE",
             "sourceCode": "FRAME_SIDEBAR",
             "targetCode": "TEST_QQQ_TREE",

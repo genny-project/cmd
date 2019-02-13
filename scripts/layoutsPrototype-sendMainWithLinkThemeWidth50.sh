@@ -5,4 +5,4 @@ printf "kc = $KEYCLOAK_RESPONSE \n\n"
 TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
 echo $TOKEN
 
-curl -k -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN"  -d @jsons/send_be_sidebar_link_themewidth300.json 'https://bridge-internmatch-staging.outcome-hub.com/api/service?channel=webdata'
+curl -k -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN"  -d @jsons/send_be_main_link_themewidth50.json 'https://bridge-internmatch-staging.outcome-hub.com/api/service?channel=webdata'
