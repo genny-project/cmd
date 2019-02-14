@@ -23,8 +23,14 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "backgroundColor": "blue" },
-          "valueString": { "backgroundColor": "blue"}
+          "value": {
+            "backgroundColor": "#ddd",
+            "color": "#000"
+          },
+          "valueString": {
+            "backgroundColor": "#ddd",
+            "color": "#000"
+          }
         }
       ],
       "code": "THEME_THEME1",
@@ -32,8 +38,7 @@
       "delete": false,
       "id": 1000,
       "index": 0,
-      "links": [
-      ],
+      "links": [],
       "name": "Theme 1",
       "realm": "genny",
       "replace": true,
