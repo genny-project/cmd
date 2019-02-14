@@ -28,7 +28,7 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "NORTH",
             "sourceCode": "FRAME_NOTES",
-            "targetCode": "TEST_QQQ_NOTES",
+            "targetCode": "QUE_PROJECT_NOTES_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",

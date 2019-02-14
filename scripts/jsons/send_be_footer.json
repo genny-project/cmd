@@ -28,7 +28,7 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "EAST",
             "sourceCode": "FRAME_FOOTER",
-            "targetCode": "TEST_QQQ_FOOTER",
+            "targetCode": "QUE_PROJECT_FOOTER_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",

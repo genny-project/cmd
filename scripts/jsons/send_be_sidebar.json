@@ -28,7 +28,7 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "NORTH",
             "sourceCode": "FRAME_SIDEBAR",
-            "targetCode": "TEST_QQQ_SIDEBAR",
+            "targetCode": "QUE_PROJECT_SIDEBAR_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -41,7 +41,7 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "CENTRE",
             "sourceCode": "FRAME_SIDEBAR",
-            "targetCode": "TEST_QQQ_TREE",
+            "targetCode": "QUE_PROJECT_TREE_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
