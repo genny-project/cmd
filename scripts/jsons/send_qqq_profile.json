@@ -59,67 +59,6 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Image",
-                "typeName": "Image",
-                "validationList": [
-                  {
-                    "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_IMAGE_URL",
-                    "index": 0,
-                    "created": "2019-02-14T03:24:50.087",
-                    "name": "Text",
-                    "realm": "genny"
-                  }
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_USER_PROFILE_PICTURE",
-              "index": 0,
-              "created": "2019-02-10T10:40:53",
-              "updated": "2019-02-10T10:40:53",
-              "id": 73,
-              "name": "User Profile Picture",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_USER_PROFILE_PICTURE",
-            "mandatory": false,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_IMAGE",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 217,
-            "name": "Upload Profile Picture",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "questionCode": "QUE_IMAGE",
-          "attributeCode": "PRI_USER_PROFILE_PICTURE",
-          "mandatory": false,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {},
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:33",
-          "id": 3667,
-          "name": "Upload Image",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
                 "className": "Text",
                 "typeName": "Text",
                 "validationList": [
@@ -297,68 +236,6 @@
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
           "name": "Email",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
-                "className": "Mobile",
-                "typeName": "Mobile",
-                "inputmask": "\\d,\\d,\\d,\\d,\\d,\\d,\\d,\\d,\\d,\\d,\\d,\\d,\\d",
-                "validationList": [
-                  {
-                    "regex": "^(61|0)4[0-9]{8}$",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_MOBILE",
-                    "index": 0,
-                    "created": "2019-02-14T03:24:50.034",
-                    "name": "Mobile",
-                    "realm": "genny"
-                  }
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_MOBILE",
-              "index": 0,
-              "created": "2019-02-10T10:40:21",
-              "updated": "2019-02-10T10:40:21",
-              "id": 30,
-              "name": "Mobile",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_MOBILE",
-            "mandatory": false,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_MOBILE",
-            "index": 0,
-            "created": "2018-08-14T02:46:55",
-            "updated": "2018-10-04T23:29:16",
-            "id": 131,
-            "name": "Mobile",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "questionCode": "QUE_MOBILE",
-          "attributeCode": "PRI_MOBILE",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {},
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3672,
-          "name": "Mobile",
           "realm": "genny"
         }
       ],

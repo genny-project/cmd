@@ -23,8 +23,8 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "padding": 20 },
-          "valueString": { "padding": 20 }
+          "value": { "padding": 5 },
+          "valueString": { "padding": 5 }
         }
       ],
       "code": "THEME_THEMEPADDING",

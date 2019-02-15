@@ -5,4 +5,4 @@ KEYCLOAK_RESPONSE=`curl -s -X POST https://bouncer-staging.outcome-hub.com/auth/
 #printf "${RED}Parsing access_token field, as we don't need the other elements:${NORMAL}\n"
 TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
 echo $TOKEN
-curl -X GET --header 'Accept: application/json'  --header "Authorization: Bearer $TOKEN" 'https://api-internmatch-staging.outcome-hub.com/qwanda/baseentitys/PER_ADAMCROW63_AT_GMAILCOM/asks2/QUE_AGENT_PROFILE_GRP/PER_ADAMCROW63_AT_GMAILCOM'
+curl -X GET --header 'Accept: application/json'  --header "Authorization: Bearer $TOKEN" 'https://api-internmatch-staging.outcome-hub.com/qwanda/baseentitys/PER_ADAMCROW63_AT_GMAILCOM/asks2/QUE_HOST_COMPANY_STAFF_PROFILE_GRP/PER_ADAMCROW63_AT_GMAILCOM'
