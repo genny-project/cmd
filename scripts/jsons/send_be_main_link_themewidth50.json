@@ -14,6 +14,18 @@
           "readonly": false,
           "value": "Main Frame",
           "valueString": "Main Frame"
+        },
+        {
+          "attributeCode": "PRI_EXPANDABLE_PANELS",
+          "attributeName": "Expandable Panels",
+          "baseEntityCode": "FRAME_MAIN",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": [
+            "CENTRE", "WEST"
+          ]
         }
       ],
       "code": "FRAME_MAIN",
