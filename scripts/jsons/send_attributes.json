@@ -1,0 +1,598 @@
+{
+  "items": [
+    {
+      "code": "PRI_DASHBOARD",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Dashboard",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNSHIPS_PLACED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Internships Placed",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNSHIPS_COMPLETED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Internships Completed",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNSHIPS_IN_PROGRESS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Internships In Progress",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNSHIPS_ACTIVE",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Internships Active",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNSHIPS_OFFERED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Internships Offered",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_HOST_COMPANIES",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Host Companies",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_EDU_PROVIDERS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Education Providers",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_AGENCIES",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Agencies",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_AGENTS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Agents",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_HOST_COMPANY_REPS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Host Company Reps",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_EDU_PROVIDER_REPS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Edu Provider Reps",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+
+    {
+      "code": "PRI_INTERNS_OFFERED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Offered Interns",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNS_IN_PROGRESS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "In Progress Interns",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNS_APPLIED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Applied Interns",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNS_PLACED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Placed Interns",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNS_INTERVIEW",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Interview Interns",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_INTERNS_SHORTLISTED",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Shortlisted Interns",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "QQQ_QUESTION_GROUP_INPUT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "QuestionGroupInput",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    }
+  ],
+  "data_type": "Attribute",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}
