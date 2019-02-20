@@ -1,48 +1,6 @@
 {
   "items": [
     {
-      "question": {
-        "attribute": {
-          "dataType": {
-            "className": "Form Submit",
-            "typeName": "Form Submit",
-            "validationList": [
-              {
-                "regex": ".*",
-                "selectionBaseEntityGroupList": [
-                  ""
-                ],
-                "recursiveGroup": false,
-                "multiAllowed": false,
-                "code": "VLD_ANYTHING",
-                "index": 0,
-                "created": "2019-02-14T03:24:50.025",
-                "name": "Anything",
-                "realm": "genny"
-              }
-            ]
-          },
-          "defaultPrivacyFlag": false,
-          "code": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
-          "index": 0,
-          "created": "2019-02-10T10:40:32",
-          "updated": "2019-02-10T10:40:32",
-          "id": 171,
-          "name": "QuestionGroupButtonSubmit",
-          "realm": "genny"
-        },
-        "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
-        "mandatory": false,
-        "readonly": false,
-        "oneshot": false,
-        "code": "QUE_AGENT_PROFILE2_GRP",
-        "index": 0,
-        "created": "2018-08-14T02:46:56",
-        "updated": "2018-10-04T23:29:19",
-        "id": 247,
-        "name": "Profile Details",
-        "realm": "genny"
-      },
       "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
       "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
       "questionCode": "QUE_AGENT_PROFILE2_GRP",
