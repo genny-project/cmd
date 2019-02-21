@@ -4,7 +4,7 @@
       "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
       "targetCode": "PRJ_INTERNMATCH",
       "questionCode": "QUE_PROJECT_NOTES_GRP",
-      "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
+      "attributeCode": "QQQ_QUESTION_GROUP",
       "mandatory": false,
       "oneshot": false,
       "disabled": false,
@@ -17,8 +17,8 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "TextArea",
+                "typeName": "TextArea",
                 "validationList": [
                   {
                     "regex": "(?!^$|\\s+)",
@@ -36,30 +36,30 @@
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_NAME",
+              "code": "PRI_CONTENT",
               "index": 0,
               "created": "2019-02-10T10:41:00",
               "updated": "2019-02-10T10:41:00",
               "id": 159,
-              "name": "ProjectName",
+              "name": "Note Content",
               "realm": "genny"
             },
-            "attributeCode": "PRI_NAME",
+            "attributeCode": "PRI_CONTENT",
             "mandatory": false,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_NAME",
+            "code": "QUE_CONTENT",
             "index": 0,
             "created": "2018-08-14T02:46:55",
             "updated": "2018-10-04T23:29:15",
             "id": 88,
-            "name": "Project Name",
+            "name": "Note Content",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "PRJ_INTERNMATCH",
-          "questionCode": "QUE_NAME",
-          "attributeCode": "PRI_NAME",
+          "questionCode": "QUE_CONTENT",
+          "attributeCode": "PRI_CONTENT",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -71,56 +71,42 @@
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,
-          "name": "Project Name",
+          "name": "Note Content",
           "realm": "genny"
         },
         {
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Form Submit",
-                "typeName": "Form Submit",
-                "validationList": [
-                  {
-                    "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_ANYTHING",
-                    "index": 0,
-                    "created": "2019-02-14T03:24:50.025",
-                    "name": "Anything",
-                    "realm": "genny"
-                  }
-                ]
+                "className": "Event",
+                "typeName": "Event",
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
-              "code": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
+              "code": "PRI_BUTTON",
               "index": 0,
-              "created": "2019-02-10T10:40:32",
-              "updated": "2019-02-10T10:40:32",
-              "id": 171,
-              "name": "QuestionGroupButtonSubmit",
+              "created": "2019-02-10T10:41:00",
+              "updated": "2019-02-10T10:41:00",
+              "id": 159,
+              "name": "Submit Button",
               "realm": "genny"
             },
-            "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
+            "attributeCode": "PRI_BUTTON",
             "mandatory": false,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_PROJECT_NOTES_GRP",
+            "code": "QUE_BUTTON",
             "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:19",
-            "id": 247,
-            "name": "Project Notes",
+            "created": "2018-08-14T02:46:55",
+            "updated": "2018-10-04T23:29:15",
+            "id": 88,
+            "name": "Submit Button",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "PRJ_INTERNMATCH",
-          "questionCode": "QUE_NAME",
-          "attributeCode": "PRI_NAME",
+          "questionCode": "QUE_BUTTON",
+          "attributeCode": "PRI_BUTTON",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -128,11 +114,13 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "isFormSubmit": true
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,
-          "name": "Project Name",
+          "name": "Submit Button",
           "realm": "genny"
         }
       ],

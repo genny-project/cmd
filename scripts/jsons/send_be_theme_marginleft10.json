@@ -23,8 +23,8 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "marginLeft": 10 },
-          "valueString": { "pamarginLeftdding": 10 }
+          "value": { "marginLeft": 20 },
+          "valueString": { "marginLeft": 20 }
         }
       ],
       "code": "THEME_MARGINLEFT_10",

@@ -39,26 +39,26 @@
           "created": "2019-02-06T04:24:58",
           "link": {
             "attributeCode": "LNK_ASK",
-            "linkValue": "CENTRE",
+            "linkValue": "WEST",
             "sourceCode": "FRAME_SIDEBAR",
             "targetCode": "QUE_TREE_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
+          "valueString": "WEST",
           "weight": 1
         },
         {
           "created": "2019-02-06T04:24:58",
           "link": {
             "attributeCode": "LNK_THEME",
-            "linkValue": "CENTRE",
+            "linkValue": "WEST",
             "sourceCode": "FRAME_SIDEBAR",
             "targetCode": "THEME_MARGINLEFT_10",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
+          "valueString": "WEST",
           "weight": 6
         }
       ],
