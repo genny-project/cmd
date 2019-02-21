@@ -502,6 +502,16 @@ The **Panel** the child will be linked to is deinfed by the `linkValue` field. T
 
 TBD
 
+![Root Level](https://i.imgur.com/t2l2jas.png)
+
+![First Level](https://i.imgur.com/shVknrP.png)
+
+![Second Level](https://i.imgur.com/SjdjV0a.png)
+
+![Entity Tree](https://i.imgur.com/1gwHZZC.png)
+
+![Adding Themes](https://i.imgur.com/6PM9heG.png)
+
 ## Sending Messages
 
 TBD

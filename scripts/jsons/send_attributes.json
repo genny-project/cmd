@@ -560,6 +560,23 @@
       "updated:": "2019-02-18T04:37:31"
     },
     {
+      "code": "PRI_BUTTON",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": []
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Submit Button",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
       "code": "QQQ_QUESTION_GROUP_INPUT",
       "created": "2019-02-18T04:37:31",
       "dataType": {
