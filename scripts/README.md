@@ -1,12 +1,12 @@
 # Documentation of Updated Layouts System
 
-### Overview
+## Overview
 
 New layouts for the Genny system. Instead of using json files which describe react element trees, this system uses only base entities and links to form the basis of each page. Changing the layout, content, or styling of a page is achieved by changing the base entities or links between them.
 
 A layout is made of two types of base entities -  **Frames** (positional elements) and **Themes** (styling) - and the content is displayed is derived from **Asks** (Question Groups and Questions). The relationships between each of these entities is controlled by **Links** (relation description).
 
-### Frames ( prefix: FRM_ )
+## Frames ( prefix: FRM_ )
 
 The **Frame** base entity is the basic building block of the layout. Each **Frame** has five (5) **Panels**; **North**, **South**, **East**, **West**, and **Centre**. The panel layout is as follows:
 
@@ -98,7 +98,7 @@ TBD
 | PRI_CONTENT | Object | { "backgroundColor": "#ddd" } | true | An object composed of key-value pairings defining CSS values that will be passed to the rendered element in the frontend. |
 | PRI_IS_INHERITABLE | Boolean | false | false | An optional prop to define whether a Theme's information should be passed to the children of the Theme. Defaults to true. |
 
-### Asks ( prefix: QUE_ )
+## Asks ( prefix: QUE_ )
 
 The **Asks** are composed of **Question Groups** ( QUE_XXX_GRP ) and **Questions** ( QUE_XXX ). An **Ask** is rendered as a Form component with Inputs, and cover almost all of the display elements and interactable elements shown on the page.
 
@@ -461,7 +461,7 @@ A **Question Group** defines a group of collection of **Questions**. **Question 
 }
 ```
 
-### Links ( prefix: LNK_ )
+## Links ( prefix: LNK_ )
 
 A **Link** is used to define the relationship between two **Entities**. When used for **Layouts**, the **Link** is principally used to tell the front end which entities are being linked, what type of entity the child is, and the location of the child within the **Frame**, if the parent is a **Frame** base entity.
 
@@ -498,10 +498,10 @@ The **Panel** the child will be linked to is deinfed by the `linkValue` field. T
 | linkValue | string | "CENTRE" | true | Defines which **Panel** of the parent **Frame** the child is linked to. |
 | weight | number | 1 | true | The priority of the link. Lower numbers are more important, a value of `0` means the child will be hidden. |
 
-### Creating a Layout
+## Creating a Layout
 
 TBD
 
-### Sending Messages
+## Sending Messages
 
 TBD
