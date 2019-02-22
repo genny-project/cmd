@@ -1,0 +1,65 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRAME_DASHBOARD",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Dashboard Frame",
+          "valueString": "Dashboard Frame"
+        }
+      ],
+      "code": "FRAME_DASHBOARD",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1001,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRAME_DASHBOARD",
+            "targetCode": "QUE_AGENT_PROFILE_GRP",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_LAYOUT",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRAME_DASHBOARD",
+            "targetCode": "view-details/content",
+            "weight": 6
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 6
+        }
+      ],
+      "name": "Dashboard Frame",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
