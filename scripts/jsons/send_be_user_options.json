@@ -7,49 +7,49 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_DASHBOARD",
+          "baseEntityCode": "GRP_USER_OPTIONS",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Dashboard Frame",
-          "valueString": "Dashboard Frame"
+          "value": "User Options Group",
+          "valueString": "User Options Group"
         }
       ],
-      "code": "FRAME_DASHBOARD",
+      "code": "GRP_USER_OPTIONS",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1001,
+      "id": 1000,
       "index": 0,
       "links": [
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "CENTRE",
-            "sourceCode": "FRAME_DASHBOARD",
-            "targetCode": "QUE_AGENT_PROFILE_GRP",
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_USER_OPTIONS",
+            "targetCode": "SEL_PROFILE",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
+          "valueString": "link",
           "weight": 1
         },
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_LAYOUT",
-            "linkValue": "CENTRE",
-            "sourceCode": "FRAME_DASHBOARD",
-            "targetCode": "pages/application/:id",
-            "weight": 6
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_USER_OPTIONS",
+            "targetCode": "SEL_LOGOUT",
+            "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 6
+          "valueString": "link",
+          "weight": 1
         }
       ],
-      "name": "Dashboard Frame",
+      "name": "User Options",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

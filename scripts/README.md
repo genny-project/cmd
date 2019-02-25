@@ -461,6 +461,10 @@ A **Question Group** defines a group of collection of **Questions**. **Question 
 }
 ```
 
+# Legacy Layouts ( prefix: LAY_ )
+
+The **Legacy Layouts** are base entities created using the previous layouts system, using Json files and Data Queries. They are rendered using the Sublayout component.
+
 ## Links ( prefix: LNK_ )
 
 A **Link** is used to define the relationship between two **Entities**. When used for **Layouts**, the **Link** is principally used to tell the front end which entities are being linked, what type of entity the child is, and the location of the child within the **Frame**, if the parent is a **Frame** base entity.
@@ -469,6 +473,7 @@ The type of link is defined by the `attributeCode` field. The valid types of lin
 - LNK_FRAME: Indicates that the child is a **Frame** base entity.
 - LNK_THEME: Indicates that the child is a **Theme** base entity.
 - LNK_ASK: Indicates that the child is an **Ask**.
+- **LNK_LAYOUT**: Indicates the child is a **Legacy Layout**. This allows backwards compatibility with the previous layouts.
 
 The **Panel** the child will be linked to is deinfed by the `linkValue` field. The valid values are **NORTH**, **SOUTH**, **EAST**, **WEST**, and **CENTRE**
 
@@ -493,7 +498,7 @@ The **Panel** the child will be linked to is deinfed by the `linkValue` field. T
 | Field | Value Type | Example | Required | Description |
 | ------ | ---------- | ------- | -------- | ----------- |
 | sourceCode | string | "FRM_PARENT" | true | Base Entity code of the link parent. |
-| targetCode | string | "FRM_CHILD" | true | Base Entity code of the link child. |
+| targetCode | string | "FRM_CHILD" | true | Base Entity code of the link child. **IMPORTANT: If using LNK_LAYOUT, the target code must be the URI of the legacy layout. Must begin with `pages/` or `sublayouts'`, eg `pages/applications/:id`** |
 | attributeCode | string | "LNK_FRAME" | true | Defines the type of link. |
 | linkValue | string | "CENTRE" | true | Defines which **Panel** of the parent **Frame** the child is linked to. |
 | weight | number | 1 | true | The priority of the link. Lower numbers are more important, a value of `0` means the child will be hidden. |

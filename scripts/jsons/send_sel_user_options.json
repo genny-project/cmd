@@ -1,0 +1,41 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_USER_OPTIONS_PROFILE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [],
+      "name": "User Profile",
+      "parentCode": "GRP_USER_OPTIONS",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_USER_OPTIONS_LOGOUT",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 375,
+      "index": 0,
+      "links": [],
+      "name": "Logout",
+      "parentCode": "GRP_USER_OPTIONS",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

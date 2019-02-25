@@ -17,49 +17,50 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "menu",
+                "typeName": "menu",
+                "inputmask": "menu",
                 "validationList": [
                   {
-                    "regex": "(?!^$|\\s+)",
+                    "regex": ".*",
                     "selectionBaseEntityGroupList": [
-                      ""
+                      "GRP_USER_OPTIONS"
                     ],
                     "recursiveGroup": false,
                     "multiAllowed": false,
-                    "code": "VLD_NON_EMPTY",
+                    "code": "VLD_SELECT_USER_OPTIONS",
                     "index": 0,
-                    "created": "2019-02-14T03:24:50.034",
-                    "name": "EmptyandBlankValues",
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "menu",
                     "realm": "genny"
                   }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_FIRSTNAME",
+              "code": "LNK_USER_OPTIONS",
               "index": 0,
-              "created": "2019-02-10T10:41:00",
-              "updated": "2019-02-10T10:41:00",
-              "id": 159,
-              "name": "FirstName",
+              "created": "2019-02-23T23:27:14",
+              "updated": "2019-02-23T23:27:14",
+              "id": 16,
+              "name": "User Options",
               "realm": "genny"
             },
-            "attributeCode": "PRI_FIRSTNAME",
+            "attributeCode": "LNK_USER_OPTIONS",
             "mandatory": false,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_FIRSTNAME",
+            "code": "QUE_USER_OPTIONS",
             "index": 0,
-            "created": "2018-08-14T02:46:55",
-            "updated": "2018-10-04T23:29:15",
-            "id": 88,
-            "name": "First Name",
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 213,
+            "name": "User Options",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "questionCode": "QUE_FIRSTNAME",
-          "attributeCode": "PRI_FIRSTNAME",
+          "questionCode": "QUE_USER_OPTIONS",
+          "attributeCode": "LNK_USER_OPTIONS",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -68,17 +69,16 @@
           "weight": 0.0,
           "parentId": 0,
           "contextList": {},
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:33",
-          "id": 3668,
-          "name": "First Name",
+          "created": "2019-02-25T04:00:34.151",
+          "id": 43451,
+          "name": "User Options",
           "realm": "genny"
         }
       ],
       "contextList": {},
       "created": "2019-02-14T03:15:22",
       "id": 46341,
-      "name": "Project Options",
+      "name": "User Options",
       "realm": "genny"
     }
   ],
