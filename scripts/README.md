@@ -461,7 +461,7 @@ A **Question Group** defines a group of collection of **Questions**. **Question 
 }
 ```
 
-# Legacy Layouts ( prefix: LAY_ )
+## Legacy Layouts ( prefix: LAY_ )
 
 The **Legacy Layouts** are base entities created using the previous layouts system, using Json files and Data Queries. They are rendered using the Sublayout component.
 
