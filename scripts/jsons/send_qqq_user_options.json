@@ -68,6 +68,21 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
+          "links": [
+            {
+              "created": "2019-02-06T04:24:58",
+              "link": {
+                "attributeCode": "LNK_THEME",
+                "linkValue": "",
+                "sourceCode": "QUE_USER_OPTIONS",
+                "targetCode": "THEME_COLOR_GREEN",
+                "weight": 6
+              },
+              "updated": "2019-02-06T04:25:25",
+              "valueString": "CENTRE",
+              "weight": 6
+            }
+          ],
           "contextList": {},
           "created": "2019-02-25T04:00:34.151",
           "id": 43451,

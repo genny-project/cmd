@@ -814,14 +814,18 @@
                   "realm": "genny"
                 }
               ],
-              "contextList": {},
+              "contextList": {
+                "isDropdown": true
+              },
               "created": "2019-02-14T03:15:22",
               "id": 46341,
               "name": "Interns",
               "realm": "genny"
             }
           ],
-          "contextList": {},
+          "contextList": {
+            "isDropdown": true
+          },
           "created": "2019-02-14T03:15:22",
           "id": 46341,
           "name": "Contacts",
@@ -1002,7 +1006,9 @@
               "realm": "genny"
             }
           ],
-          "contextList": {},
+          "contextList": {
+            "isDropdown": true
+          },
           "created": "2019-02-14T03:15:22",
           "id": 46341,
           "name": "Companies",

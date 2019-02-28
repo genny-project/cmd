@@ -9,7 +9,21 @@
       "delete": false,
       "id": 374,
       "index": 0,
-      "links": [],
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "",
+            "sourceCode": "SEL_USER_OPTIONS_PROFILE",
+            "targetCode": "THEME_COLOR_BLUE",
+            "weight": 6
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 6
+        }
+      ],
       "name": "User Profile",
       "parentCode": "GRP_USER_OPTIONS",
       "realm": "genny",
