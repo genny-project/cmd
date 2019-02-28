@@ -16,7 +16,7 @@
             "attributeCode": "LNK_THEME",
             "linkValue": "",
             "sourceCode": "SEL_USER_OPTIONS_PROFILE",
-            "targetCode": "THEME_COLOR_BLUE",
+            "targetCode": "THM_COLOR_BLUE",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
@@ -25,7 +25,6 @@
         }
       ],
       "name": "User Profile",
-      "parentCode": "GRP_USER_OPTIONS",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,
@@ -40,7 +39,6 @@
       "index": 0,
       "links": [],
       "name": "Logout",
-      "parentCode": "GRP_USER_OPTIONS",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,

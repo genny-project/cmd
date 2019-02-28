@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THEME_WIDTH_300",
+          "baseEntityCode": "THM_WIDTH_300",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -18,7 +18,7 @@
         {
           "attributeCode": "PRI_IS_INHERITABLE",
           "attributeName": "Is Content Inheritable?",
-          "baseEntityCode": "THEME_WIDTH_50",
+          "baseEntityCode": "THM_WIDTH_50",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -29,7 +29,7 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THEME_WIDTH_300",
+          "baseEntityCode": "THM_WIDTH_300",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -38,7 +38,7 @@
           "valueString": { "width": 300 }
         }
       ],
-      "code": "THEME_WIDTH_300",
+      "code": "THM_WIDTH_300",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,

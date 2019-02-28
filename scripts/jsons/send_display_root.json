@@ -1,5 +1,5 @@
 {
     "cmd_type": "CMD_LAYOUT",
-    "code": "FRAME_ROOT",
+    "code": "FRM_ROOT",
     "msg_type": "CMD_MSG"
 }

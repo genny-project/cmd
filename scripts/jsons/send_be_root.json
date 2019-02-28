@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_ROOT",
+          "baseEntityCode": "FRM_ROOT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -16,7 +16,7 @@
           "valueString": "Root Frame"
         }
       ],
-      "code": "FRAME_ROOT",
+      "code": "FRM_ROOT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
@@ -27,8 +27,8 @@
           "link": {
             "attributeCode": "LNK_FRAME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_ROOT",
-            "targetCode": "FRAME_MAIN",
+            "sourceCode": "FRM_ROOT",
+            "targetCode": "FRM_MAIN",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -40,8 +40,8 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_ROOT",
-            "targetCode": "THEME_THEME2",
+            "sourceCode": "FRM_ROOT",
+            "targetCode": "THM_THEME2",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
@@ -53,8 +53,8 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "THEME_THEMEPADDING",
+            "sourceCode": "FRM_ROOT",
+            "targetCode": "THM_THEMEPADDING",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",

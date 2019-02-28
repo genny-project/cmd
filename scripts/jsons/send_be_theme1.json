@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THEME_THEME1",
+          "baseEntityCode": "THM_THEME1",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -18,7 +18,7 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THEME_THEME1",
+          "baseEntityCode": "THM_THEME1",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -33,7 +33,7 @@
           }
         }
       ],
-      "code": "THEME_THEME1",
+      "code": "THM_THEME1",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,

@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_HEADER",
+          "baseEntityCode": "FRM_HEADER",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -16,7 +16,7 @@
           "valueString": "Header Frame"
         }
       ],
-      "code": "FRAME_HEADER",
+      "code": "FRM_HEADER",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1004,
@@ -27,7 +27,7 @@
           "link": {
             "attributeCode": "LNK_ASK",
             "linkValue": "WEST",
-            "sourceCode": "FRAME_HEADER",
+            "sourceCode": "FRM_HEADER",
             "targetCode": "QUE_PROJECT_HEADER_GRP",
             "weight": 1
           },
@@ -40,7 +40,7 @@
           "link": {
             "attributeCode": "LNK_ASK",
             "linkValue": "EAST",
-            "sourceCode": "FRAME_HEADER",
+            "sourceCode": "FRM_HEADER",
             "targetCode": "QUE_PROJECT_USER_OPTIONS_GRP",
             "weight": 1
           },

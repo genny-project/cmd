@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_MAIN",
+          "baseEntityCode": "FRM_MAIN",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -18,7 +18,7 @@
         {
           "attributeCode": "PRI_EXPANDABLE_PANELS",
           "attributeName": "Expandable Panels",
-          "baseEntityCode": "FRAME_MAIN",
+          "baseEntityCode": "FRM_MAIN",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -28,7 +28,7 @@
           ]
         }
       ],
-      "code": "FRAME_MAIN",
+      "code": "FRM_MAIN",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
@@ -39,8 +39,8 @@
           "link": {
             "attributeCode": "LNK_FRAME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "FRAME_DASHBOARD",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "FRM_DASHBOARD",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -52,8 +52,8 @@
           "link": {
             "attributeCode": "LNK_FRAME",
             "linkValue": "NORTH",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "FRAME_HEADER",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "FRM_HEADER",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -65,8 +65,8 @@
           "link": {
             "attributeCode": "LNK_FRAME",
             "linkValue": "SOUTH",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "FRAME_FOOTER",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "FRM_FOOTER",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -78,8 +78,8 @@
           "link": {
             "attributeCode": "LNK_FRAME",
             "linkValue": "EAST",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "FRAME_NOTES",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "FRM_NOTES",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -91,8 +91,8 @@
           "link": {
             "attributeCode": "LNK_FRAME",
             "linkValue": "WEST",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "FRAME_SIDEBAR",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "FRM_SIDEBAR",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -104,8 +104,8 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "WEST",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "THEME_WIDTH_300",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "THM_WIDTH_300",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
@@ -117,8 +117,8 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "THEME_THEMEPADDING",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "THM_THEMEPADDING",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
@@ -130,8 +130,8 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "CENTRE",
-            "sourceCode": "FRAME_MAIN",
-            "targetCode": "THEME_FULLSCREEN",
+            "sourceCode": "FRM_MAIN",
+            "targetCode": "THM_FULLSCREEN",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",

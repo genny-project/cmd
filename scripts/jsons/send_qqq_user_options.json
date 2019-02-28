@@ -75,7 +75,7 @@
                 "attributeCode": "LNK_THEME",
                 "linkValue": "",
                 "sourceCode": "QUE_USER_OPTIONS",
-                "targetCode": "THEME_COLOR_GREEN",
+                "targetCode": "THM_COLOR_GREEN",
                 "weight": 6
               },
               "updated": "2019-02-06T04:25:25",
@@ -97,7 +97,7 @@
             "attributeCode": "LNK_THEME",
             "linkValue": "",
             "sourceCode": "QUE_PROJECT_USER_OPTIONS_GRP",
-            "targetCode": "THEME_COLOR_RED",
+            "targetCode": "THM_COLOR_RED",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",

@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_FOOTER",
+          "baseEntityCode": "FRM_FOOTER",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -16,7 +16,7 @@
           "valueString": "Footer Frame"
         }
       ],
-      "code": "FRAME_FOOTER",
+      "code": "FRM_FOOTER",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1006,
@@ -27,7 +27,7 @@
           "link": {
             "attributeCode": "LNK_ASK",
             "linkValue": "EAST",
-            "sourceCode": "FRAME_FOOTER",
+            "sourceCode": "FRM_FOOTER",
             "targetCode": "QUE_PROJECT_FOOTER_GRP",
             "weight": 1
           },

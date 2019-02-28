@@ -7,7 +7,7 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRAME_SIDEBAR",
+          "baseEntityCode": "FRM_SIDEBAR",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -16,7 +16,7 @@
           "valueString": "Sidebar Frame"
         }
       ],
-      "code": "FRAME_SIDEBAR",
+      "code": "FRM_SIDEBAR",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1002,
@@ -27,7 +27,7 @@
           "link": {
             "attributeCode": "LNK_ASK",
             "linkValue": "NORTH",
-            "sourceCode": "FRAME_SIDEBAR",
+            "sourceCode": "FRM_SIDEBAR",
             "targetCode": "QUE_PROJECT_SIDEBAR_GRP",
             "weight": 1
           },
@@ -40,7 +40,7 @@
           "link": {
             "attributeCode": "LNK_ASK",
             "linkValue": "WEST",
-            "sourceCode": "FRAME_SIDEBAR",
+            "sourceCode": "FRM_SIDEBAR",
             "targetCode": "QUE_TREE_GRP",
             "weight": 1
           },
@@ -53,8 +53,8 @@
           "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "WEST",
-            "sourceCode": "FRAME_SIDEBAR",
-            "targetCode": "THEME_MARGINLEFT_10",
+            "sourceCode": "FRM_SIDEBAR",
+            "targetCode": "THM_MARGINLEFT_10",
             "weight": 6
           },
           "updated": "2019-02-06T04:25:25",
