@@ -23,8 +23,8 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "marginLeft": 20 },
-          "valueString": { "marginLeft": 20 }
+          "value": { "marginLeft": 20, "flexDirection": "column", "justifyContent": "flex-start" },
+          "valueString": { "marginLeft": 20, "flexDirection": "column", "justifyContent": "flex-start" }
         }
       ],
       "code": "THM_MARGINLEFT_10",
