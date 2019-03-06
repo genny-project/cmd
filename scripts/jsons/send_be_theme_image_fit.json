@@ -7,34 +7,34 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_MARGINLEFT_10",
+          "baseEntityCode": "THM_IMAGE_FIT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Margin Left 10",
-          "valueString": "Theme Margin Left 10"
+          "value": "Theme Image Fit",
+          "valueString": "Theme Image Fit"
         },
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_MARGINLEFT_10",
+          "baseEntityCode": "THM_IMAGE_FIT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "marginLeft": 20 },
-          "valueString": { "marginLeft": 20 }
+          "value": { "fit": "contain", "width": 100,  "height": 100 },
+          "valueString": { "fit": "contain", "width": 100,  "height": 100 }
         }
       ],
-      "code": "THM_MARGINLEFT_10",
+      "code": "THM_IMAGE_FIT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Margin Left 10",
+      "name": "Theme Image Fit",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
