@@ -3,6 +3,11 @@ KEYCLOAK_RESPONSE=`curl -s -X POST https://bouncer-staging.outcome-hub.com/auth/
 printf "kc = $KEYCLOAK_RESPONSE \n\n"
 
 TOKEN=`echo "$KEYCLOAK_RESPONSE" | jq -r '.access_token'`
-echo $TOKEN
+#echo $TOKEN
 
-curl -k -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN"  -d @jsons/send_be_main_link_theme_padding.json 'https://bridge-internmatch-staging.outcome-hub.com/api/service?channel=webdata'
+while test ${#} -gt 0
+do
+  jsonfile=$1
+  shift
+  curl -k -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer $TOKEN"  -d @jsons/${jsonfile}.json 'https://bridge-internmatch-staging.outcome-hub.com/api/service?channel=webdata'
+done
