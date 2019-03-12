@@ -323,9 +323,21 @@
               "realm": "genny"
             }
           ],
-          "contextList": {
-            "isDropdown": true
-          },
+          "links": [
+            {
+              "created": "2019-02-06T04:24:58",
+              "link": {
+                "attributeCode": "LNK_THEME",
+                "linkValue": "",
+                "sourceCode": "QUE_TREE_GRP",
+                "targetCode": "THM_EXPANDABLE",
+                "weight": 6
+              },
+              "updated": "2019-02-06T04:25:25",
+              "valueString": "CENTRE",
+              "weight": 6
+            }
+          ],
           "created": "2019-02-14T03:15:22",
           "id": 46341,
           "name": "Internships",
@@ -814,18 +826,42 @@
                   "realm": "genny"
                 }
               ],
-              "contextList": {
-                "isDropdown": true
-              },
+              "links": [
+                {
+                  "created": "2019-02-06T04:24:58",
+                  "link": {
+                    "attributeCode": "LNK_THEME",
+                    "linkValue": "",
+                    "sourceCode": "QUE_TREE_GRP",
+                    "targetCode": "THM_EXPANDABLE",
+                    "weight": 6
+                  },
+                  "updated": "2019-02-06T04:25:25",
+                  "valueString": "CENTRE",
+                  "weight": 6
+                }
+              ],
               "created": "2019-02-14T03:15:22",
               "id": 46341,
               "name": "Interns",
               "realm": "genny"
             }
           ],
-          "contextList": {
-            "isDropdown": true
-          },
+          "links": [
+            {
+              "created": "2019-02-06T04:24:58",
+              "link": {
+                "attributeCode": "LNK_THEME",
+                "linkValue": "",
+                "sourceCode": "QUE_TREE_GRP",
+                "targetCode": "THM_EXPANDABLE",
+                "weight": 6
+              },
+              "updated": "2019-02-06T04:25:25",
+              "valueString": "CENTRE",
+              "weight": 6
+            }
+          ],
           "created": "2019-02-14T03:15:22",
           "id": 46341,
           "name": "Contacts",
@@ -1006,9 +1042,21 @@
               "realm": "genny"
             }
           ],
-          "contextList": {
-            "isDropdown": true
-          },
+          "links": [
+            {
+              "created": "2019-02-06T04:24:58",
+              "link": {
+                "attributeCode": "LNK_THEME",
+                "linkValue": "",
+                "sourceCode": "QUE_TREE_GRP",
+                "targetCode": "THM_EXPANDABLE",
+                "weight": 6
+              },
+              "updated": "2019-02-06T04:25:25",
+              "valueString": "CENTRE",
+              "weight": 6
+            }
+          ],
           "created": "2019-02-14T03:15:22",
           "id": 46341,
           "name": "Companies",

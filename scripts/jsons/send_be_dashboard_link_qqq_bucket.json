@@ -28,25 +28,12 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "CENTRE",
             "sourceCode": "FRM_DASHBOARD",
-            "targetCode": "QUE_AGENT_PROFILE_GRP",
+            "targetCode": "QUE_BUCKET_VIEW_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
           "valueString": "CENTRE",
           "weight": 1
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "CENTRE",
-            "sourceCode": "FRM_DASHBOARD",
-            "targetCode": "QUE_AGENT_PROFILE2_GRP",
-            "weight": 2
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 2
         },
         {
           "created": "2019-02-06T04:24:58",

@@ -1,0 +1,49 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "THM_EXPANDABLE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Theme Expandable",
+          "valueString": "Theme Expandable"
+        },
+        {
+          "attributeCode": "PRI_IS_EXPANDABLE",
+          "attributeName": "Is Group Expandable?",
+          "baseEntityCode": "THM_EXPANDABLE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        }
+      ],
+      "code": "THM_EXPANDABLE",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1000,
+      "index": 0,
+      "links": [],
+      "name": "Theme Expandable",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
