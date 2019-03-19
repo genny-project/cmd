@@ -17,6 +17,53 @@
           "question": {
             "attribute": {
               "dataType": {
+                "className": "Event",
+                "typeName": "Event",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_SIDEBAR_TOGGLE",
+              "index": 0,
+              "created": "2019-02-10T10:41:00",
+              "updated": "2019-02-10T10:41:00",
+              "id": 159,
+              "name": "Toggle Sidebar",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_SIDEBAR_TOGGLE",
+            "mandatory": false,
+            "readonly": false,
+            "code": "QUE_SIDEBAR_TOGGLE",
+            "index": 0,
+            "created": "2018-08-14T02:46:55",
+            "updated": "2018-10-04T23:29:15",
+            "id": 88,
+            "name": "",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "PRJ_INTERNMATCH",
+          "questionCode": "QUE_SIDEBAR_TOGGLE",
+          "attributeCode": "PRI_SIDEBAR_TOGGLE",
+          "mandatory": true,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+            "icon": "menu"
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:33",
+          "id": 3668,
+          "name": "Toggle Sidebar",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
                 "className": "Text",
                 "typeName": "Text",
                 "validationList": [
@@ -73,6 +120,21 @@
           "id": 3668,
           "name": "Project Name",
           "realm": "genny"
+        }
+      ],
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "link",
+            "sourceCode": "QUE_PROJECT_HEADER_GRP",
+            "targetCode": "THM_DISPLAY_HORIZONTAL",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 1
         }
       ],
       "contextList": {},

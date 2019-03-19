@@ -16,8 +16,8 @@
           "valueString": "Main Frame"
         },
         {
-          "attributeCode": "PRI_EXPANDABLE_PANELS",
-          "attributeName": "Expandable Panels",
+          "attributeCode": "PRI_CONTROLLABLE_PANELS",
+          "attributeName": "Controllable Panels",
           "baseEntityCode": "FRM_MAIN",
           "created": "2018-08-29T03:00:39",
           "inferred": false,

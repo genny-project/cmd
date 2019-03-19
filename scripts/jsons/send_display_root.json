@@ -1,5 +1,7 @@
 {
-    "cmd_type": "CMD_LAYOUT",
-    "code": "FRM_ROOT",
-    "msg_type": "CMD_MSG"
+    "cmd_type": "ROUTE_CHANGE",
+    "code": "/questions/QUE_HOST_COMPANY_STAFF_PROFILE_GRP",
+    "msg_type": "CMD_MSG",
+    "cache_id": "EVT_HOST_COMPANY_PROFILE"
 }
+

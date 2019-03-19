@@ -1,0 +1,81 @@
+{
+  "actions": [
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/home",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_PROJECT_ADD_OPTIONS_GRP:SEL_ADD_OPTIONS_BASEENTITY"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/active",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_PROJECT_ADD_OPTIONS_GRP:SEL_ADD_OPTIONS_APPLICATION"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/questions/QUE_HOST_COMPANY_STAFF_PROFILE_GRP",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_PROJECT_USER_OPTIONS_GRP:SEL_USER_OPTIONS_PROFILE"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/logout",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_PROJECT_USER_OPTIONS_GRP:SEL_USER_OPTIONS_LOGOUT"
+    },
+
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/home",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_DASHBOARD"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/placed",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_PLACED"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/completed",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_COMPLETED"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/in-progress",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_IN_PROGRESS"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/active",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_ACTIVE"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/offered",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_OFFERED"
+    },
+    {
+      "cmd_type": "ROUTE_CHANGE",
+      "code": "/internships/offered",
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_OFFERED"
+    },
+
+    {
+      "cmd_type": "PANEL_TOGGLE",
+      "code": "FRM_MAIN:WEST",
+      "cache_only": true,
+      "msg_type": "CMD_MSG",
+      "msg_id": "QUE_PROJECT_HEADER_GRP:QUE_SIDEBAR_TOGGLE"
+    }
+  ],
+  "data_type": "CacheActions",
+  "msg_type": "DATA_MSG"
+}
