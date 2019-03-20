@@ -34,8 +34,8 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "maxWidth": 300 },
-          "valueString": { "maxWidth": 300 }
+          "value": { "minWidth": 50, "maxWidth": 300 },
+          "valueString": { "minWidth": 50, "maxWidth": 300 }
         }
       ],
       "code": "THM_WIDTH_300",
