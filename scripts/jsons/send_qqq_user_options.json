@@ -96,7 +96,7 @@
           "weight": 0.0,
           "parentId": 0,
           "contextList": {
-            "context": [
+            "contexts": [
               {
                 "contextCode": "THM_COLOR_GREEN",
                 "created": "2019-02-06T04:24:58",
@@ -112,7 +112,7 @@
         }
       ],
       "contextList": {
-        "context": [
+        "contexts": [
           {
             "contextCode": "THM_COLOR_RED",
             "created": "2019-02-06T04:24:58",

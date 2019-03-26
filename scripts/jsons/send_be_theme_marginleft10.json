@@ -23,8 +23,8 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "marginLeft": 20 },
-          "valueString": { "marginLeft": 20 }
+          "value": { "marginLeft": 5 },
+          "valueString": { "marginLeft": 5 }
         }
       ],
       "code": "THM_MARGINLEFT_10",

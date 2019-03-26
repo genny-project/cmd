@@ -25,6 +25,17 @@
           "readonly": false,
           "value": true,
           "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_HAS_QUESTION_GRP_INPUT",
+          "attributeName": "Has Question Group Input?",
+          "baseEntityCode": "THM_EXPANDABLE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
         }
       ],
       "code": "THM_EXPANDABLE",
