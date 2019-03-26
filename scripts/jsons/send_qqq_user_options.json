@@ -95,44 +95,32 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "links": [
-            {
-              "created": "2019-02-06T04:24:58",
-              "link": {
-                "attributeCode": "LNK_THEME",
-                "linkValue": "THEME",
-                "sourceCode": "QUE_USER_OPTIONS",
-                "targetCode": "THM_COLOR_GREEN",
-                "weight": 6
-              },
-              "updated": "2019-02-06T04:25:25",
-              "valueString": "THEME",
-              "weight": 6
-            }
-          ],
-          "contextList": {},
+          "contextList": {
+            "context": [
+              {
+                "contextCode": "THM_COLOR_GREEN",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "realm": "genny"
+              }
+            ]
+          },
           "created": "2019-02-25T04:00:34.151",
           "id": 43451,
           "name": "User Options",
           "realm": "genny"
         }
       ],
-      "links": [
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_THEME",
-            "linkValue": "THEME",
-            "sourceCode": "QUE_PROJECT_USER_OPTIONS_GRP",
-            "targetCode": "THM_COLOR_RED",
-            "weight": 6
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "THEME",
-          "weight": 6
-        }
-      ],
-      "contextList": {},
+      "contextList": {
+        "context": [
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny"
+          }
+        ]
+      },
       "created": "2019-02-14T03:15:22",
       "id": 46341,
       "name": "User Options",

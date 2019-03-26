@@ -65,22 +65,16 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "links": [
-            {
-              "created": "2019-02-06T04:24:58",
-              "link": {
-                "attributeCode": "LNK_THEME",
-                "linkValue": "",
-                "sourceCode": "QUE_IMAGE",
-                "targetCode": "THM_IMAGE_FIT",
-                "weight": 6
-              },
-              "updated": "2019-02-06T04:25:25",
-              "valueString": "CENTRE",
-              "weight": 6
-            }
-          ],
-          "contextList": {},
+          "contextList": {
+            "context": [
+              {
+                "contextCode": "THM_IMAGE_FIT",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "realm": "genny"
+              }
+            ]
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3667,

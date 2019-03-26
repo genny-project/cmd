@@ -78,35 +78,16 @@
           "realm": "genny"
         }
       ],
-      "links": [
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_THEME",
-            "linkValue": "",
-            "sourceCode": "QUE_PROJECT_ADD_OPTIONS_GRP",
-            "targetCode": "THM_COLOR_RED",
-            "weight": 6
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 6
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_THEME",
-            "linkValue": "",
-            "sourceCode": "QUE_PROJECT_ADD_OPTIONS_GRP",
-            "targetCode": "THM_FLOAT_BOTTOM_RIGHT",
-            "weight": 6
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 6
-        }
-      ],
-      "contextList": {},
+      "contextList": {
+        "context": [
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny"
+          }
+        ]
+      },
       "created": "2019-02-14T03:15:22",
       "id": 46341,
       "name": "Add Options",

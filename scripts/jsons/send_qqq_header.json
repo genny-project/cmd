@@ -122,22 +122,16 @@
           "realm": "genny"
         }
       ],
-      "links": [
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_THEME",
-            "linkValue": "link",
-            "sourceCode": "QUE_PROJECT_HEADER_GRP",
-            "targetCode": "THM_DISPLAY_HORIZONTAL",
-            "weight": 1
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "link",
-          "weight": 1
-        }
-      ],
-      "contextList": {},
+      "contextList": {
+        "context": [
+          {
+            "contextCode": "THM_DISPLAY_HORIZONTAL",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny"
+          }
+        ]
+      },
       "created": "2019-02-14T03:15:22",
       "id": 46341,
       "name": "Profile Details",

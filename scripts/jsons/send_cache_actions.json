@@ -35,37 +35,37 @@
       "cmd_type": "ROUTE_CHANGE",
       "code": "/internships/placed",
       "msg_type": "CMD_MSG",
-      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_PLACED"
+      "msg_id": "QUE_INTERNSHIPS_GRP:QUE_INTERNSHIPS_PLACED"
     },
     {
       "cmd_type": "ROUTE_CHANGE",
       "code": "/internships/completed",
       "msg_type": "CMD_MSG",
-      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_COMPLETED"
+      "msg_id": "QUE_INTERNSHIPS_GRP:QUE_INTERNSHIPS_COMPLETED"
     },
     {
       "cmd_type": "ROUTE_CHANGE",
       "code": "/internships/in-progress",
       "msg_type": "CMD_MSG",
-      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_IN_PROGRESS"
+      "msg_id": "QUE_INTERNSHIPS_GRP:QUE_INTERNSHIPS_IN_PROGRESS"
     },
     {
       "cmd_type": "ROUTE_CHANGE",
       "code": "/internships/active",
       "msg_type": "CMD_MSG",
-      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_ACTIVE"
+      "msg_id": "QUE_TREQUE_INTERNSHIPS_GRPE_GRP:QUE_INTERNSHIPS_ACTIVE"
     },
     {
       "cmd_type": "ROUTE_CHANGE",
       "code": "/internships/offered",
       "msg_type": "CMD_MSG",
-      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_OFFERED"
+      "msg_id": "QUE_INTERNSHIPS_GRP:QUE_INTERNSHIPS_OFFERED"
     },
     {
       "cmd_type": "ROUTE_CHANGE",
       "code": "/internships/offered",
       "msg_type": "CMD_MSG",
-      "msg_id": "QUE_TREE_GRP:QUE_INTERNSHIPS_OFFERED"
+      "msg_id": "QUE_INTERNSHIPS_GRP:QUE_INTERNSHIPS_OFFERED"
     },
 
     {
