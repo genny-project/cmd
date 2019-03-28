@@ -1,0 +1,50 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_PAGE_SIZE_5",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "5",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_PAGE_SIZE_10",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "10",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_PAGE_SIZE_20",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "20",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

@@ -1,0 +1,117 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_TABLE_CONTENT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Table Content Frame",
+          "valueString": "Table Content Frame"
+        }
+      ],
+      "code": "FRM_TABLE_CONTENT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_TABLE_CONTENT",
+            "targetCode": "QUE_TABLE_ROW_ONE_GRP",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_TABLE_CONTENT",
+            "targetCode": "QUE_TABLE_ROW_TWO_GRP",
+            "weight": 2
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 2
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_TABLE_CONTENT",
+            "targetCode": "QUE_TABLE_ROW_THREE_GRP",
+            "weight": 3
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 3
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_TABLE_CONTENT",
+            "targetCode": "QUE_TABLE_ROW_FOUR_GRP",
+            "weight": 4
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 4
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_TABLE_CONTENT",
+            "targetCode": "QUE_TABLE_ROW_FIVE_GRP",
+            "weight": 5
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 5
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_TABLE_CONTENT",
+            "targetCode": "THM_DISPLAY_VERTICAL",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1
+        }
+      ],
+      "name": "Table Content Frame",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

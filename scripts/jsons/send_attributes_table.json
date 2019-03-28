@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "inputmask": "dropdown",
+        "validationList": [
+          {
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              "GRP_PAGE_SIZE"
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_SELECT_PAGE_SIZE",
+            "index": 0,
+            "created": "2019-02-25T04:00:34.1",
+            "name": "dropdown",
+            "realm": "genny"
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "LNK_PAGE_SIZE",
+      "index": 0,
+      "created": "2019-02-23T23:27:14",
+      "updated": "2019-02-23T23:27:14",
+      "id": 16,
+      "name": "Page Size",
+      "realm": "genny"
+    },
+    {
+      "dataType": {
+        "className": "Text",
+        "typeName": "Text",
+        "validationList": [
+          {
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_NON_EMPTY",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "EmptyandBlankValues",
+            "realm": "genny"
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_NAME",
+      "index": 0,
+      "created": "2019-02-10T10:41:00",
+      "updated": "2019-02-10T10:41:00",
+      "id": 159,
+      "name": "ProjectName",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Attribute",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}
