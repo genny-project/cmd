@@ -51,12 +51,12 @@
         ]
       },
       "defaultPrivacyFlag": false,
-      "code": "PRI_NAME",
+      "code": "PRI_COUNT",
       "index": 0,
       "created": "2019-02-10T10:41:00",
       "updated": "2019-02-10T10:41:00",
       "id": 159,
-      "name": "ProjectName",
+      "name": "Count",
       "realm": "genny"
     }
   ],

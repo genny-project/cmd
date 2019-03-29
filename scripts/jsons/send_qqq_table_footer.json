@@ -64,6 +64,68 @@
           "question": {
             "attribute": {
               "dataType": {
+                "className": "Text",
+                "typeName": "Text",
+                "validationList": [
+                  {
+                    "regex": "(?!^$|\\s+)",
+                    "selectionBaseEntityGroupList": [
+                      ""
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_NON_EMPTY",
+                    "index": 0,
+                    "created": "2019-02-14T03:24:50.034",
+                    "name": "EmptyandBlankValues",
+                    "realm": "genny"
+                  }
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_COUNT",
+              "index": 0,
+              "created": "2019-02-10T10:41:00",
+              "updated": "2019-02-10T10:41:00",
+              "id": 159,
+              "name": "Count",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_COUNT",
+            "mandatory": false,
+            "readonly": true,
+            "oneshot": false,
+            "code": "QUE_SEARCH_COUNT",
+            "index": 0,
+            "created": "2018-08-14T02:46:55",
+            "updated": "2018-10-04T23:29:15",
+            "id": 88,
+            "name": "Search Count",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "GRP_SEARCH_RESULTS",
+          "questionCode": "QUE_SEARCH_COUNT",
+          "attributeCode": "PRI_COUNT",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": true,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:33",
+          "id": 3668,
+          "name": "Search Count",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
                 "className": "dropdown",
                 "typeName": "dropdown",
                 "inputmask": "dropdown",

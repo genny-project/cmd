@@ -2,7 +2,7 @@
   "items": [
     {
       "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-      "targetCode": "PRJ_INTERNMATCH",
+      "targetCode": "GRP_SEARCH_RESULTS",
       "questionCode": "QUE_TABLE_HEADER_GRP",
       "attributeCode": "QQQ_QUESTION_GROUP",
       "mandatory": false,
@@ -57,7 +57,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PRJ_INTERNMATCH",
+          "targetCode": "GRP_SEARCH_RESULTS",
           "questionCode": "QUE_TABLE_HEADER_ONE",
           "attributeCode": "PRI_NAME",
           "mandatory": true,
@@ -67,7 +67,9 @@
           "readonly": true,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "useQuestionNameAsValue": true
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,
@@ -118,7 +120,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PRJ_INTERNMATCH",
+          "targetCode": "GRP_SEARCH_RESULTS",
           "questionCode": "QUE_TABLE_HEADER_TWO",
           "attributeCode": "PRI_NAME",
           "mandatory": true,
@@ -128,7 +130,9 @@
           "readonly": true,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "useQuestionNameAsValue": true
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,
@@ -179,7 +183,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PRJ_INTERNMATCH",
+          "targetCode": "GRP_SEARCH_RESULTS",
           "questionCode": "QUE_TABLE_COLUMN_HEADER_THREE",
           "attributeCode": "PRI_NAME",
           "mandatory": true,
@@ -189,7 +193,9 @@
           "readonly": true,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "useQuestionNameAsValue": true
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,
@@ -240,7 +246,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PRJ_INTERNMATCH",
+          "targetCode": "GRP_SEARCH_RESULTS",
           "questionCode": "QUE_TABLE_COLUMN_HEADER_FOUR",
           "attributeCode": "PRI_NAME",
           "mandatory": true,
@@ -250,7 +256,9 @@
           "readonly": true,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "useQuestionNameAsValue": true
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,

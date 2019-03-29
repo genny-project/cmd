@@ -1,0 +1,38 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_COUNT",
+          "attributeName": "Count",
+          "baseEntityCode": "FRM_ROOT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "1-5 / 5",
+          "valueString": "1-5 / 5"
+        }
+      ],
+      "code": "GRP_SEARCH_RESULTS",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1000,
+      "index": 0,
+      "links": [],
+      "name": "Search Results Group",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
