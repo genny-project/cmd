@@ -51,45 +51,6 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "NORTH",
-            "sourceCode": "FRM_TABLE_CONTENT",
-            "targetCode": "QUE_TABLE_ROW_THREE_GRP",
-            "weight": 3
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "NORTH",
-          "weight": 3
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "NORTH",
-            "sourceCode": "FRM_TABLE_CONTENT",
-            "targetCode": "QUE_TABLE_ROW_FOUR_GRP",
-            "weight": 4
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "NORTH",
-          "weight": 4
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "NORTH",
-            "sourceCode": "FRM_TABLE_CONTENT",
-            "targetCode": "QUE_TABLE_ROW_FIVE_GRP",
-            "weight": 5
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "NORTH",
-          "weight": 5
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
             "attributeCode": "LNK_THEME",
             "linkValue": "NORTH",
             "sourceCode": "FRM_TABLE_CONTENT",

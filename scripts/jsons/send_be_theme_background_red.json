@@ -7,33 +7,34 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_SELECTABLE",
+          "baseEntityCode": "THM_BACKGROUND_RED",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Selectable Area",
-          "valueString": "Theme Selectable Area"
+          "value": "Theme Background Red",
+          "valueString": "Theme Background Red"
         },
         {
-          "attributeCode": "PRI_HAS_QUESTION_GRP_INPUT",
-          "attributeName": "Is Group Selectable Area?",
-          "baseEntityCode": "THM_SELECTABLE",
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_BACKGROUND_RED",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": true,
-          "valueBoolean": true
+          "value": { "backgroundColor": "red" },
+          "valueString": { "backgroundColor": "red" }
         }
       ],
-      "code": "THM_SELECTABLE",
+      "code": "THM_BACKGROUND_RED",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
-      "links": [],
-      "name": "Theme Selectable Area",
+      "links": [
+      ],
+      "name": "Theme Background Red",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

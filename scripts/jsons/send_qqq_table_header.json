@@ -2,7 +2,7 @@
   "items": [
     {
       "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-      "targetCode": "GRP_SEARCH_RESULTS",
+      "targetCode": "VTL_TABLE_ONE",
       "questionCode": "QUE_TABLE_HEADER_GRP",
       "attributeCode": "QQQ_QUESTION_GROUP",
       "mandatory": false,
@@ -17,34 +17,21 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "Sort",
+                "typeName": "Sort",
                 "validationList": [
-                  {
-                    "regex": "(?!^$|\\s+)",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_NON_EMPTY",
-                    "index": 0,
-                    "created": "2019-02-14T03:24:50.034",
-                    "name": "EmptyandBlankValues",
-                    "realm": "genny"
-                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_NAME",
+              "code": "PRI_TABLE_SORT",
               "index": 0,
               "created": "2019-02-10T10:41:00",
               "updated": "2019-02-10T10:41:00",
               "id": 159,
-              "name": "ProjectName",
+              "name": "Table Sort",
               "realm": "genny"
             },
-            "attributeCode": "PRI_NAME",
+            "attributeCode": "PRI_TABLE_SORT",
             "mandatory": false,
             "readonly": true,
             "oneshot": false,
@@ -57,9 +44,9 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "GRP_SEARCH_RESULTS",
+          "targetCode": "VTL_TABLE_ONE",
           "questionCode": "QUE_TABLE_HEADER_ONE",
-          "attributeCode": "PRI_NAME",
+          "attributeCode": "PRI_TABLE_SORT",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -120,7 +107,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "GRP_SEARCH_RESULTS",
+          "targetCode": "VTL_TABLE_ONE",
           "questionCode": "QUE_TABLE_HEADER_TWO",
           "attributeCode": "PRI_NAME",
           "mandatory": true,
@@ -183,7 +170,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "GRP_SEARCH_RESULTS",
+          "targetCode": "VTL_TABLE_ONE",
           "questionCode": "QUE_TABLE_COLUMN_HEADER_THREE",
           "attributeCode": "PRI_NAME",
           "mandatory": true,
@@ -246,7 +233,7 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "GRP_SEARCH_RESULTS",
+          "targetCode": "VTL_TABLE_ONE",
           "questionCode": "QUE_TABLE_COLUMN_HEADER_FOUR",
           "attributeCode": "PRI_NAME",
           "mandatory": true,

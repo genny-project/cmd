@@ -51,13 +51,91 @@
         ]
       },
       "defaultPrivacyFlag": false,
-      "code": "PRI_COUNT",
+      "code": "PRI_TOTAL_COUNT",
       "index": 0,
       "created": "2019-02-10T10:41:00",
       "updated": "2019-02-10T10:41:00",
       "id": 159,
-      "name": "Count",
+      "name": "Total Count",
       "realm": "genny"
+    },
+    {
+      "dataType": {
+        "className": "Sort",
+        "typeName": "Sort",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_TABLE_SORT",
+      "index": 0,
+      "created": "2019-02-10T10:41:00",
+      "updated": "2019-02-10T10:41:00",
+      "id": 159,
+      "name": "Table Sort",
+      "realm": "genny"
+    },
+    {
+      "code": "PRI_PREV_EVENT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Prev Event",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_NEXT_EVENT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Next Event",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     }
   ],
   "data_type": "Attribute",
