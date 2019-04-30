@@ -56,6 +56,7 @@
           "weight": 0.0,
           "parentId": 0,
           "contextList": {
+            "icon": "search",
             "contexts": [
               {
                 "contextCode": "THM_VISUAL_CONTROL_SEARCH",

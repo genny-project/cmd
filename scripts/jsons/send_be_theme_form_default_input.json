@@ -1,0 +1,104 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "THM_FORM_DEFAULT_INPUT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Theme Form Default Input",
+          "valueString": "Theme Form Default Input"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_FORM_DEFAULT_INPUT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "borderBottomWidth": 1,
+            "borderColor": "#ddd",
+            "borderStyle": "solid"
+          },
+          "valueString": {
+            "borderBottomWidth": 1,
+            "borderColor": "#ddd",
+            "borderStyle": "solid"
+          }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content Hover",
+          "baseEntityCode": "THM_FORM_DEFAULT_INPUT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "borderColor": "#aaa"
+          },
+          "valueString": {
+            "borderColor": "#aaa"
+          }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_ACTIVE",
+          "attributeName": "Content Active",
+          "baseEntityCode": "THM_FORM_DEFAULT_INPUT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "borderColor": "green"
+          },
+          "valueString": {
+            "borderColor": "green"
+          }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_ERROR",
+          "attributeName": "Content Error",
+          "baseEntityCode": "THM_FORM_DEFAULT_INPUT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "borderColor": "red",
+            "color": "red"
+          },
+          "valueString": {
+            "borderColor": "red",
+            "color": "red"
+          }
+        }
+      ],
+      "code": "THM_FORM_DEFAULT_INPUT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1000,
+      "index": 0,
+      "links": [],
+      "name": "Theme Form Default Input",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
