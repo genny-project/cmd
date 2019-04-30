@@ -67,7 +67,8 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
           "id": 3668,
@@ -128,7 +129,8 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3669,
@@ -167,7 +169,7 @@
               "realm": "genny"
             },
             "attributeCode": "PRI_EMAIL",
-            "mandatory": false,
+            "mandatory": true,
             "readonly": false,
             "oneshot": false,
             "code": "QUE_EMAIL",
@@ -189,7 +191,49 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_COLOR_BLUE",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "LABEL",
+                "realm": "genny",
+                "weight": 1
+              },
+              {
+                "contextCode": "THM_COLOR_GREEN",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 3
+              },
+              {
+                "contextCode": "THM_COLOR_RED",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "INPUT",
+                "realm": "genny",
+                "weight": 2
+              },
+              {
+                "contextCode": "THM_BACKGROUND_WHITE",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "INPUT",
+                "realm": "genny",
+                "weight": 2
+              },
+              {
+                "contextCode": "THM_BACKGROUND_WHITE",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "ICON",
+                "realm": "genny",
+                "weight": 2
+              }
+            ]
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -197,7 +241,40 @@
           "realm": "genny"
         }
       ],
-      "contextList": {},
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_VISUAL_CONTROL_ONE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_STATE_TEST",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_STATE_TEST",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "ICON",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FULL_WIDTH",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          }
+        ]
+      },
       "created": "2019-02-14T03:15:22",
       "id": 46341,
       "name": "Profile Details",

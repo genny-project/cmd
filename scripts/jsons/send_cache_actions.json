@@ -18,12 +18,6 @@
       "msg_type": "CMD_MSG",
       "msg_id": "QUE_PROJECT_USER_OPTIONS_GRP:QUE_PROJECT_USER_OPTIONS_GRP:SEL_USER_OPTIONS_PROFILE"
     },
-    {
-      "cmd_type": "ROUTE_CHANGE",
-      "code": "/logout",
-      "msg_type": "CMD_MSG",
-      "msg_id": "QUE_PROJECT_USER_OPTIONS_GRP:QUE_PROJECT_USER_OPTIONS_GRP:SEL_USER_OPTIONS_LOGOUT"
-    },
 
     {
       "cmd_type": "ROUTE_CHANGE",

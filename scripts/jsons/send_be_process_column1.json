@@ -1,0 +1,91 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_PROCESS_ONE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Process Column Frame",
+          "valueString": "Process Column Frame"
+        }
+      ],
+      "code": "FRM_PROCESS_ONE",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_PROCESS_ONE",
+            "targetCode": "FRM_PROCESS_COLUMN_HEADER",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_PROCESS_ONE",
+            "targetCode": "FRM_PROCESS_COLUMN_CONTENT",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "SOUTH",
+            "sourceCode": "FRM_PROCESS_ONE",
+            "targetCode": "FRM_PROCESS_COLUMN_FOOTER",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "SOUTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_PROCESS_ONE",
+            "targetCode": "THM_SCROLLABLE_VERTICAL",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1
+        }
+      ],
+      "name": "Process Column Frame",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

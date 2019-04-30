@@ -1,0 +1,91 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_PROCESS",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Process Frame",
+          "valueString": "Process Frame"
+        }
+      ],
+      "code": "FRM_PROCESS",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_PROCESS",
+            "targetCode": "FRM_PROCESS_ONE",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_PROCESS",
+            "targetCode": "FRM_PROCESS_TWO",
+            "weight": 2
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 2
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_PROCESS",
+            "targetCode": "FRM_PROCESS_THREE",
+            "weight": 3
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 3
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_PROCESS",
+            "targetCode": "FRM_PROCESS_FOUR",
+            "weight": 4
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 4
+        }
+      ],
+      "name": "Process Frame",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

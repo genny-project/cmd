@@ -7,18 +7,18 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Expandable",
-          "valueString": "Theme Expandable"
+          "value": "Theme Visual Control One",
+          "valueString": "Theme Visual Control One"
         },
         {
-          "attributeCode": "PRI_IS_EXPANDABLE",
-          "attributeName": "Is Group Expandable?",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "attributeCode": "PRI_HAS_LABEL",
+          "attributeName": "Has Label?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -27,9 +27,9 @@
           "valueBoolean": true
         },
         {
-          "attributeCode": "PRI_HAS_QUESTION_GRP_INPUT",
-          "attributeName": "Has Question Group Input?",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "attributeCode": "PRI_HAS_REQUIRED",
+          "attributeName": "Has Required?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -38,24 +38,24 @@
           "valueBoolean": true
         },
         {
-          "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "attributeCode": "PRI_HAS_ICON",
+          "attributeName": "Has Icon?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": false,
-          "valueBoolean": false
+          "value": true,
+          "valueBoolean": true
         }
       ],
-      "code": "THM_EXPANDABLE",
+      "code": "THM_VISUAL_CONTROL_ONE",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
       "index": 0,
       "links": [],
-      "name": "Theme Expandable",
+      "name": "Theme Visual Control One",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
