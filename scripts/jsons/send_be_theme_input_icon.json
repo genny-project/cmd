@@ -7,51 +7,62 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_HEADER_DEFAULT",
+          "baseEntityCode": "THM_INPUT_ICON",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Header Default",
-          "valueString": "Theme Header Default"
+          "value": "Theme Input Icon",
+          "valueString": "Theme Input Icon"
         },
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_HEADER_DEFAULT",
+          "baseEntityCode": "THM_TREE_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "height": 50,
+            "borderRadius": 20,
             "padding": 5
           },
           "valueString": {
-            "height": 50,
+            "borderRadius": 20,
             "padding": 5
           }
         },
         {
-          "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_HEADER_DEFAULT",
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content Hover",
+          "baseEntityCode": "THM_TREE_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": false,
-          "valueBoolean": false
+          "value": { "backgroundColor": "#162533" },
+          "valueString": { "backgroundColor": "#162533" }
+        },
+        {
+          "attributeCode": "PRI_HAS_ICON",
+          "attributeName": "Has Icon?",
+          "baseEntityCode": "THM_INPUT_ICON",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
         }
       ],
-      "code": "THM_HEADER_DEFAULT",
+      "code": "THM_INPUT_ICON",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Header Default",
+      "name": "Theme Input Icon",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
