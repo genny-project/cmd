@@ -54,7 +54,7 @@
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
             "id": 213,
-            "name": " ",
+            "name": "Add",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
@@ -79,14 +79,6 @@
         }
       ],
       "contextList": {
-        "contexts": [
-          {
-            "contextCode": "THM_COLOR_RED",
-            "created": "2019-02-06T04:24:58",
-            "name": "THEME",
-            "realm": "genny"
-          }
-        ]
       },
       "created": "2019-02-14T03:15:22",
       "id": 46341,

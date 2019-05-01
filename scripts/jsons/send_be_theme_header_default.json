@@ -7,53 +7,35 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_FORM_DEFAULT_CONTAINER",
+          "baseEntityCode": "THM_HEADER_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Form Default Container",
-          "valueString": "Theme Form Default Container"
+          "value": "Theme Header Default",
+          "valueString": "Theme Header Default"
         },
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_FORM_DEFAULT_CONTAINER",
+          "baseEntityCode": "THM_HEADER_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "backgroundColor": "white",
-            "padding": 10,
-            "maxWidth": 700,
-            "width": "100%",
-            "shadowColor": "#000",
-            "shadowOpacity": 0.4,
-            "shadowRadius": 5,
-            "shadowOffset": {
-              "width": 0,
-              "height": 0
-            }
+            "height": 40,
+            "padding": 5
           },
           "valueString": {
-            "backgroundColor": "white",
-            "padding": 10,
-            "maxWidth": 700,
-            "width": "100%",
-            "shadowColor": "#000",
-            "shadowOpacity": 0.4,
-            "shadowRadius": 5,
-            "shadowOffset": {
-              "width": 0,
-              "height": 0
-            }
+            "height": 40,
+            "padding": 5
           }
         },
         {
           "attributeCode": "PRI_IS_INHERITABLE",
           "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_FORM_DEFAULT_CONTAINER",
+          "baseEntityCode": "THM_HEADER_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -62,13 +44,14 @@
           "valueBoolean": false
         }
       ],
-      "code": "THM_FORM_DEFAULT_CONTAINER",
+      "code": "THM_HEADER_DEFAULT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
-      "links": [],
-      "name": "Theme Form Default Container",
+      "links": [
+      ],
+      "name": "Theme Header Default",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

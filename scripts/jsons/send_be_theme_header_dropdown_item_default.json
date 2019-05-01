@@ -7,44 +7,49 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_MARGINLEFT_10",
+          "baseEntityCode": "THM_HEADER_DROPDOWN_ITEM_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Margin Left 10",
-          "valueString": "Theme Margin Left 10"
+          "value": "Theme Header Dropdown Item Default",
+          "valueString": "Theme Header Dropdown Item Default"
         },
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_MARGINLEFT_10",
+          "baseEntityCode": "THM_HEADER_DROPDOWN_ITEM_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "paddingLeft": 5,
-            "iconPlacement": "left",
-            "paddingBottom": 3,
-            "paddingTop": 3
+            "padding": 5
           },
           "valueString": {
-            "paddingLeft": 5,
-            "iconPlacement": "left",
-            "paddingBottom": 3,
-            "paddingTop": 3
+            "padding": 5
           }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content Hover",
+          "baseEntityCode": "THM_TREE_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "backgroundColor": "#162533" },
+          "valueString": { "backgroundColor": "#162533" }
         }
       ],
-      "code": "THM_MARGINLEFT_10",
+      "code": "THM_HEADER_DROPDOWN_ITEM_DEFAULT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Margin Left 10",
+      "name": "Theme Header Dropdown Item Default",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

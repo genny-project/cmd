@@ -96,14 +96,6 @@
           "weight": 0.0,
           "parentId": 0,
           "contextList": {
-            "contexts": [
-              {
-                "contextCode": "THM_COLOR_GREEN",
-                "created": "2019-02-06T04:24:58",
-                "name": "THEME",
-                "realm": "genny"
-              }
-            ]
           },
           "created": "2019-02-25T04:00:34.151",
           "id": 43451,
@@ -112,14 +104,6 @@
         }
       ],
       "contextList": {
-        "contexts": [
-          {
-            "contextCode": "THM_COLOR_RED",
-            "created": "2019-02-06T04:24:58",
-            "name": "THEME",
-            "realm": "genny"
-          }
-        ]
       },
       "created": "2019-02-14T03:15:22",
       "id": 46341,

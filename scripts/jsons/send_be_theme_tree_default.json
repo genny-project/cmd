@@ -7,56 +7,64 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_STATE_TEST",
+          "baseEntityCode": "THM_TREE_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme State Test",
-          "valueString": "Theme State Test"
+          "value": "Theme Tree Default",
+          "valueString": "Theme Tree Default"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_TREE_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "paddingRight": 5,
+            "borderTopRightRadius": 20,
+            "borderBottomRightRadius": 20
+          },
+          "valueString": {
+            "paddingRight": 5,
+            "borderTopRightRadius": 20,
+            "borderBottomRightRadius": 20
+          }
         },
         {
           "attributeCode": "PRI_CONTENT_HOVER",
           "attributeName": "Content Hover",
-          "baseEntityCode": "THM_STATE_TEST",
+          "baseEntityCode": "THM_TREE_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "backgroundColor": "#bff" },
-          "valueString": { "backgroundColor": "#bff" }
+          "value": { "backgroundColor": "#162533" },
+          "valueString": { "backgroundColor": "#162533" }
         },
         {
-          "attributeCode": "PRI_CONTENT_ACTIVE",
-          "attributeName": "Content Active",
-          "baseEntityCode": "THM_STATE_TEST",
+          "attributeCode": "PRI_HAS_ICON",
+          "attributeName": "Has Icon?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "backgroundColor": "#fbf" },
-          "valueString": { "backgroundColor": "#fbf" }
-        },
-        {
-          "attributeCode": "PRI_CONTENT_DISABLED",
-          "attributeName": "Content Disabled",
-          "baseEntityCode": "THM_STATE_TEST",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": { "backgroundColor": "#ffb" },
-          "valueString": { "backgroundColor": "#ffb" }
+          "value": true,
+          "valueBoolean": true
         }
       ],
-      "code": "THM_STATE_TEST",
+      "code": "THM_TREE_DEFAULT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme State Test",
+      "name": "Theme Tree Default",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

@@ -7,68 +7,48 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_FORM_DEFAULT_CONTAINER",
+          "baseEntityCode": "THM_TREE_INPUT_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Form Default Container",
-          "valueString": "Theme Form Default Container"
+          "value": "Theme Form Input Default",
+          "valueString": "Theme Form Input Default"
         },
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_FORM_DEFAULT_CONTAINER",
+          "baseEntityCode": "THM_TREE_INPUT_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "backgroundColor": "white",
-            "padding": 10,
-            "maxWidth": 700,
-            "width": "100%",
-            "shadowColor": "#000",
-            "shadowOpacity": 0.4,
-            "shadowRadius": 5,
-            "shadowOffset": {
-              "width": 0,
-              "height": 0
-            }
+            "backgroundColor": "none"
           },
           "valueString": {
-            "backgroundColor": "white",
-            "padding": 10,
-            "maxWidth": 700,
-            "width": "100%",
-            "shadowColor": "#000",
-            "shadowOpacity": 0.4,
-            "shadowRadius": 5,
-            "shadowOffset": {
-              "width": 0,
-              "height": 0
-            }
+            "backgroundColor": "none"
           }
         },
         {
-          "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_FORM_DEFAULT_CONTAINER",
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content Hover",
+          "baseEntityCode": "THM_TREE_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": false,
-          "valueBoolean": false
+          "value": { "backgroundColor": "none" },
+          "valueString": { "backgroundColor": "none" }
         }
       ],
-      "code": "THM_FORM_DEFAULT_CONTAINER",
+      "code": "THM_TREE_INPUT_DEFAULT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
       "index": 0,
       "links": [],
-      "name": "Theme Form Default Container",
+      "name": "Theme Form Input Default",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

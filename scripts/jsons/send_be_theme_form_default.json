@@ -29,6 +29,61 @@
           "valueString": {
             "backgroundColor": "none"
           }
+        },
+        {
+          "attributeCode": "PRI_HAS_QUESTION_GRP_TITLE",
+          "attributeName": "Has Question Group Title?",
+          "baseEntityCode": "THM_FORM_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_HAS_QUESTION_GRP_DESCRIPTION",
+          "attributeName": "Has Question Group Description?",
+          "baseEntityCode": "THM_FORM_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_HAS_LABEL",
+          "attributeName": "Has Label?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_HAS_REQUIRED",
+          "attributeName": "Has Required?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_HAS_ICON",
+          "attributeName": "Has Icon?",
+          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
         }
       ],
       "code": "THM_FORM_DEFAULT",

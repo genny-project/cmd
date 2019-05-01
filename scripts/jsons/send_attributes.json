@@ -747,6 +747,96 @@
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "dataType": {
+        "className": "Text",
+        "typeName": "Text",
+        "validationList": [
+          {
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_NON_EMPTY",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "errorMessage": "Please only enter letters or underscores."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_FIRSTNAME",
+      "index": 0,
+      "created": "2019-02-10T10:41:00",
+      "updated": "2019-02-10T10:41:00",
+      "id": 159,
+      "name": "FirstName",
+      "realm": "genny"
+    },
+    {
+      "dataType": {
+        "className": "Text",
+        "typeName": "Text",
+        "validationList": [
+          {
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_NON_EMPTY",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "errorMessage": "Please only enter letters or underscores."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_LASTNAME",
+      "index": 0,
+      "created": "2019-02-10T10:40:47",
+      "updated": "2019-02-10T10:40:47",
+      "id": 6,
+      "name": "LastName",
+      "realm": "genny"
+    },
+    {
+      "dataType": {
+        "className": "Email",
+        "typeName": "Email",
+        "validationList": [
+          {
+            "regex": "^(\\w[-._+\\w]*\\w@\\w[-._\\w]*\\w\\.\\w{2,20})$",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_EMAIL",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "Email",
+            "realm": "genny",
+            "errorMessage": "Please enter a valid email address."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_EMAIL",
+      "index": 0,
+      "created": "2019-02-10T10:40:30",
+      "updated": "2019-02-10T10:40:30",
+      "id": 151,
+      "name": "Email",
+      "realm": "genny"
     }
   ],
   "data_type": "Attribute",

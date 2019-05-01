@@ -9,7 +9,21 @@
       "delete": false,
       "id": 374,
       "index": 0,
-      "links": [],
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "",
+            "sourceCode": "SEL_USER_OPTIONS_PROFILE",
+            "targetCode": "THM_HEADER_DROPDOWN_ITEM_DEFAULT",
+            "weight": 6
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 6
+        }
+      ],
       "name": "Add Base Entity",
       "realm": "genny",
       "replace": false,
@@ -23,7 +37,21 @@
       "delete": false,
       "id": 375,
       "index": 0,
-      "links": [],
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "",
+            "sourceCode": "SEL_USER_OPTIONS_PROFILE",
+            "targetCode": "THM_HEADER_DROPDOWN_ITEM_DEFAULT",
+            "weight": 6
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 6
+        }
+      ],
       "name": "Add Base Application",
       "realm": "genny",
       "replace": false,
