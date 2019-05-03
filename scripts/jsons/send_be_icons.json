@@ -26,6 +26,31 @@
       "replace": false,
       "totalCount": 1,
       "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_MENU",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "menu",
+          "valueString": "menu"
+        }
+      ],
+      "code": "ICN_MENU",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Menu",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
     }
   ],
   "msg_type": "DATA_MSG",
