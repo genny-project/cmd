@@ -193,6 +193,22 @@
           "weight": 0.0,
           "parentId": 0,
           "contextList": {
+            "contexts": [
+              {
+                "contextCode": "ICN_EMAIL",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
+              },
+              {
+                "contextCode": "THM_SHOW_ICON",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "INPUT",
+                "realm": "genny",
+                "weight": 1
+              }
+            ]
           },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",

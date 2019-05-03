@@ -1,0 +1,67 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "THM_HEADER_DROPDOWN_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Theme Header Dropdown Default",
+          "valueString": "Theme Header Dropdown Default"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_HEADER_DROPDOWN_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "padding": 5,
+            "borderRadius": 20
+          },
+          "valueString": {
+            "padding": 5,
+            "borderRadius": 20
+          }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content Hover",
+          "baseEntityCode": "THM_HEADER_DROPDOWN_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "backgroundColor": "#162533" },
+          "valueString": { "backgroundColor": "#162533" }
+        }
+      ],
+      "code": "THM_HEADER_DROPDOWN_DEFAULT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 10230,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Theme Header Dropdown Default",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
