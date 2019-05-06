@@ -7,18 +7,18 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_TREE_DELIMITER_DEFAULT",
+          "baseEntityCode": "THM_HEADER_DELIMITER_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Tree Delimiter Default",
-          "valueString": "Theme Tree Delimiter Default"
+          "value": "Theme Header Delimiter Default",
+          "valueString": "Theme Header Delimiter Default"
         },
         {
           "attributeCode": "PRI_HAS_DELIMITER",
           "attributeName": "Has Delimiter?",
-          "baseEntityCode": "THM_TREE_DELIMITER_DEFAULT",
+          "baseEntityCode": "THM_HEADER_DELIMITER_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -29,29 +29,31 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_TREE_DELIMITER_DEFAULT",
+          "baseEntityCode": "THM_HEADER_DELIMITER_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
             "padding": 2,
-            "backgroundColor": "#162533"
+            "backgroundColor": "green",
+            "height": "100%"
           },
           "valueString": {
             "padding": 2,
-            "backgroundColor": "#162533"
+            "backgroundColor": "green",
+            "height": "100%"
           }
         }
       ],
-      "code": "THM_TREE_DELIMITER_DEFAULT",
+      "code": "THM_HEADER_DELIMITER_DEFAULT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Tree Delimiter Default",
+      "name": "Theme Header Delimiter Default",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

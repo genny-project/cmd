@@ -60,6 +60,20 @@
           "updated": "2019-02-06T04:25:25",
           "valueString": "EAST",
           "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "EAST",
+            "panelComponentType": "DELIMITER",
+            "sourceCode": "FRM_HEADER",
+            "targetCode": "THM_HEADER_DELIMITER_DEFAULT",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "EAST",
+          "weight": 1
         }
       ],
       "name": "Header Frame",

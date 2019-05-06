@@ -1137,7 +1137,7 @@
             "contextCode": "THM_TREE_DELIMITER_DEFAULT",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "visualControlType": "DELIMITER",
+            "formGroupType": "DELIMITER",
             "realm": "genny",
             "weight": 1
           }
