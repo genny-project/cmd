@@ -52,7 +52,14 @@
           "parentId": 0,
           "contextList": {
             "eventType": "TV_SELECT",
-            "icon": "home"
+            "contexts": [
+              {
+                "contextCode": "ICN_DASHBOARD",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
+              }
+            ]
           },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:33",
@@ -105,9 +112,29 @@
                 "created": "2019-02-06T04:24:58",
                 "name": "THEME",
                 "realm": "genny"
+              },
+              {
+                "contextCode": "THM_INPUT_ICON",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 1
+              },
+              {
+                "contextCode": "ICN_WORK",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
+              },
+              {
+                "contextCode": "THM_SHOW_ICON",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "INPUT",
+                "realm": "genny",
+                "weight": 1
               }
-            ],
-            "icon": "home"
+            ]
           },
           "childAsks": [
             {
@@ -148,7 +175,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_BEENHERE",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -195,7 +229,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "add"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_VERIFIED_USER",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -242,7 +283,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_CACHED",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -289,7 +337,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_SUBJECT",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -336,7 +391,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_LOCAL_OFFER",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -395,9 +457,14 @@
                 "created": "2019-02-06T04:24:58",
                 "name": "THEME",
                 "realm": "genny"
+              },
+              {
+                "contextCode": "ICN_CONTACTS",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
               }
-            ],
-            "icon": "home"
+            ]
           },
           "childAsks": [
             {
@@ -439,7 +506,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_PERSON",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -486,7 +560,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_PERSON",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -533,7 +614,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_PERSON",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -586,9 +674,14 @@
                     "created": "2019-02-06T04:24:58",
                     "name": "THEME",
                     "realm": "genny"
+                  },
+                  {
+                    "contextCode": "ICN_PERSON",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
                   }
-                ],
-                "icon": "home"
+                ]
               },
               "childAsks": [
                 {
@@ -630,7 +723,14 @@
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
-                    "icon": "home"
+                    "contexts": [
+                      {
+                        "contextCode": "ICN_LOCAL_OFFER",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "ICON",
+                        "realm": "genny"
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:33",
@@ -676,7 +776,15 @@
                   "readonly": false,
                   "weight": 0.0,
                   "parentId": 0,
-                  "contextList": {"icon": "home"
+                  "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "ICN_CACHED",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "ICON",
+                        "realm": "genny"
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:33",
@@ -723,7 +831,14 @@
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
-                    "icon": "home"
+                    "contexts": [
+                      {
+                        "contextCode": "ICN_BUSINESS",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "ICON",
+                        "realm": "genny"
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:33",
@@ -770,7 +885,14 @@
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
-                    "icon": "home"
+                    "contexts": [
+                      {
+                        "contextCode": "ICN_BEENHERE",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "ICON",
+                        "realm": "genny"
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:33",
@@ -816,7 +938,14 @@
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
-                    "icon": "home"
+                    "contexts": [
+                      {
+                        "contextCode": "ICN_DESCRIPTION",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "ICON",
+                        "realm": "genny"
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:33",
@@ -863,7 +992,14 @@
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
-                    "icon": "home"
+                    "contexts": [
+                      {
+                        "contextCode": "ICN_SUBJECT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "ICON",
+                        "realm": "genny"
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:33",
@@ -943,9 +1079,14 @@
                 "created": "2019-02-06T04:24:58",
                 "name": "THEME",
                 "realm": "genny"
+              },
+              {
+                "contextCode": "ICN_BUSINESS",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
               }
-            ],
-            "icon": "home"
+            ]
           },
           "childAsks": [
             {
@@ -987,7 +1128,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_BUSINESS",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -1034,7 +1182,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_BUSINESS",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -1081,7 +1236,14 @@
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
-                "icon": "home"
+                "contexts": [
+                  {
+                    "contextCode": "ICN_BUSINESS",
+                    "created": "2019-02-06T04:24:58",
+                    "name": "ICON",
+                    "realm": "genny"
+                  }
+                ]
               },
               "created": "2018-08-29T03:00:40",
               "updated": "2018-12-12T02:22:33",
@@ -1137,7 +1299,22 @@
             "contextCode": "THM_TREE_DELIMITER_DEFAULT",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "formGroupType": "DELIMITER",
+            "visualControlType": "DELIMITER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_INPUT_ICON",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_SHOW_ICON",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT",
             "realm": "genny",
             "weight": 1
           }

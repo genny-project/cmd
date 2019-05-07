@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "dataType": {
+        "className": "Email",
+        "typeName": "Email",
+        "validationList": [
+          {
+            "regex": "^(\\w[-._+\\w]*\\w@\\w[-._\\w]*\\w\\.\\w{2,20})$",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_EMAIL",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "Email",
+            "realm": "genny",
+            "errorMessage": "Please enter a valid email address."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_EMAIL",
+      "index": 0,
+      "created": "2019-02-10T10:40:30",
+      "updated": "2019-02-10T10:40:30",
+      "id": 151,
+      "name": "Email",
+      "realm": "genny"
+    },
+    {
+      "dataType": {
+        "className": "TextArea",
+        "typeName": "TextArea",
+        "validationList": [
+          {
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_NON_EMPTY",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "EmptyandBlankValues",
+            "realm": "genny"
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_TEXT_AREA",
+      "index": 0,
+      "created": "2019-02-10T10:40:30",
+      "updated": "2019-02-10T10:40:30",
+      "id": 151,
+      "name": "Input TextArea",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Attribute",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}

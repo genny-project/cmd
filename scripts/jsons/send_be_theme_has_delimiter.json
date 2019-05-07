@@ -7,42 +7,34 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_HEADER_DELIMITER_DEFAULT",
+          "baseEntityCode": "THM_HAS_DELIMITER",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Header Delimiter Default",
-          "valueString": "Theme Header Delimiter Default"
+          "value": "Theme Has Delimiter",
+          "valueString": "Theme Has Delimiter"
         },
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_HEADER_DELIMITER_DEFAULT",
+          "attributeCode": "PRI_HAS_DELIMITER",
+          "attributeName": "Has Delimiter?",
+          "baseEntityCode": "THM_HAS_DELIMITER",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": {
-            "padding": 2,
-            "backgroundColor": "green",
-            "height": "100%"
-          },
-          "valueString": {
-            "padding": 2,
-            "backgroundColor": "green",
-            "height": "100%"
-          }
+          "value": true,
+          "valueBoolean": true
         }
       ],
-      "code": "THM_HEADER_DELIMITER_DEFAULT",
+      "code": "THM_HAS_DELIMITER",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Header Delimiter Default",
+      "name": "Theme Has Delimiter",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

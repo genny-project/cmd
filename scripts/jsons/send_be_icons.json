@@ -51,6 +51,306 @@
       "replace": false,
       "totalCount": 1,
       "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_HOME",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "home",
+          "valueString": "home"
+        }
+      ],
+      "code": "ICN_HOME",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Home",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_DASHBOARD",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "dashboard",
+          "valueString": "dashboard"
+        }
+      ],
+      "code": "ICN_DASHBOARD",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Dashboard",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_WORK",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "work",
+          "valueString": "work"
+        }
+      ],
+      "code": "ICN_WORK",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Work",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_CONTACTS",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "contacts",
+          "valueString": "contacts"
+        }
+      ],
+      "code": "ICN_CONTACTS",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Contacts",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_BUSINESS",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "business",
+          "valueString": "business"
+        }
+      ],
+      "code": "ICN_BUSINESS",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Business",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_PERSON",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "person",
+          "valueString": "person"
+        }
+      ],
+      "code": "ICN_PERSON",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Person",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_VERIFIED_USER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "verified_user",
+          "valueString": "verified_user"
+        }
+      ],
+      "code": "ICN_VERIFIED_USER",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Verified User",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_BEENHERE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "beenhere",
+          "valueString": "beenhere"
+        }
+      ],
+      "code": "ICN_BEENHERE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Beenhere",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_LOCAL_OFFER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "local_offer",
+          "valueString": "local_offer"
+        }
+      ],
+      "code": "ICN_LOCAL_OFFER",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Local Offer",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_SUBJECT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "subject",
+          "valueString": "subject"
+        }
+      ],
+      "code": "ICN_SUBJECT",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Subject",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_CACHED",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "cached",
+          "valueString": "cached"
+        }
+      ],
+      "code": "ICN_CACHED",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Cached",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_DESCRIPTION",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "description",
+          "valueString": "description"
+        }
+      ],
+      "code": "ICN_DESCRIPTION",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Description",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
     }
   ],
   "msg_type": "DATA_MSG",
