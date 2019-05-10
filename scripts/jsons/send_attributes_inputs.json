@@ -1,63 +1,394 @@
 {
   "items": [
     {
+      "code": "PRI_EVENT",
+      "created": "2019-02-18T04:37:31",
       "dataType": {
-        "className": "Email",
-        "typeName": "Email",
+        "className": "Event",
+        "typeName": "Event",
         "validationList": [
           {
-            "regex": "^(\\w[-._+\\w]*\\w@\\w[-._\\w]*\\w\\.\\w{2,20})$",
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
             "selectionBaseEntityGroupList": [
               ""
-            ],
-            "recursiveGroup": false,
-            "multiAllowed": false,
-            "code": "VLD_EMAIL",
-            "index": 0,
-            "created": "2019-02-14T03:24:50.034",
-            "name": "Email",
-            "realm": "genny",
-            "errorMessage": "Please enter a valid email address."
+            ]
           }
         ]
       },
       "defaultPrivacyFlag": false,
-      "code": "PRI_EMAIL",
+      "delete": false,
+      "id": 1,
       "index": 0,
-      "created": "2019-02-10T10:40:30",
-      "updated": "2019-02-10T10:40:30",
-      "id": 151,
-      "name": "Email",
-      "realm": "genny"
+      "name": "Event",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     },
     {
+      "code": "PRI_TEXT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Text",
+        "typeName": "Text",
+        "validationList": [
+          {
+            "code": "VLD_NON_EMPTY",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "errorMessage": "Please only enter letters or underscores."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Text",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_TEXT_AREA",
+      "created": "2019-02-18T04:37:31",
       "dataType": {
         "className": "TextArea",
         "typeName": "TextArea",
         "validationList": [
           {
+            "code": "VLD_NON_EMPTY",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
             "selectionBaseEntityGroupList": [
               ""
             ],
-            "recursiveGroup": false,
-            "multiAllowed": false,
-            "code": "VLD_NON_EMPTY",
-            "index": 0,
-            "created": "2019-02-14T03:24:50.034",
-            "name": "EmptyandBlankValues",
-            "realm": "genny"
+            "errorMessage": "Please only enter letters or underscores."
           }
         ]
       },
       "defaultPrivacyFlag": false,
-      "code": "PRI_TEXT_AREA",
+      "delete": false,
+      "id": 1,
       "index": 0,
-      "created": "2019-02-10T10:40:30",
-      "updated": "2019-02-10T10:40:30",
-      "id": 151,
       "name": "Input TextArea",
-      "realm": "genny"
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DROPDOWN_ITEMS"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Dropdown",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_MULTI",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdownmultiple",
+        "typeName": "dropdownmultiple",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DROPDOWN_ITEMS"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Dropdown Multi",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_CHECKBOX",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "checkboxmultiple",
+        "typeName": "checkboxmultiple",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DROPDOWN_ITEMS"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Checkbox",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_RADIO",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "radio",
+        "typeName": "radio",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DROPDOWN_ITEMS"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Radio",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_TAGS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Tag",
+        "typeName": "Tag",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DROPDOWN_ITEMS"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Tags",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_SWITCH",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "switch",
+        "typeName": "switch",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Switch",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_FILE",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "upload",
+        "typeName": "upload",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input File",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_IMAGE",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "image",
+        "typeName": "image",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Image",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_EVENT_MENU",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "menu",
+        "typeName": "menu",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DROPDOWN_ITEMS"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Event Menu",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DATEPICKER",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "date",
+        "typeName": "date",
+        "validationList": [
+          {
+            "code": "VLD_PAST_DATE",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Past Date",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])*",
+            "selectionBaseEntityGroupList": [
+            ],
+            "errorMessage": "Please select a past date."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Datepicker",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_SIGNATURE",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "signature",
+        "typeName": "signature",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Signature",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     }
   ],
   "data_type": "Attribute",

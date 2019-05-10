@@ -1,0 +1,71 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DROPDOWN_ITEM_ONE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Dropdown Item One",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DROPDOWN_ITEM_TWO",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Dropdown Item Two",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DROPDOWN_ITEM_THREE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Dropdown Item Three",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DROPDOWN_ITEM_FOUR",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Dropdown Item Four",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

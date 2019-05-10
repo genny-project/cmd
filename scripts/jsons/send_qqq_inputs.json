@@ -17,26 +17,13 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Email",
-                "typeName": "Email",
+                "className": "Text",
+                "typeName": "Text",
                 "validationList": [
-                  {
-                    "regex": "^(\\w[-._+\\w]*\\w@\\w[-._\\w]*\\w\\.\\w{2,20})$",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_EMAIL",
-                    "index": 0,
-                    "created": "2019-02-14T03:24:50.034",
-                    "name": "Email",
-                    "realm": "genny"
-                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_TEXT",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -44,11 +31,11 @@
               "name": "Input Text",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_TEXT",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_TEXT",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -57,9 +44,9 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_TEXT",
+          "attributeCode": "PRI_TEXT",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -68,22 +55,6 @@
           "weight": 0.0,
           "parentId": 0,
           "contextList": {
-            "contexts": [
-              {
-                "contextCode": "ICN_EMAIL",
-                "created": "2019-02-06T04:24:58",
-                "name": "ICON",
-                "realm": "genny"
-              },
-              {
-                "contextCode": "THM_SHOW_ICON",
-                "created": "2019-02-06T04:24:58",
-                "name": "THEME",
-                "visualControlType": "INPUT",
-                "realm": "genny",
-                "weight": 1
-              }
-            ]
           },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
@@ -188,7 +159,7 @@
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_ADDRES_FULL",
+            "code": "QUE_ADDRESS",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -219,13 +190,26 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "dropdown",
+                "typeName": "dropdown",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_DROPDOWN_ITEMS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "dropdown",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_DROPDOWN",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -233,11 +217,11 @@
               "name": "Input Dropdown",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_DROPDOWN",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_DROPDOWN",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -247,8 +231,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_DROPDOWN",
+          "attributeCode": "PRI_DROPDOWN",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -268,36 +252,49 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "dropdownmultiple",
+                "typeName": "dropdownmultiple",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_DROPDOWN_ITEMS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "dropdown",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_DROPDOWN_MULTI",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
               "id": 151,
-              "name": "Input Dropdown (Multi)",
+              "name": "Input Dropdown Multi",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_DROPDOWN_MULTI",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_DROPDOWN_MULTI",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
             "id": 237,
-            "name": "Input Dropdown (Multi)",
+            "name": "Input Dropdown Multi",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_DROPDOWN_MULTI",
+          "attributeCode": "PRI_DROPDOWN_MULTI",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -317,13 +314,26 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "checkboxmultiple",
+                "typeName": "checkboxmultiple",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_DROPDOWN_ITEMS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "checkbox",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_CHECKBOX",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -331,11 +341,11 @@
               "name": "Checkbox",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_CHECKBOX",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_CHECKBOX",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -345,8 +355,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_CHECKBOX",
+          "attributeCode": "PRI_CHECKBOX",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -366,13 +376,26 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "radio",
+                "typeName": "radio",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_DROPDOWN_ITEMS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "radio",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_RADIO",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -380,11 +403,11 @@
               "name": "Radio Buttons",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_RADIO",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_RADIO",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -394,8 +417,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_RADIO",
+          "attributeCode": "PRI_RADIO",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -418,10 +441,23 @@
                 "className": "Tag",
                 "typeName": "Tag",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_DROPDOWN_ITEMS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "tags",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_SKILLS",
+              "code": "PRI_TAGS",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -429,7 +465,7 @@
               "name": "Input Tags",
               "realm": "genny"
             },
-            "attributeCode": "PRI_SKILLS",
+            "attributeCode": "PRI_TAGS",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
@@ -444,7 +480,7 @@
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
           "questionCode": "QUE_TAGS",
-          "attributeCode": "PRI_SKILLS",
+          "attributeCode": "PRI_TAGS",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -464,13 +500,13 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "switch",
+                "typeName": "switch",
                 "validationList": [
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_SWITCH",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -478,11 +514,11 @@
               "name": "Input Switch",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_SWITCH",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_SWITCH",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -492,8 +528,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_SWITCH",
+          "attributeCode": "PRI_SWITCH",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -513,13 +549,13 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "Upload",
+                "typeName": "Upload",
                 "validationList": [
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_FILE",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -527,11 +563,11 @@
               "name": "Input File",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_FILE",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_FILE",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -541,8 +577,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_FILE",
+          "attributeCode": "PRI_FILE",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -562,13 +598,62 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "image",
+                "typeName": "image",
                 "validationList": [
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_IMAGE",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Image",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_IMAGE",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_IMAGE",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input Image",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_IMAGE",
+          "attributeCode": "PRI_IMAGE",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input Image",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "Event",
+                "typeName": "Event",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_EVENT",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -576,11 +661,11 @@
               "name": "Event Button",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_EVENT",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_EVENT",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -590,8 +675,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_EVENT",
+          "attributeCode": "PRI_EVENT",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -611,13 +696,26 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "menu",
+                "typeName": "menu",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_DROPDOWN_ITEMS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "menu",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_EVENT_MENU",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -625,11 +723,11 @@
               "name": "Event Menu",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_EVENT_MENU",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_EVENT_MENU",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -639,8 +737,8 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_EVENT_MENU",
+          "attributeCode": "PRI_EVENT_MENU",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -660,13 +758,13 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "date",
+                "typeName": "date",
                 "validationList": [
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_DOB",
+              "code": "PRI_DATEPICKER",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
@@ -674,7 +772,7 @@
               "name": "Date Picker",
               "realm": "genny"
             },
-            "attributeCode": "PRI_DOB",
+            "attributeCode": "PRI_DATEPICKER",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
@@ -689,7 +787,7 @@
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
           "questionCode": "QUE_DATEPICKER",
-          "attributeCode": "PRI_DOB",
+          "attributeCode": "PRI_DATEPICKER",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -709,36 +807,36 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "Text",
-                "typeName": "Text",
+                "className": "signature",
+                "typeName": "signature",
                 "validationList": [
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_EMAIL",
+              "code": "PRI_SIGNATURE",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
               "id": 151,
-              "name": "Input Dropdown",
+              "name": "Input Signature",
               "realm": "genny"
             },
-            "attributeCode": "PRI_EMAIL",
+            "attributeCode": "PRI_SIGNATURE",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_EMAIL",
+            "code": "QUE_SIGNATURE",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
             "id": 237,
-            "name": "Input Dropdown",
+            "name": "Input Signature",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_EMAIL",
-          "attributeCode": "PRI_EMAIL",
+          "questionCode": "QUE_SIGNATURE",
+          "attributeCode": "PRI_SIGNATURE",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -751,7 +849,7 @@
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
-          "name": "Input Dropdown",
+          "name": "Input Signature",
           "realm": "genny"
         }
       ],
