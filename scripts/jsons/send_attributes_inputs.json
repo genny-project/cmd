@@ -389,6 +389,24 @@
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_EDITOR",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "editor",
+        "typeName": "editor",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Text Editor",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     }
   ],
   "data_type": "Attribute",
