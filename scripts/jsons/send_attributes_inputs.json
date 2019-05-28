@@ -367,7 +367,25 @@
       "delete": false,
       "id": 1,
       "index": 0,
-      "name": "Input Datepicker",
+      "name": "Input Time Picker",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_TIMEPICKER",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "time",
+        "typeName": "time",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Time Picker",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"

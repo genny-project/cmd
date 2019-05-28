@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "question": {
+        "attribute": {
+          "dataType": {
+            "className": "Event",
+            "typeName": "Event",
+            "validationList": []
+          },
+          "defaultPrivacyFlag": false,
+          "code": "QQQ_QUESTION_GROUP",
+          "index": 0,
+          "created": "2019-02-10T10:40:32",
+          "updated": "2019-02-10T10:40:32",
+          "id": 171,
+          "name": "QuestionGroupInput",
+          "realm": "genny"
+        },
+        "attributeCode": "QQQ_QUESTION_GROUP",
+        "mandatory": false,
+        "readonly": false,
+        "code": "QUE_INTERNSHIPS_GRP",
+        "index": 0,
+        "created": "2018-08-14T02:46:56",
+        "updated": "2018-10-04T23:29:19",
+        "id": 247,
+        "name": "Internships",
+        "realm": "genny"
+      },
+      "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+      "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+      "questionCode": "QUE_PROJECT_USER_OPTIONS_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": false,
+      "weight": 0.0,
+      "parentId": 0,
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "menu",
+                "typeName": "menu",
+                "inputmask": "menu",
+                "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": [
+                      "GRP_USER_OPTIONS"
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_USER_OPTIONS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "menu",
+                    "realm": "genny"
+                  }
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "LNK_USER_OPTIONS",
+              "index": 0,
+              "created": "2019-02-23T23:27:14",
+              "updated": "2019-02-23T23:27:14",
+              "id": 16,
+              "name": "User Options",
+              "realm": "genny"
+            },
+            "attributeCode": "LNK_USER_OPTIONS",
+            "mandatory": false,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_USER_OPTIONS",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 213,
+            "name": "User Options",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "questionCode": "QUE_USER_OPTIONS",
+          "attributeCode": "LNK_USER_OPTIONS",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_COLOR_BLUE",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 1
+              }
+            ]
+          },
+          "created": "2019-02-25T04:00:34.151",
+          "id": 43451,
+          "name": "User Options",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          }
+        ]
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "User Options",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": true,
+  "msg_type": "DATA_MSG"
+}

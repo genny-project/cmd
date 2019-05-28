@@ -616,7 +616,7 @@
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_IMAGE",
+            "code": "QUE_IMAGE_INPUT",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
@@ -626,7 +626,7 @@
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_IMAGE",
+          "questionCode": "QUE_IMAGE_INPUT",
           "attributeCode": "PRI_IMAGE",
           "mandatory": true,
           "oneshot": false,
@@ -801,6 +801,55 @@
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
           "name": "Date Picker",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "time",
+                "typeName": "time",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TIMEPICKER",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Time Picker",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TIMEPICKER",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TIMEPICKER",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Time Picker",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_TIMEPICKER",
+          "attributeCode": "PRI_TIMEPICKER",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Time Picker",
           "realm": "genny"
         },
         {
