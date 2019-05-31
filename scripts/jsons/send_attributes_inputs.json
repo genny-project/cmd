@@ -391,6 +391,37 @@
       "updated:": "2019-02-18T04:37:31"
     },
     {
+      "code": "PRI_DATETIMEPICKER",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "datetime",
+        "typeName": "datetime",
+        "validationList": [
+          {
+            "code": "VLD_PAST_DATE",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Past Date",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])*",
+            "selectionBaseEntityGroupList": [
+            ],
+            "errorMessage": "Please select a past date."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Date Time Picker",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
       "code": "PRI_SIGNATURE",
       "created": "2019-02-18T04:37:31",
       "dataType": {
