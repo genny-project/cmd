@@ -25,6 +25,17 @@
           "readonly": false,
           "value": true,
           "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_IS_INHERITABLE",
+          "attributeName": "Is Group Inheritable?",
+          "baseEntityCode": "THM_SELECTABLE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": false,
+          "valueBoolean": false
         }
       ],
       "code": "THM_SELECTABLE",

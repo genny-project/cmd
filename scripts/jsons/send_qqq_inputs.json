@@ -12,6 +12,33 @@
       "readonly": false,
       "weight": 0.0,
       "parentId": 0,
+      "question": {
+        "attribute": {
+          "dataType": {
+            "className": "Event",
+            "typeName": "Event",
+            "validationList": []
+          },
+          "defaultPrivacyFlag": false,
+          "code": "PRI_EVENT",
+          "index": 0,
+          "created": "2019-02-10T10:40:32",
+          "updated": "2019-02-10T10:40:32",
+          "id": 171,
+          "name": "QuestionGroupInput",
+          "realm": "genny"
+        },
+        "attributeCode": "PRI_EVENT",
+        "mandatory": false,
+        "readonly": false,
+        "code": "TEST_INPUTS_GRP",
+        "index": 0,
+        "created": "2018-08-14T02:46:56",
+        "updated": "2018-10-04T23:29:19",
+        "id": 247,
+        "name": "Form Select",
+        "realm": "genny"
+      },
       "childAsks": [
         {
           "question": {
@@ -1047,6 +1074,13 @@
             "name": "THEME",
             "realm": "genny",
             "weight": 2
+          },
+          {
+            "contextCode": "THM_SELECTABLE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
           }
         ]
       },

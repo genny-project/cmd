@@ -1,0 +1,18 @@
+{
+  "contexts": [
+    {
+      "contextCode": "THM_COLOR_RED",
+      "created": "2019-02-06T04:24:58",
+      "name": "THEME",
+      "realm": "genny",
+      "weight": 1
+    }
+  ],
+  "targetCodes": [
+    "QUE_DASHBOARD",
+    "QUE_HOST_COMPANIES"
+  ],
+  "root": "QUE_TREE_GRP",
+  "cmd_type": "AskContextChange",
+  "msg_type": "CMD_MSG"
+}

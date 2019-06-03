@@ -24,12 +24,10 @@
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "backgroundColor": "#fff",
             "marginBottom": 10,
             "padding": 10
           },
           "valueString": {
-            "backgroundColor": "#fff",
             "marginBottom": 10,
             "padding": 10
           }
