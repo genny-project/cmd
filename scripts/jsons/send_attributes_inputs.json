@@ -90,7 +90,38 @@
       "delete": false,
       "id": 1,
       "index": 0,
-      "name": "Input TextArea",
+      "name": "Input Address",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_ADDRESS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Address",
+        "typeName": "Address",
+        "validationList": [
+          {
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "recursiveGroup": false,
+            "multiAllowed": false,
+            "code": "VLD_NON_EMPTY",
+            "index": 0,
+            "created": "2019-02-14T03:24:50.034",
+            "name": "EmptyandBlankValues",
+            "realm": "genny"
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Address",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
