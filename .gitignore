@@ -7,3 +7,6 @@ scripts/firerulegroup.sh
 scripts/generateNewItems.sh
 scripts/setAnswer.sh
 scripts/saveAnswer.sh
+scripts/getQuestions.sh
+scripts/send-event.sh
+scripts/send-layouts.sh
