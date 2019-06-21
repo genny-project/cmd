@@ -25,6 +25,17 @@
           "readonly": false,
           "value": { "color": "red" },
           "valueString": { "color": "red" }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content Hover",
+          "baseEntityCode": "THM_COLOR_RED",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "color": "blue" },
+          "valueString": { "color": "blue" }
         }
       ],
       "code": "THM_COLOR_RED",

@@ -1042,7 +1042,7 @@
             "contextCode": "THM_FORM_DEFAULT_LABEL",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "visualControlType": "LABEL",
+            "visualControlType": "VCL_LABEL",
             "realm": "genny",
             "weight": 1
           },
@@ -1050,7 +1050,7 @@
             "contextCode": "THM_FORM_DEFAULT_WRAPPER",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "visualControlType": "WRAPPER",
+            "visualControlType": "VCL_WRAPPER",
             "realm": "genny",
             "weight": 1
           },
@@ -1058,7 +1058,7 @@
             "contextCode": "THM_FORM_DEFAULT_ERROR",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "visualControlType": "ERROR",
+            "visualControlType": "VCL_ERROR",
             "realm": "genny",
             "weight": 1
           },
@@ -1082,6 +1082,38 @@
             "name": "THEME",
             "realm": "genny",
             "weight": 3
+          },
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ICON",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ITEM",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_SELECTED",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_MARGINLEFT_10",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_WRAPPER",
+            "realm": "genny",
+            "weight": 1
           }
         ]
       },

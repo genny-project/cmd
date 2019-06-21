@@ -26,12 +26,14 @@
           "value": {
             "borderBottomWidth": 1,
             "borderColor": "#ddd",
-            "borderStyle": "solid"
+            "borderStyle": "solid",
+            "placeholderColor": "#888"
           },
           "valueString": {
             "borderBottomWidth": 1,
             "borderColor": "#ddd",
-            "borderStyle": "solid"
+            "borderStyle": "solid",
+            "placeholderColor": "#888"
           }
         },
         {

@@ -31,21 +31,6 @@
           }
         },
         {
-          "attributeCode": "PRI_CONTENT_HOVER",
-          "attributeName": "Content Hover",
-          "baseEntityCode": "THM_FORM_DEFAULT",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": {
-            "backgroundColor": "#fdd"
-          },
-          "valueString": {
-            "backgroundColor": "#fdd"
-          }
-        },
-        {
           "attributeCode": "PRI_HAS_QUESTION_GRP_TITLE",
           "attributeName": "Has Question Group Title?",
           "baseEntityCode": "THM_FORM_DEFAULT",
