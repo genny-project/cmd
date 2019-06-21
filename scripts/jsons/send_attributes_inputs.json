@@ -16,9 +16,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": ".*",
-            "selectionBaseEntityGroupList": [
-              ""
-            ]
+            "selectionBaseEntityGroupList": [""]
           }
         ]
       },
@@ -47,9 +45,10 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              ""
-            ],
+            "keyFilter": "",
+            "mask": "999-999-999",
+            "maskDelimiter": "-",
+            "selectionBaseEntityGroupList": [""],
             "errorMessage": "Please only enter letters or underscores."
           }
         ]
@@ -79,9 +78,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              ""
-            ],
+            "selectionBaseEntityGroupList": [""],
             "errorMessage": "Please only enter letters or underscores."
           }
         ]
@@ -111,9 +108,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
           }
         ]
@@ -143,9 +138,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
           }
         ]
@@ -175,10 +168,38 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Checkbox",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_CHECKBOX_BOOLEAN",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "boolean",
+        "typeName": "boolean",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
+            "errorMessage": "awesome"
           }
         ]
       },
@@ -207,9 +228,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
           }
         ]
@@ -239,9 +258,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
           }
         ]
@@ -261,8 +278,7 @@
       "dataType": {
         "className": "switch",
         "typeName": "switch",
-        "validationList": [
-        ]
+        "validationList": []
       },
       "defaultPrivacyFlag": false,
       "delete": false,
@@ -279,8 +295,7 @@
       "dataType": {
         "className": "upload",
         "typeName": "upload",
-        "validationList": [
-        ]
+        "validationList": []
       },
       "defaultPrivacyFlag": false,
       "delete": false,
@@ -297,8 +312,7 @@
       "dataType": {
         "className": "image",
         "typeName": "image",
-        "validationList": [
-        ]
+        "validationList": []
       },
       "defaultPrivacyFlag": false,
       "delete": false,
@@ -325,9 +339,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
           }
         ]
@@ -357,8 +369,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])*",
-            "selectionBaseEntityGroupList": [
-            ],
+            "selectionBaseEntityGroupList": [],
             "errorMessage": "Please select a past date."
           }
         ]
@@ -378,8 +389,7 @@
       "dataType": {
         "className": "signature",
         "typeName": "signature",
-        "validationList": [
-        ]
+        "validationList": []
       },
       "defaultPrivacyFlag": false,
       "delete": false,
@@ -396,8 +406,7 @@
       "dataType": {
         "className": "editor",
         "typeName": "editor",
-        "validationList": [
-        ]
+        "validationList": []
       },
       "defaultPrivacyFlag": false,
       "delete": false,

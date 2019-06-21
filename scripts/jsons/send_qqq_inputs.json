@@ -19,8 +19,7 @@
               "dataType": {
                 "className": "Text",
                 "typeName": "Text",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_TEXT",
@@ -54,8 +53,56 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input Text",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "Text",
+                "typeName": "Text",
+                "validationList": [],
+                "mask": "999-999-999",
+                "maskDelimeter": "-"
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TEXT",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Text",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TEXT",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TEXT",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input Text",
+            "realm": "genny"
           },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_TEXT",
+          "attributeCode": "PRI_TEXT",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -71,9 +118,7 @@
                 "validationList": [
                   {
                     "regex": "(?!^$|\\s+)",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
+                    "selectionBaseEntityGroupList": [""],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_NON_EMPTY",
@@ -116,8 +161,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -133,9 +177,7 @@
                 "validationList": [
                   {
                     "regex": "(?!^$|\\s+)",
-                    "selectionBaseEntityGroupList": [
-                      ""
-                    ],
+                    "selectionBaseEntityGroupList": [""],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_NON_EMPTY",
@@ -178,8 +220,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -195,9 +236,7 @@
                 "validationList": [
                   {
                     "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_SELECT_DROPDOWN_ITEMS",
@@ -240,8 +279,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -257,9 +295,7 @@
                 "validationList": [
                   {
                     "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_SELECT_DROPDOWN_ITEMS",
@@ -302,8 +338,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -319,9 +354,7 @@
                 "validationList": [
                   {
                     "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_SELECT_DROPDOWN_ITEMS",
@@ -364,8 +397,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -381,9 +413,7 @@
                 "validationList": [
                   {
                     "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_SELECT_DROPDOWN_ITEMS",
@@ -426,8 +456,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -443,9 +472,7 @@
                 "validationList": [
                   {
                     "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_SELECT_DROPDOWN_ITEMS",
@@ -488,8 +515,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -502,8 +528,7 @@
               "dataType": {
                 "className": "switch",
                 "typeName": "switch",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_SWITCH",
@@ -537,8 +562,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -551,8 +575,7 @@
               "dataType": {
                 "className": "Upload",
                 "typeName": "Upload",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_FILE",
@@ -586,8 +609,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -600,8 +622,7 @@
               "dataType": {
                 "className": "image",
                 "typeName": "image",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_IMAGE",
@@ -635,8 +656,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -649,8 +669,7 @@
               "dataType": {
                 "className": "Event",
                 "typeName": "Event",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_EVENT",
@@ -684,8 +703,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -701,9 +719,7 @@
                 "validationList": [
                   {
                     "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
                     "recursiveGroup": false,
                     "multiAllowed": false,
                     "code": "VLD_SELECT_DROPDOWN_ITEMS",
@@ -746,8 +762,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -760,8 +775,7 @@
               "dataType": {
                 "className": "date",
                 "typeName": "date",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_DATEPICKER",
@@ -795,8 +809,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -809,8 +822,7 @@
               "dataType": {
                 "className": "signature",
                 "typeName": "signature",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_SIGNATURE",
@@ -844,8 +856,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -858,8 +869,7 @@
               "dataType": {
                 "className": "editor",
                 "typeName": "editor",
-                "validationList": [
-                ]
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
               "code": "PRI_EDITOR",
@@ -893,8 +903,54 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input Editor",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "boolean",
+                "typeName": "boolean",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_CHECKBOX_BOOLEAN",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Boolean",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_CHECKBOX_BOOLEAN",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "PRI_CHECKBOX_BOOLEAN",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Checkbox Boolean",
+            "realm": "genny"
           },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_CHECKBOX_BOOLEAN",
+          "attributeCode": "PRI_CHECKBOX_BOOLEAN",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
