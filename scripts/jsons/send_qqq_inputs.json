@@ -1034,7 +1034,7 @@
             "contextCode": "THM_FORM_DEFAULT_INPUT",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "visualControlType": "INPUT",
+            "visualControlType": "INPUT_FIELD",
             "realm": "genny",
             "weight": 1
           },

@@ -36,6 +36,28 @@
           "readonly": false,
           "value": { "color": "blue" },
           "valueString": { "color": "blue" }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_ACTIVE",
+          "attributeName": "Content Active",
+          "baseEntityCode": "THM_COLOR_RED",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "color": "green" },
+          "valueString": { "color": "green" }
+        },
+        {
+          "attributeCode": "PRI_CONTENT_SELECTED",
+          "attributeName": "Content Selected",
+          "baseEntityCode": "THM_COLOR_RED",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "color": "yellow" },
+          "valueString": { "color": "yellow" }
         }
       ],
       "code": "THM_COLOR_RED",
