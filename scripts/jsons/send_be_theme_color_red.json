@@ -23,8 +23,7 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "color": "red" },
-          "valueString": { "color": "red" }
+          "valueString": "{ \"color\": \"red\" }"
         },
         {
           "attributeCode": "PRI_CONTENT_HOVER",

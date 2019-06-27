@@ -206,10 +206,38 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Checkbox",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_CHECKBOX_BOOLEAN",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "boolean",
+        "typeName": "boolean",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
+            "errorMessage": "awesome"
           }
         ]
       },
@@ -238,9 +266,7 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
+            "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
             "errorMessage": "Please select an item."
           }
         ]

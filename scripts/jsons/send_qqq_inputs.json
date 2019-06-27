@@ -218,6 +218,153 @@
           "question": {
             "attribute": {
               "dataType": {
+                "className": "date",
+                "typeName": "date",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_DATEPICKER",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Date Picker",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_DATEPICKER",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_DATEPICKER",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Date Picker",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_DATEPICKER",
+          "attributeCode": "PRI_DATEPICKER",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Date Picker",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "time",
+                "typeName": "time",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TIMEPICKER",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Time Picker",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TIMEPICKER",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TIMEPICKER",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Time Picker",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_TIMEPICKER",
+          "attributeCode": "PRI_TIMEPICKER",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Time Picker",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "datetime",
+                "typeName": "datetime",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_DATETIMEPICKER",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Date Time Picker",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_DATETIMEPICKER",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_DATETIMEPICKER",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Date Time Picker",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_DATETIMEPICKER",
+          "attributeCode": "PRI_DATETIMEPICKER",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Date Time Picker",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
                 "className": "dropdown",
                 "typeName": "dropdown",
                 "validationList": [
@@ -342,130 +489,6 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "checkboxmultiple",
-                "typeName": "checkboxmultiple",
-                "validationList": [
-                  {
-                    "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
-                    "index": 0,
-                    "created": "2019-02-25T04:00:34.1",
-                    "name": "checkbox",
-                    "realm": "genny"
-                  }
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_CHECKBOX",
-              "index": 0,
-              "created": "2019-02-10T10:40:30",
-              "updated": "2019-02-10T10:40:30",
-              "id": 151,
-              "name": "Checkbox",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_CHECKBOX",
-            "mandatory": true,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_CHECKBOX",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 237,
-            "name": "Checkbox",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_CHECKBOX",
-          "attributeCode": "PRI_CHECKBOX",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {
-          },
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3671,
-          "name": "Checkbox",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
-                "className": "radio",
-                "typeName": "radio",
-                "validationList": [
-                  {
-                    "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
-                    "index": 0,
-                    "created": "2019-02-25T04:00:34.1",
-                    "name": "radio",
-                    "realm": "genny"
-                  }
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_RADIO",
-              "index": 0,
-              "created": "2019-02-10T10:40:30",
-              "updated": "2019-02-10T10:40:30",
-              "id": 151,
-              "name": "Radio Buttons",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_RADIO",
-            "mandatory": true,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_RADIO",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 237,
-            "name": "Radio Buttons",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_RADIO",
-          "attributeCode": "PRI_RADIO",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {
-          },
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3671,
-          "name": "Radio Buttons",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
                 "className": "Tag",
                 "typeName": "Tag",
                 "validationList": [
@@ -528,36 +551,47 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "switch",
-                "typeName": "switch",
+                "className": "checkboxmultiple",
+                "typeName": "checkboxmultiple",
                 "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "checkbox",
+                    "realm": "genny"
+                  }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_SWITCH",
+              "code": "PRI_CHECKBOX",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
               "id": 151,
-              "name": "Input Switch",
+              "name": "Checkbox",
               "realm": "genny"
             },
-            "attributeCode": "PRI_SWITCH",
+            "attributeCode": "PRI_CHECKBOX",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
-            "code": "QUE_SWITCH",
+            "code": "QUE_CHECKBOX",
             "index": 0,
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
             "id": 237,
-            "name": "Input Switch",
+            "name": "Checkbox",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_SWITCH",
-          "attributeCode": "PRI_SWITCH",
+          "questionCode": "QUE_CHECKBOX",
+          "attributeCode": "PRI_CHECKBOX",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -565,12 +599,117 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
-          "name": "Input Switch",
+          "name": "Checkbox",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "radio",
+                "typeName": "radio",
+                "validationList": [
+                  {
+                    "regex": ".*",
+                    "selectionBaseEntityGroupList": ["GRP_DROPDOWN_ITEMS"],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "radio",
+                    "realm": "genny"
+                  }
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_RADIO",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Radio Buttons",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_RADIO",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_RADIO",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Radio Buttons",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_RADIO",
+          "attributeCode": "PRI_RADIO",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Radio Buttons",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "boolean",
+                "typeName": "boolean",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_CHECKBOX_BOOLEAN",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Boolean",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_CHECKBOX_BOOLEAN",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "PRI_CHECKBOX_BOOLEAN",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Checkbox Boolean",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "TEST_INPUTS_GRP",
+          "questionCode": "QUE_CHECKBOX_BOOLEAN",
+          "attributeCode": "PRI_CHECKBOX_BOOLEAN",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input Editor",
           "realm": "genny"
         },
         {
@@ -786,153 +925,6 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "date",
-                "typeName": "date",
-                "validationList": [
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_DATEPICKER",
-              "index": 0,
-              "created": "2019-02-10T10:40:30",
-              "updated": "2019-02-10T10:40:30",
-              "id": 151,
-              "name": "Date Picker",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_DATEPICKER",
-            "mandatory": true,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_DATEPICKER",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 237,
-            "name": "Date Picker",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_DATEPICKER",
-          "attributeCode": "PRI_DATEPICKER",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {
-          },
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3671,
-          "name": "Date Picker",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
-                "className": "time",
-                "typeName": "time",
-                "validationList": [
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_TIMEPICKER",
-              "index": 0,
-              "created": "2019-02-10T10:40:30",
-              "updated": "2019-02-10T10:40:30",
-              "id": 151,
-              "name": "Time Picker",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_TIMEPICKER",
-            "mandatory": true,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_TIMEPICKER",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 237,
-            "name": "Time Picker",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_TIMEPICKER",
-          "attributeCode": "PRI_TIMEPICKER",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {
-          },
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3671,
-          "name": "Time Picker",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
-                "className": "datetime",
-                "typeName": "datetime",
-                "validationList": [
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_DATETIMEPICKER",
-              "index": 0,
-              "created": "2019-02-10T10:40:30",
-              "updated": "2019-02-10T10:40:30",
-              "id": 151,
-              "name": "Date Time Picker",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_DATETIMEPICKER",
-            "mandatory": true,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_DATETIMEPICKER",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 237,
-            "name": "Date Time Picker",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_DATETIMEPICKER",
-          "attributeCode": "PRI_DATETIMEPICKER",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {
-          },
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3671,
-          "name": "Date Time Picker",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
-              "dataType": {
                 "className": "signature",
                 "typeName": "signature",
                 "validationList": [
@@ -1036,7 +1028,7 @@
             "name": "THEME",
             "visualControlType": "INPUT_FIELD",
             "realm": "genny",
-            "weight": 1
+            "weight": 2
           },
           {
             "contextCode": "THM_FORM_DEFAULT_LABEL",
@@ -1108,10 +1100,26 @@
             "weight": 1
           },
           {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
             "contextCode": "THM_MARGINLEFT_10",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
             "visualControlType": "INPUT_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_MARGINLEFT_10",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ITEM_WRAPPER",
             "realm": "genny",
             "weight": 1
           }
