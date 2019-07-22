@@ -114,13 +114,6 @@
                 "realm": "genny"
               },
               {
-                "contextCode": "THM_INPUT_ICON",
-                "created": "2019-02-06T04:24:58",
-                "name": "THEME",
-                "realm": "genny",
-                "weight": 1
-              },
-              {
                 "contextCode": "ICN_WORK",
                 "created": "2019-02-06T04:24:58",
                 "name": "ICON",
@@ -1085,6 +1078,22 @@
                 "created": "2019-02-06T04:24:58",
                 "name": "ICON",
                 "realm": "genny"
+              },
+              {
+                "contextCode": "THM_FULL_WIDTH",
+                "created": "2019-02-06T04:24:58",
+                "visualControlType": "GROUP_CLICKABLE_WRAPPER",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 1
+              },
+              {
+                "contextCode": "THM_FLEX_ONE",
+                "created": "2019-02-06T04:24:58",
+                "visualControlType": "GROUP_LABEL",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 1
               }
             ]
           },
@@ -1263,6 +1272,7 @@
           {
             "contextCode": "THM_MARGINLEFT_10",
             "created": "2019-02-06T04:24:58",
+            "visualControlType": "GROUP_CONTENT_WRAPPER",
             "name": "THEME",
             "realm": "genny"
           },
@@ -1291,7 +1301,7 @@
             "contextCode": "THM_TREE_INPUT_DEFAULT",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
-            "visualControlType": "INPUT",
+            "visualControlType": "INPUT_WRAPPER",
             "realm": "genny",
             "weight": 1
           },
@@ -1304,17 +1314,18 @@
             "weight": 1
           },
           {
-            "contextCode": "THM_INPUT_ICON",
-            "created": "2019-02-06T04:24:58",
-            "name": "THEME",
-            "realm": "genny",
-            "weight": 1
-          },
-          {
             "contextCode": "THM_SHOW_ICON",
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
             "visualControlType": "INPUT",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_DISPLAY_HORIZONTAL",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "GROUP_CLICKABLE_WRAPPER",
+            "name": "THEME",
             "realm": "genny",
             "weight": 1
           }

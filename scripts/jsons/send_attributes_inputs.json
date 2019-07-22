@@ -32,6 +32,37 @@
       "updated:": "2019-02-18T04:37:31"
     },
     {
+      "code": "PRI_SUBMIT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Event",
+        "typeName": "Event",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Submit",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
       "code": "PRI_TEXT",
       "created": "2019-02-18T04:37:31",
       "dataType": {
@@ -134,7 +165,7 @@
         "typeName": "dropdown",
         "validationList": [
           {
-            "code": "VLD_SELECT_DROPDOWN_ITEMS",
+            "code": "VLD_SELECT_OPTIONS_ITEMS",
             "created": "2019-02-18T21:19:28.414",
             "index": 0,
             "multiAllowed": false,
@@ -142,8 +173,27 @@
             "realm": "genny",
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
+            "options": [
+              {
+                "name": "Option One",
+                "code": "OPT_ONE"
+              },
+              {
+                "name": "Option Two",
+                "code": "OPT_TWO"
+              },
+              {
+                "name": "Option Three",
+                "code": "OPT_THREE"
+              },
+              {
+                "name": "Option Four",
+                "code": "OPT_FOUR"
+              },
+              {
+                "name": "Option Five",
+                "code": "OPT_FIVE"
+              }
             ],
             "errorMessage": "Please select an item."
           }
@@ -362,38 +412,6 @@
       "id": 1,
       "index": 0,
       "name": "Input Image",
-      "realm": "genny",
-      "replace": false,
-      "updated:": "2019-02-18T04:37:31"
-    },
-    {
-      "code": "PRI_EVENT_MENU",
-      "created": "2019-02-18T04:37:31",
-      "dataType": {
-        "className": "menu",
-        "typeName": "menu",
-        "validationList": [
-          {
-            "code": "VLD_SELECT_DROPDOWN_ITEMS",
-            "created": "2019-02-18T21:19:28.414",
-            "index": 0,
-            "multiAllowed": false,
-            "name": "EmptyandBlankValues",
-            "realm": "genny",
-            "recursiveGroup": false,
-            "regex": "(?!^$|\\s+)",
-            "selectionBaseEntityGroupList": [
-              "GRP_DROPDOWN_ITEMS"
-            ],
-            "errorMessage": "Please select an item."
-          }
-        ]
-      },
-      "defaultPrivacyFlag": false,
-      "delete": false,
-      "id": 1,
-      "index": 0,
-      "name": "Input Event Menu",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"

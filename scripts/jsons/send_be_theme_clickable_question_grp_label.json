@@ -5,44 +5,35 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_WIDTH_50",
+          "attributeCode": "PRI_IS_QUESTION_GRP_LABEL_CLICKABLE",
+          "attributeName": "Is Question Group Label Clickable",
+          "baseEntityCode": "THM_CLICKABLE_QUESTION_GRP_LABEL",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "Theme Width 50px"
+          "value": true,
+          "valueBoolean": true
         },
         {
           "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Content Inheritable?",
-          "baseEntityCode": "THM_WIDTH_50",
+          "attributeName": "Is Group Inheritable?",
+          "baseEntityCode": "THM_CLICKABLE_QUESTION_GRP_LABEL",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
+          "value": false,
           "valueBoolean": false
-        },
-        {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_WIDTH_50",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "{ \"width\": 50 }"
         }
       ],
-      "code": "THM_WIDTH_50",
+      "code": "THM_CLICKABLE_QUESTION_GRP_LABEL",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
       "index": 0,
-      "links": [
-      ],
-      "name": "Theme Width 50px",
+      "links": [],
+      "name": "Theme Clickable Question Group Label",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

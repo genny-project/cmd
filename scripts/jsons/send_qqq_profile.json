@@ -1,8 +1,8 @@
 {
   "items": [
     {
-      "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-      "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+      "sourceCode": "PER_USER1",
+      "targetCode": "PER_USER1",
       "questionCode": "QUE_AGENT_PROFILE_GRP",
       "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
       "mandatory": false,
@@ -57,8 +57,8 @@
             "name": "First Name",
             "realm": "genny"
           },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
           "questionCode": "QUE_FIRSTNAME",
           "attributeCode": "PRI_FIRSTNAME",
           "mandatory": true,
@@ -119,8 +119,8 @@
             "name": "Last Name",
             "realm": "genny"
           },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
           "questionCode": "QUE_LASTNAME",
           "attributeCode": "PRI_LASTNAME",
           "mandatory": true,
@@ -181,8 +181,8 @@
             "name": "Email",
             "realm": "genny"
           },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
           "questionCode": "QUE_EMAIL",
           "attributeCode": "PRI_EMAIL",
           "mandatory": true,

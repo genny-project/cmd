@@ -5,79 +5,81 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_FORM_DEFAULT",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": "Theme Form Default",
-          "valueString": "Theme Form Default"
-        },
-        {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_FORM_DEFAULT",
+          "baseEntityCode": "THM_BUTTON_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "backgroundColor": "none"
+            "borderRadius": 10,
+            "justifyContent": "center",
+            "width": "100%",
+            "maxWidth": 300,
+            "padding": 0,
+            "backgroundColor": "green",
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "borderBottomWidth": 2,
+            "borderColor": "white"
           },
           "valueString": {
-            "backgroundColor": "none"
+            "borderRadius": 10,
+            "justifyContent": "center",
+            "width": "100%",
+            "maxWidth": 300,
+            "padding": 0,
+            "backgroundColor": "green",
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "borderBottomWidth": 2,
+            "borderColor": "white"
           }
         },
         {
-          "attributeCode": "PRI_HAS_QUESTION_GRP_LABEL",
-          "attributeName": "Has Question Group Label?",
-          "baseEntityCode": "THM_FORM_DEFAULT",
+          "attributeCode": "PRI_CONTENT_HOVER",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_BUTTON_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": true,
-          "valueBoolean": true
-        },
-        {
-          "attributeCode": "PRI_HAS_QUESTION_GRP_DESCRIPTION",
-          "attributeName": "Has Question Group Description?",
-          "baseEntityCode": "THM_FORM_DEFAULT",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": true,
-          "valueBoolean": true
+          "value": {
+            "backgroundColor": "white",
+            "borderColor": "green"
+          },
+          "valueString": {
+            "backgroundColor": "white",
+            "borderColor": "green"
+          }
         },
         {
           "attributeCode": "PRI_HAS_LABEL",
           "attributeName": "Has Label?",
-          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
+          "baseEntityCode": "THM_BUTTON_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": true,
-          "valueBoolean": true
+          "value": false,
+          "valueBoolean": false
         },
         {
           "attributeCode": "PRI_HAS_REQUIRED",
           "attributeName": "Has Required?",
-          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
+          "baseEntityCode": "THM_BUTTON_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": true,
-          "valueBoolean": true
+          "value": false,
+          "valueBoolean": false
         },
         {
           "attributeCode": "PRI_HAS_ICON",
           "attributeName": "Has Icon?",
-          "baseEntityCode": "THM_VISUAL_CONTROL_ONE",
+          "baseEntityCode": "THM_BUTTON_DEFAULT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -86,13 +88,13 @@
           "valueBoolean": false
         }
       ],
-      "code": "THM_FORM_DEFAULT",
+      "code": "THM_BUTTON_DEFAULT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
       "index": 0,
       "links": [],
-      "name": "Theme Form Default",
+      "name": "Theme Button Default",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
