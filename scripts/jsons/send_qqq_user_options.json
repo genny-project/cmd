@@ -1,33 +1,6 @@
 {
   "items": [
     {
-      "question": {
-        "attribute": {
-          "dataType": {
-            "className": "Event",
-            "typeName": "Event",
-            "validationList": []
-          },
-          "defaultPrivacyFlag": false,
-          "code": "QQQ_QUESTION_GROUP",
-          "index": 0,
-          "created": "2019-02-10T10:40:32",
-          "updated": "2019-02-10T10:40:32",
-          "id": 171,
-          "name": "QuestionGroupInput",
-          "realm": "genny"
-        },
-        "attributeCode": "QQQ_QUESTION_GROUP",
-        "mandatory": false,
-        "readonly": false,
-        "code": "QUE_INTERNSHIPS_GRP",
-        "index": 0,
-        "created": "2018-08-14T02:46:56",
-        "updated": "2018-10-04T23:29:19",
-        "id": 247,
-        "name": "Internships",
-        "realm": "genny"
-      },
       "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
       "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
       "questionCode": "QUE_PROJECT_USER_OPTIONS_GRP",
@@ -44,62 +17,108 @@
           "question": {
             "attribute": {
               "dataType": {
-                "className": "menu",
-                "typeName": "menu",
-                "inputmask": "menu",
-                "validationList": [
-                  {
-                    "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_USER_OPTIONS"
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_SELECT_USER_OPTIONS",
-                    "index": 0,
-                    "created": "2019-02-25T04:00:34.1",
-                    "name": "menu",
-                    "realm": "genny"
-                  }
-                ]
+                "className": "Event",
+                "typeName": "Event",
+                "validationList": []
               },
               "defaultPrivacyFlag": false,
-              "code": "LNK_USER_OPTIONS",
+              "code": "PRI_EVENT",
               "index": 0,
-              "created": "2019-02-23T23:27:14",
-              "updated": "2019-02-23T23:27:14",
-              "id": 16,
-              "name": "User Options",
+              "created": "2019-02-10T10:41:00",
+              "updated": "2019-02-10T10:41:00",
+              "id": 159,
+              "name": "Event",
               "realm": "genny"
             },
-            "attributeCode": "LNK_USER_OPTIONS",
+            "attributeCode": "PRI_EVENT",
             "mandatory": false,
             "readonly": false,
-            "oneshot": false,
-            "code": "QUE_USER_OPTIONS",
+            "code": "QUE_PROFILE",
             "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 213,
-            "name": "User Options",
+            "created": "2018-08-14T02:46:55",
+            "updated": "2018-10-04T23:29:15",
+            "id": 88,
+            "name": "Profile",
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
           "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "questionCode": "QUE_USER_OPTIONS",
-          "attributeCode": "LNK_USER_OPTIONS",
+          "questionCode": "QUE_PROFILE",
+          "attributeCode": "PRI_EVENT",
           "mandatory": true,
-          "oneshot": false,
           "disabled": false,
           "hidden": false,
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
           "contextList": {
+            "contexts": [
+              {
+                "contextCode": "ICN_BUSINESS",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
+              }
+            ]
           },
-          "created": "2019-02-25T04:00:34.151",
-          "id": 43451,
-          "name": "User Options",
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:33",
+          "id": 3668,
+          "name": "Profile",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "Event",
+                "typeName": "Event",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_EVENT",
+              "index": 0,
+              "created": "2019-02-10T10:41:00",
+              "updated": "2019-02-10T10:41:00",
+              "id": 159,
+              "name": "Logout",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_EVENT",
+            "mandatory": false,
+            "readonly": false,
+            "code": "QUE_LOGOUT",
+            "index": 0,
+            "created": "2018-08-14T02:46:55",
+            "updated": "2018-10-04T23:29:15",
+            "id": 88,
+            "name": "Logout",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "questionCode": "QUE_LOGOUT",
+          "attributeCode": "PRI_EVENT",
+          "mandatory": true,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "ICN_BUSINESS",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
+              }
+            ]
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:33",
+          "id": 3668,
+          "name": "Logout",
           "realm": "genny"
         }
       ],
@@ -118,8 +137,14 @@
             "created": "2019-02-06T04:24:58",
             "name": "THEME",
             "realm": "genny",
-            "visualControlType": "QGROUP",
+            "visualControlType": "GROUP_CONTENT_WRAPPER",
             "weight": 1
+          },
+          {
+            "contextCode": "THM_DROPDOWN",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny"
           }
         ]
       },

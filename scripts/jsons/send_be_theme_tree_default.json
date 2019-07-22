@@ -24,12 +24,10 @@
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "paddingRight": 5,
             "borderTopRightRadius": 20,
             "borderBottomRightRadius": 20
           },
           "valueString": {
-            "paddingRight": 5,
             "borderTopRightRadius": 20,
             "borderBottomRightRadius": 20
           }

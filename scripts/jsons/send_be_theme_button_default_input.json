@@ -5,52 +5,45 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_TREE_INPUT_DEFAULT",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": "Theme Form Input Default",
-          "valueString": "Theme Form Input Default"
-        },
-        {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_TREE_INPUT_DEFAULT",
+          "baseEntityCode": "THM_BUTTON_DEFAULT_INPUT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "backgroundColor": "none",
-            "flexDirection": "row"
+            "size": "xl",
+            "color": "white"
           },
           "valueString": {
-            "backgroundColor": "none",
-            "flexDirection": "row"
+            "size": "xl",
+            "color": "white"
           }
         },
         {
           "attributeCode": "PRI_CONTENT_HOVER",
           "attributeName": "Content Hover",
-          "baseEntityCode": "THM_TREE_DEFAULT",
+          "baseEntityCode": "THM_BUTTON_DEFAULT_INPUT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "backgroundColor": "none" },
-          "valueString": { "backgroundColor": "none" }
+          "value": {
+            "color": "green"
+          },
+          "valueString": {
+            "color": "green"
+          }
         }
       ],
-      "code": "THM_TREE_INPUT_DEFAULT",
+      "code": "THM_BUTTON_DEFAULT_INPUT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
       "index": 0,
       "links": [],
-      "name": "Theme Form Input Default",
+      "name": "Theme Button Default Input",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

@@ -34,7 +34,7 @@
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_LOGO",
+              "code": "PRI_IMAGE_URL",
               "index": 0,
               "created": "2019-02-14T12:57:54",
               "updated": "2019-02-14T12:57:54",
@@ -42,7 +42,7 @@
               "name": "User Profile Picture",
               "realm": "genny"
             },
-            "attributeCode": "PRI_LOGO",
+            "attributeCode": "PRI_IMAGE_URL",
             "mandatory": false,
             "readonly": false,
             "oneshot": false,
@@ -55,9 +55,9 @@
             "realm": "genny"
           },
           "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "PRJ_INTERNMATCH",
+          "targetCode": "PER_USER1",
           "questionCode": "QUE_IMAGE",
-          "attributeCode": "PRI_LOGO",
+          "attributeCode": "PRI_IMAGE_URL",
           "mandatory": false,
           "oneshot": false,
           "disabled": false,
