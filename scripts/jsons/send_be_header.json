@@ -41,12 +41,12 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "EAST",
             "sourceCode": "FRM_HEADER",
-            "targetCode": "QUE_PROJECT_USER_OPTIONS_GRP",
-            "weight": 2
+            "targetCode": "QUE_OPTIONS_GRP",
+            "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
           "valueString": "EAST",
-          "weight": 2
+          "weight": 1
         },
         {
           "created": "2019-02-06T04:24:58",
@@ -54,26 +54,12 @@
             "attributeCode": "LNK_ASK",
             "linkValue": "EAST",
             "sourceCode": "FRM_HEADER",
-            "targetCode": "QUE_PROJECT_ADD_OPTIONS_GRP",
-            "weight": 1
+            "targetCode": "QUE_PROJECT_USER_OPTIONS_GRP",
+            "weight": 2
           },
           "updated": "2019-02-06T04:25:25",
           "valueString": "EAST",
-          "weight": 1
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_THEME",
-            "linkValue": "EAST",
-            "panelComponentType": "DELIMITER",
-            "sourceCode": "FRM_HEADER",
-            "targetCode": "THM_HAS_DELIMITER",
-            "weight": 1
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "EAST",
-          "weight": 1
+          "weight": 2
         }
       ],
       "name": "Header Frame",

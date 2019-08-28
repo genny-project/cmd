@@ -1,0 +1,88 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_OPTIONS_WRAPPER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "padding": 20,
+            "backgroundColor": "red"
+          },
+          "valueString": {
+            "padding": 20,
+            "backgroundColor": "red"
+          }
+        },
+        {
+          "attributeCode": "PRI_IS_INHERITABLE",
+          "attributeName": "Is Inheritable",
+          "baseEntityCode": "THM_OPTIONS_WRAPPER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": false,
+          "valueBoolean": false
+        },
+        {
+          "attributeCode": "PRI_HAS_QUESTION_GRP_LABEL",
+          "attributeName": "",
+          "baseEntityCode": "THM_OPTIONS_WRAPPER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_IS_QUESTION_GRP_LABEL_CLICKABLE",
+          "attributeName": "Is Inheritable",
+          "baseEntityCode": "THM_OPTIONS_WRAPPER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_IS_DROPDOWN",
+          "attributeName": "Is Dropdown",
+          "baseEntityCode": "THM_OPTIONS_WRAPPER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        }
+      ],
+      "code": "THM_OPTIONS_WRAPPER",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1000,
+      "index": 0,
+      "links": [],
+      "name": "Theme Options Wrapper",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
