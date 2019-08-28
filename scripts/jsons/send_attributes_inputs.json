@@ -35,8 +35,8 @@
       "code": "PRI_SUBMIT",
       "created": "2019-02-18T04:37:31",
       "dataType": {
-        "className": "Event",
-        "typeName": "Event",
+        "className": "Button",
+        "typeName": "Button",
         "validationList": [
           {
             "code": "VLD_ANYTHING",
@@ -90,6 +90,38 @@
       "id": 1,
       "index": 0,
       "name": "Input Text",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_EMAIL",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Email",
+        "typeName": "Email",
+        "validationList": [
+          {
+            "code": "VLD_EMAIL",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmailOnly",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "^(\\w[-._+\\w]*\\w@\\w[-._\\w]*\\w\\.\\w{2,20})$",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "errorMessage": "Please enter a valid email address."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Email",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
