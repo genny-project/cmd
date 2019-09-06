@@ -867,8 +867,7 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {
-          },
+          "contextList": {},
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
