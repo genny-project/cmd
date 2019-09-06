@@ -867,7 +867,8 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -914,7 +915,18 @@
           "readonly": false,
           "weight": 0.0,
           "parentId": 0,
-          "contextList": {},
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_FILE_INPUT_READONLY",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "INPUT_SELECTED",
+                "realm": "genny",
+                "weight": 1
+              }
+            ]
+          },
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
@@ -1380,6 +1392,14 @@
                 "name": "THEME",
                 "realm": "genny",
                 "weight": 1
+              },
+              {
+                "contextCode": "THM_DROPDOWN_CONTENT_BEHAVIOUR",
+                "created": "2019-02-06T04:24:58",
+                "visualControlType": "GROUP_CONTENT_WRAPPER",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 1
               }
             ]
           },
@@ -1598,6 +1618,14 @@
           {
             "contextCode": "THM_SELECTABLE",
             "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FILE_UPLOAD_BEHAVIOUR",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL_INPUT",
             "name": "THEME",
             "realm": "genny",
             "weight": 3

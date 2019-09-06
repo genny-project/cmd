@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+      "targetCode": "PRJ_INTERNMATCH",
+      "questionCode": "QUE_HAMBURGER_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": true,
+      "weight": 0.0,
+      "parentId": 0,
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "Event",
+                "typeName": "Event",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_SIDEBAR_TOGGLE",
+              "index": 0,
+              "created": "2019-02-10T10:41:00",
+              "updated": "2019-02-10T10:41:00",
+              "id": 159,
+              "name": "Toggle Sidebar",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_SIDEBAR_TOGGLE",
+            "mandatory": false,
+            "readonly": false,
+            "code": "QUE_SIDEBAR_TOGGLE",
+            "index": 0,
+            "created": "2018-08-14T02:46:55",
+            "updated": "2018-10-04T23:29:15",
+            "id": 88,
+            "name": " ",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
+          "targetCode": "PRJ_INTERNMATCH",
+          "questionCode": "QUE_SIDEBAR_TOGGLE",
+          "attributeCode": "PRI_SIDEBAR_TOGGLE",
+          "mandatory": true,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_INPUT_ICON",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 1
+              },
+              {
+                "contextCode": "ICN_MENU",
+                "created": "2019-02-06T04:24:58",
+                "name": "ICON",
+                "realm": "genny"
+              },
+              {
+                "contextCode": "THM_SHOW_ICON",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "INPUT",
+                "realm": "genny",
+                "weight": 1
+              }
+            ]
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:33",
+          "id": 3668,
+          "name": "Toggle Sidebar",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "Profile Details",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}

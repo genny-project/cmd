@@ -68,6 +68,7 @@
       "dataType": {
         "className": "Text",
         "typeName": "Text",
+        "inputmask": "**(hh)-aaa-000",
         "validationList": [
           {
             "code": "VLD_NON_EMPTY",
