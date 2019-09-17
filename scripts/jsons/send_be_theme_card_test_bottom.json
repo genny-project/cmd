@@ -5,24 +5,36 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_FILE_INPUT_READONLY",
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "THM_CARD_TEST_BOTTOM",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"imageWidth\": 100, \"imageHeight\": 100, \"showName\": false }"
+          "value": "Theme Card Test Bottom",
+          "valueString": "Theme Card Test Bottom"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_CARD_TEST_BOTTOM",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "padding": 10 },
+          "valueString": { "padding": 10 }
         }
       ],
-      "code": "THM_FILE_INPUT_READONLY",
+      "code": "THM_CARD_TEST_BOTTOM",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme File Input Readonly",
+      "name": "Theme Card Test Bottom",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

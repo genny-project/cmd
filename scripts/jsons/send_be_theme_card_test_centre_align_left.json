@@ -7,44 +7,38 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "baseEntityCode": "THM_CARD_TEST_CENTRE_ALIGN_LEFT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Expandable",
-          "valueString": "Theme Expandable"
+          "value": "Theme Card Test Centre Align Left",
+          "valueString": "Theme Card Test Centre Align Left"
         },
         {
-          "attributeCode": "PRI_IS_EXPANDABLE",
-          "attributeName": "Is Group Expandable?",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_CARD_TEST_CENTRE_ALIGN_LEFT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": true,
-          "valueBoolean": true
-        },
-        {
-          "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_EXPANDABLE",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": false,
-          "valueBoolean": false
+          "value": {
+            "alignItems": "flex-start"
+          },
+          "valueString": {
+            "alignItems": "flex-start"
+          }
         }
       ],
-      "code": "THM_EXPANDABLE",
+      "code": "THM_CARD_TEST_CENTRE_ALIGN_LEFT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
-      "links": [],
-      "name": "Theme Expandable",
+      "links": [
+      ],
+      "name": "Theme Card Test Centre Align Left",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

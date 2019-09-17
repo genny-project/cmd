@@ -1,0 +1,65 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_CARD_TEST_RIGHT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Card Test Right",
+          "valueString": "Card Test Right"
+        }
+      ],
+      "code": "FRM_CARD_TEST_RIGHT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_CARD_TEST_RIGHT",
+            "targetCode": "QUE_OPTIONS_GRP",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "FRAME",
+            "sourceCode": "FRM_CARD_TEST_RIGHT",
+            "targetCode": "THM_CARD_RIGHT",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "FRAME",
+          "weight": 1000
+        }
+      ],
+      "name": "Card Test Right",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

@@ -7,22 +7,26 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_FILE_INPUT_READONLY",
+          "baseEntityCode": "THM_MAX_WIDTH_100PERCENT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"imageWidth\": 100, \"imageHeight\": 100, \"showName\": false }"
+          "value": {
+            "maxWidth": "100%"
+          },
+          "valueString": {
+            "maxWidth": "100%"
+          }
         }
       ],
-      "code": "THM_FILE_INPUT_READONLY",
+      "code": "THM_MAX_WIDTH_100PERCENT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1000,
       "index": 0,
-      "links": [
-      ],
-      "name": "Theme File Input Readonly",
+      "links": [],
+      "name": "Theme Max Width 100%",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

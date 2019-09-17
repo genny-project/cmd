@@ -7,44 +7,49 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "baseEntityCode": "THM_CARD_TEST_STATUS_CENTRE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Expandable",
-          "valueString": "Theme Expandable"
-        },
-        {
-          "attributeCode": "PRI_IS_EXPANDABLE",
-          "attributeName": "Is Group Expandable?",
-          "baseEntityCode": "THM_EXPANDABLE",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": true,
-          "valueBoolean": true
+          "value": "Theme Card Test Status Centre",
+          "valueString": "Theme Card Test Status Centre"
         },
         {
           "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "attributeName": "Is Inheritable",
+          "baseEntityCode": "THM_CARD_TEST_STATUS_CENTRE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
           "value": false,
           "valueBoolean": false
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_CARD_TEST_STATUS_CENTRE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "height": "100%"
+          },
+          "valueString": {
+            "height": "100%"
+          }
         }
       ],
-      "code": "THM_EXPANDABLE",
+      "code": "THM_CARD_TEST_STATUS_CENTRE",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
-      "links": [],
-      "name": "Theme Expandable",
+      "links": [
+      ],
+      "name": "Theme Card Test Status Centre",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

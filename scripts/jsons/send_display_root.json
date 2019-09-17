@@ -1,7 +1,0 @@
-{
-    "cmd_type": "ROUTE_CHANGE",
-    "code": "/registration/role",
-    "msg_type": "CMD_MSG",
-    "cache_id": "EVT_HOST_COMPANY_PROFILE"
-}
-

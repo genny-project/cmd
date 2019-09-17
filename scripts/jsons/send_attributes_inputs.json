@@ -68,7 +68,6 @@
       "dataType": {
         "className": "Text",
         "typeName": "Text",
-        "inputmask": "**(hh)-aaa-000",
         "validationList": [
           {
             "code": "VLD_NON_EMPTY",
@@ -561,6 +560,38 @@
       "id": 1,
       "index": 0,
       "name": "Input Text Editor",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_COLOR",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "Colour",
+        "typeName": "Colour",
+        "validationList": [
+          {
+            "code": "VLD_NON_EMPTY",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "errorMessage": "Please only enter letters or underscores."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Color Picker",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"

@@ -7,44 +7,42 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "baseEntityCode": "THM_CARD_TEST_STATUS",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Expandable",
-          "valueString": "Theme Expandable"
+          "value": "Theme Card Test Status",
+          "valueString": "Theme Card Test Status"
         },
         {
-          "attributeCode": "PRI_IS_EXPANDABLE",
-          "attributeName": "Is Group Expandable?",
-          "baseEntityCode": "THM_EXPANDABLE",
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_CARD_TEST_STATUS",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": true,
-          "valueBoolean": true
-        },
-        {
-          "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_EXPANDABLE",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": false,
-          "valueBoolean": false
+          "value": {
+            "borderStyle": "solid",
+            "borderColor": "green",
+            "borderLeftWidth": 10
+          },
+          "valueString": {
+            "borderStyle": "solid",
+            "borderColor": "green",
+            "borderLeftWidth": 10
+          }
         }
       ],
-      "code": "THM_EXPANDABLE",
+      "code": "THM_CARD_TEST_STATUS",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
-      "links": [],
-      "name": "Theme Expandable",
+      "links": [
+      ],
+      "name": "Theme Card Test Status",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
