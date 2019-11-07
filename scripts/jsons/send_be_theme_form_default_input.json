@@ -27,13 +27,16 @@
             "borderBottomWidth": 1,
             "borderColor": "#ddd",
             "borderStyle": "solid",
-            "placeholderColor": "#888"
+            "height": "100%",
+            "width": "100%"
           },
           "valueString": {
             "borderBottomWidth": 1,
             "borderColor": "#ddd",
             "borderStyle": "solid",
-            "placeholderColor": "#888"
+            "placeholderColor": "#888",
+            "height": "100%",
+            "width": "100%"
           }
         },
         {
