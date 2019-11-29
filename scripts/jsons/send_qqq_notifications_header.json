@@ -3,7 +3,7 @@
     {
       "sourceCode": "PER_USER1",
       "targetCode": "PER_USER1",
-      "questionCode": "QUE_NOTES_HEADER_GRP",
+      "questionCode": "QUE_NOTIFICATIONS_HEADER_GRP",
       "attributeCode": "QQQ_QUESTION_GROUP",
       "mandatory": false,
       "oneshot": false,
@@ -68,7 +68,7 @@
                 "typeName": "dropdown",
                 "validationList": [
                   {
-                    "code": "VLD_SELECT_DROPDOWN_ITEMS_NOTES_CATEGORIES",
+                    "code": "VLD_SELECT_DROPDOWN_ITEMS_NOTIFS_CATEGORIES",
                     "created": "2019-02-18T21:19:28.414",
                     "index": 0,
                     "multiAllowed": false,
@@ -77,22 +77,22 @@
                     "recursiveGroup": false,
                     "regex": "(?!^$|\\s+)",
                     "selectionBaseEntityGroupList": [
-                      "GRP_NOTES_CATEGORIES"
+                      "GRP_NOTIFICATIONS_CATEGORIES"
                     ],
                     "errorMessage": "Please select an item."
                   }
                 ]
               },
               "defaultPrivacyFlag": false,
-              "code": "PRI_DROPDOWN_NOTES_CATEGORY",
+              "code": "PRI_DROPDOWN_NOTIFS_CATEGORY",
               "index": 0,
               "created": "2019-02-10T10:40:30",
               "updated": "2019-02-10T10:40:30",
               "id": 151,
-              "name": "Note Categories",
+              "name": "Notifications Categories",
               "realm": "genny"
             },
-            "attributeCode": "PRI_DROPDOWN_NOTES_CATEGORY",
+            "attributeCode": "PRI_DROPDOWN_NOTIFS_CATEGORY",
             "mandatory": true,
             "readonly": false,
             "oneshot": false,
@@ -101,13 +101,13 @@
             "created": "2018-08-14T02:46:56",
             "updated": "2018-10-04T23:29:18",
             "id": 237,
-            "name": "Note Categories",
+            "name": "Notifications Categories",
             "realm": "genny"
           },
           "sourceCode": "PER_USER1",
           "targetCode": "PER_USER1",
           "questionCode": "QUE_DROPDOWN",
-          "attributeCode": "PRI_DROPDOWN_NOTES_CATEGORY",
+          "attributeCode": "PRI_DROPDOWN_NOTIFS_CATEGORY",
           "mandatory": true,
           "oneshot": false,
           "disabled": false,
@@ -119,7 +119,7 @@
           "created": "2018-08-29T03:00:40",
           "updated": "2018-12-12T02:22:34",
           "id": 3671,
-          "name": "Note Category",
+          "name": "Notifications Category",
           "realm": "genny"
         },
         {
@@ -210,7 +210,7 @@
       },
       "created": "2019-02-14T03:15:22",
       "id": 46341,
-      "name": "Notes Header Group",
+      "name": "Notifications Header Group",
       "realm": "genny"
     }
   ],

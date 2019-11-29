@@ -14,24 +14,24 @@
           "created": "2019-02-10T10:40:30",
           "updated": "2019-02-10T10:40:30",
           "id": 151,
-          "name": "Notifs",
+          "name": "Close",
           "realm": "genny"
         },
         "attributeCode": "PRI_EVENT",
         "mandatory": true,
         "readonly": true,
         "oneshot": false,
-        "code": "QUE_TAB_NOTIFICATIONS",
+        "code": "QUE_CLOSE_NOTES",
         "index": 0,
         "created": "2018-08-14T02:46:56",
         "updated": "2018-10-04T23:29:18",
         "id": 237,
-        "name": "Notifs",
+        "name": "Close",
         "realm": "genny"
       },
       "sourceCode": "PER_USER1",
       "targetCode": "BEG_NOTE_TEST",
-      "questionCode": "QUE_TAB_NOTIFICATIONS",
+      "questionCode": "QUE_CLOSE_NOTES",
       "attributeCode": "PRI_EVENT",
       "mandatory": true,
       "oneshot": false,
@@ -43,7 +43,7 @@
       "contextList": {
         "contexts": [
           {
-            "contextCode": "ICN_NOTIFICATION",
+            "contextCode": "ICN_CLOSE",
             "created": "2019-02-06T04:24:58",
             "name": "ICON",
             "realm": "genny"
@@ -61,14 +61,6 @@
             "name": "THEME",
             "realm": "genny",
             "weight": 1
-          },
-          {
-            "contextCode": "THM_PADDING_10",
-            "created": "2019-02-06T04:24:58",
-            "name": "THEME",
-            "visualControlType": "INPUT_WRAPPER",
-            "realm": "genny",
-            "weight": 1
           }
 
         ]
@@ -76,7 +68,7 @@
       "created": "2018-08-29T03:00:40",
       "updated": "2018-12-12T02:22:34",
       "id": 3671,
-      "name": "Notes Title",
+      "name": "Close",
       "realm": "genny"
     }
   ],

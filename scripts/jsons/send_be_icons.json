@@ -351,6 +351,81 @@
       "replace": false,
       "totalCount": 1,
       "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_NOTIFICATION",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "notifications",
+          "valueString": "notifications"
+        }
+      ],
+      "code": "ICN_NOTIFICATION",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Notifications",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_NOTES",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "speaker_notes",
+          "valueString": "speaker_notes"
+        }
+      ],
+      "code": "ICN_NOTES",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Notes",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_ICON_CODE",
+          "attributeName": "Name",
+          "baseEntityCode": "ICN_CLOSE",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "close",
+          "valueString": "close"
+        }
+      ],
+      "code": "ICN_CLOSE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "name": "Icon Close",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
     }
   ],
   "msg_type": "DATA_MSG",

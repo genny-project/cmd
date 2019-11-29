@@ -34,7 +34,34 @@
           "updated": "2019-02-06T04:25:25",
           "valueString": "CENTRE",
           "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "EAST",
+            "sourceCode": "FRM_NOTIFICATIONS_TITLE",
+            "targetCode": "QUE_CLOSE_NOTES",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "EAST",
+          "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "WRAPPER",
+            "sourceCode": "FRM_NOTIFICATIONS_TITLE",
+            "targetCode": "THM_THEMEPADDING",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "WRAPPER",
+          "weight": 1000
         }
+
       ],
       "name": "Notifications Title",
       "realm": "genny",

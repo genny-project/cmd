@@ -5,43 +5,31 @@
       "targetCode": "PER_USER1",
       "questionCode": "QUE_NOTIFICATIONS_CONTENT_GRP",
       "attributeCode": "QQQ_QUESTION_GROUP",
-      "mandatory": false,
-      "oneshot": false,
       "disabled": false,
-      "hidden": false,
       "readonly": true,
       "weight": 0.0,
       "parentId": 0,
       "childAsks": [
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_1111",
           "questionCode": "QUE_NOTE_ONE_GRP",
           "attributeCode": "QQQ_QUESTION_GROUP",
-          "mandatory": false,
-          "oneshot": false,
           "disabled": false,
-          "hidden": false,
           "readonly": true,
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_1111",
               "questionCode": "QUE_NOTE_ONE_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
-              "mandatory": false,
-              "oneshot": false,
               "disabled": false,
-              "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -60,9 +48,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -75,14 +61,29 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
-                  "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -108,9 +109,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -123,10 +122,7 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
-                  "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
@@ -166,9 +162,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -181,10 +175,7 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
-                  "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
@@ -195,11 +186,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -208,7 +197,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -216,7 +204,6 @@
               "name": "Notification 1111 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -235,9 +222,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -250,10 +235,7 @@
               "targetCode": "MSG_1111",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
-              "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
@@ -264,11 +246,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -308,7 +288,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -316,35 +295,27 @@
           "name": "Notification 1111 Group",
           "realm": "genny"
         },
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_2222",
           "questionCode": "QUE_NOTE_TWO_GRP",
           "attributeCode": "QQQ_QUESTION_GROUP",
-          "mandatory": false,
-          "oneshot": false,
           "disabled": false,
-          "hidden": false,
           "readonly": true,
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_2222",
               "questionCode": "QUE_NOTE_TWO_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
-              "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -363,9 +334,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -378,14 +347,29 @@
                   "targetCode": "MSG_2222",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
-                  "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -411,9 +395,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -426,8 +408,6 @@
                   "targetCode": "MSG_2222",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -469,9 +449,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -484,8 +462,6 @@
                   "targetCode": "MSG_2222",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -498,11 +474,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -511,7 +485,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -519,7 +492,6 @@
               "name": "Notification 2222 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -538,9 +510,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -553,8 +523,6 @@
               "targetCode": "MSG_2222",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -567,11 +535,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -611,7 +577,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -619,8 +584,6 @@
           "name": "Notification 2222 Group",
           "realm": "genny"
         },
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_3333",
@@ -634,21 +597,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_3333",
               "questionCode": "QUE_NOTE_THREE_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -667,9 +627,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -682,14 +640,30 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -715,9 +689,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -730,8 +702,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -773,9 +743,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -788,8 +756,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -802,11 +768,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -815,7 +779,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -823,7 +786,6 @@
               "name": "Notification 3333 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -842,9 +804,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -857,8 +817,6 @@
               "targetCode": "MSG_3333",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -871,11 +829,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -915,7 +871,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -923,8 +878,6 @@
           "name": "Notification 3333 Group",
           "realm": "genny"
         },
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_4444",
@@ -938,21 +891,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_4444",
               "questionCode": "QUE_NOTE_FOUR_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -971,9 +921,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -986,14 +934,30 @@
                   "targetCode": "MSG_4444",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -1019,9 +983,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1034,8 +996,6 @@
                   "targetCode": "MSG_4444",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1077,9 +1037,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1092,8 +1050,6 @@
                   "targetCode": "MSG_4444",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1106,11 +1062,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -1119,7 +1073,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -1127,7 +1080,6 @@
               "name": "Notification 4444 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -1146,9 +1098,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -1161,8 +1111,6 @@
               "targetCode": "MSG_4444",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -1175,11 +1123,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -1219,7 +1165,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -1227,9 +1172,6 @@
           "name": "Notification 4444 Group",
           "realm": "genny"
         },
-
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_3333",
@@ -1243,21 +1185,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_3333",
               "questionCode": "QUE_NOTE_FIVE_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -1276,9 +1215,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1291,14 +1228,30 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -1324,9 +1277,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1339,8 +1290,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1382,9 +1331,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1397,8 +1344,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1411,11 +1356,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -1424,7 +1367,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -1432,7 +1374,6 @@
               "name": "Notification 3333 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -1451,9 +1392,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -1466,8 +1405,6 @@
               "targetCode": "MSG_3333",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -1480,11 +1417,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -1524,7 +1459,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -1532,8 +1466,6 @@
           "name": "Notification 3333 Group",
           "realm": "genny"
         },
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_3333",
@@ -1547,21 +1479,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_3333",
               "questionCode": "QUE_NOTE_SIX_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -1580,9 +1509,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1595,14 +1522,30 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -1628,9 +1571,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1643,8 +1584,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1686,9 +1625,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1701,8 +1638,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1715,11 +1650,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -1728,7 +1661,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -1736,7 +1668,6 @@
               "name": "Notification 3333 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -1755,9 +1686,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -1770,8 +1699,6 @@
               "targetCode": "MSG_3333",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -1784,11 +1711,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -1828,7 +1753,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -1836,8 +1760,6 @@
           "name": "Notification 3333 Group",
           "realm": "genny"
         },
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_3333",
@@ -1851,21 +1773,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_3333",
               "questionCode": "QUE_NOTE_SEVEN_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -1884,9 +1803,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1899,14 +1816,30 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -1932,9 +1865,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -1947,8 +1878,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -1990,9 +1919,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2005,8 +1932,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2019,11 +1944,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -2032,7 +1955,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -2040,7 +1962,6 @@
               "name": "Notification 3333 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -2059,9 +1980,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -2074,8 +1993,6 @@
               "targetCode": "MSG_3333",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -2088,11 +2005,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -2132,7 +2047,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -2140,9 +2054,6 @@
           "name": "Notification 3333 Group",
           "realm": "genny"
         },
-
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_2222",
@@ -2156,21 +2067,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_2222",
               "questionCode": "QUE_NOTE_EIGHT_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -2189,9 +2097,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2204,14 +2110,30 @@
                   "targetCode": "MSG_2222",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -2237,9 +2159,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2252,8 +2172,6 @@
                   "targetCode": "MSG_2222",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2295,9 +2213,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2310,8 +2226,6 @@
                   "targetCode": "MSG_2222",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2324,11 +2238,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -2337,7 +2249,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -2345,7 +2256,6 @@
               "name": "Notification 2222 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -2364,9 +2274,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -2379,8 +2287,6 @@
               "targetCode": "MSG_2222",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -2393,11 +2299,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -2437,7 +2341,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -2445,9 +2348,6 @@
           "name": "Notification 2222 Group",
           "realm": "genny"
         },
-
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_3333",
@@ -2461,21 +2361,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_3333",
               "questionCode": "QUE_NOTE_NINE_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -2494,9 +2391,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2509,14 +2404,30 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -2542,9 +2453,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2557,8 +2466,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2600,9 +2507,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2615,8 +2520,6 @@
                   "targetCode": "MSG_3333",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2629,11 +2532,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -2642,7 +2543,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -2650,7 +2550,6 @@
               "name": "Notification 3333 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -2669,9 +2568,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -2684,8 +2581,6 @@
               "targetCode": "MSG_3333",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -2698,11 +2593,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -2742,7 +2635,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -2750,9 +2642,6 @@
           "name": "Notification 3333 Group",
           "realm": "genny"
         },
-
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_1111",
@@ -2766,21 +2655,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_1111",
               "questionCode": "QUE_NOTE_TEN_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -2799,9 +2685,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2814,14 +2698,30 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -2847,9 +2747,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2862,8 +2760,6 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2905,9 +2801,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -2920,8 +2814,6 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -2934,11 +2826,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -2947,7 +2837,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -2955,7 +2844,6 @@
               "name": "Notification 1111 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -2974,9 +2862,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -2989,8 +2875,6 @@
               "targetCode": "MSG_1111",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -3003,11 +2887,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -3047,7 +2929,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -3055,9 +2936,6 @@
           "name": "Notification 1111 Group",
           "realm": "genny"
         },
-
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_1111",
@@ -3071,21 +2949,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_1111",
               "questionCode": "QUE_NOTE_ELEVEN_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -3104,9 +2979,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -3119,14 +2992,30 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -3152,9 +3041,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -3167,8 +3054,6 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -3210,9 +3095,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -3225,8 +3108,6 @@
                   "targetCode": "MSG_1111",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -3239,11 +3120,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -3252,7 +3131,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -3260,7 +3138,6 @@
               "name": "Notification 1111 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -3279,9 +3156,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -3294,8 +3169,6 @@
               "targetCode": "MSG_1111",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -3308,11 +3181,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -3352,7 +3223,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -3360,8 +3230,6 @@
           "name": "Notification 1111 Group",
           "realm": "genny"
         },
-
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "MSG_4444",
@@ -3375,21 +3243,18 @@
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
-
             {
               "sourceCode": "PER_USER1",
               "targetCode": "MSG_4444",
               "questionCode": "QUE_NOTE_TWELVE_HEADER_GRP",
               "attributeCode": "QQQ_QUESTION_GROUP",
               "mandatory": false,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "childAsks": [
-
                 {
                   "question": {
                     "attribute": {
@@ -3408,9 +3273,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_STATUS_COLOR",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_STATUS_COLOR",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -3423,14 +3286,30 @@
                   "targetCode": "MSG_4444",
                   "questionCode": "QUE_STATUS_COLOR",
                   "attributeCode": "PRI_STATUS_COLOR",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
                   "weight": 0.0,
                   "parentId": 0,
                   "contextList": {
+                    "contexts": [
+                      {
+                        "contextCode": "THM_MARGIN_RIGHT",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "VCL_WRAPPER",
+                        "realm": "genny",
+                        "weight": 1
+                      },
+                      {
+                        "contextCode": "THM_STATUS_FIELD",
+                        "created": "2019-02-06T04:24:58",
+                        "name": "THEME",
+                        "visualControlType": "INPUT_FIELD",
+                        "realm": "genny",
+                        "weight": 1
+                      }
+                    ]
                   },
                   "created": "2018-08-29T03:00:40",
                   "updated": "2018-12-12T02:22:34",
@@ -3456,9 +3335,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_TITLE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_TITLE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -3471,8 +3348,6 @@
                   "targetCode": "MSG_4444",
                   "questionCode": "QUE_TITLE",
                   "attributeCode": "PRI_TITLE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -3514,9 +3389,7 @@
                       "realm": "genny"
                     },
                     "attributeCode": "PRI_CREATED_DATE",
-                    "mandatory": true,
                     "readonly": true,
-                    "oneshot": false,
                     "code": "QUE_CREATED_DATE",
                     "index": 0,
                     "created": "2018-08-14T02:46:56",
@@ -3529,8 +3402,6 @@
                   "targetCode": "MSG_4444",
                   "questionCode": "QUE_CREATED_DATE",
                   "attributeCode": "PRI_CREATED_DATE",
-                  "mandatory": true,
-                  "oneshot": false,
                   "disabled": false,
                   "hidden": false,
                   "readonly": true,
@@ -3543,11 +3414,9 @@
                   "name": "Created Date",
                   "realm": "genny"
                 }
-
               ],
               "contextList": {
                 "contexts": [
-
                   {
                     "contextCode": "THM_DISPLAY_HORIZONTAL",
                     "created": "2019-02-06T04:24:58",
@@ -3556,7 +3425,6 @@
                     "realm": "genny",
                     "weight": 1
                   }
-
                 ]
               },
               "created": "2019-02-14T03:15:22",
@@ -3564,7 +3432,6 @@
               "name": "Notification 4444 Header Group",
               "realm": "genny"
             },
-
             {
               "question": {
                 "attribute": {
@@ -3583,9 +3450,7 @@
                   "realm": "genny"
                 },
                 "attributeCode": "PRI_CONTENT",
-                "mandatory": true,
                 "readonly": true,
-                "oneshot": false,
                 "code": "QUE_CONTENT",
                 "index": 0,
                 "created": "2018-08-14T02:46:56",
@@ -3598,8 +3463,6 @@
               "targetCode": "MSG_4444",
               "questionCode": "QUE_CONTENT",
               "attributeCode": "PRI_CONTENT",
-              "mandatory": true,
-              "oneshot": false,
               "disabled": false,
               "hidden": false,
               "readonly": true,
@@ -3612,11 +3475,9 @@
               "name": "Content",
               "realm": "genny"
             }
-
           ],
           "contextList": {
             "contexts": [
-
               {
                 "contextCode": "THM_DISPLAY_VERTICAL",
                 "created": "2019-02-06T04:24:58",
@@ -3648,7 +3509,6 @@
                 "realm": "genny",
                 "weight": 1
               }
-
             ]
           },
           "created": "2019-02-14T03:15:22",
@@ -3656,13 +3516,9 @@
           "name": "Notification 4444 Group",
           "realm": "genny"
         }
-
-
-
       ],
       "contextList": {
         "contexts": [
-
           {
             "contextCode": "THM_DISPLAY_VERTICAL",
             "created": "2019-02-06T04:24:58",
@@ -3678,7 +3534,6 @@
             "realm": "genny",
             "weight": 1
           }
-
         ]
       },
       "created": "2019-02-14T03:15:22",

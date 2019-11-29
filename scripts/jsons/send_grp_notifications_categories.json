@@ -4,7 +4,7 @@
   "items": [
     {
       "baseEntityAttributes": [],
-      "code": "GRP_NOTES_CATEGORIES",
+      "code": "GRP_NOTIFICATIONS_CATEGORIES",
       "created": "2019-02-23T23:28:02",
       "delete": false,
       "id": 374,
@@ -15,8 +15,8 @@
           "link": {
             "attributeCode": "LNK_CORE",
             "linkValue": "link",
-            "sourceCode": "GRP_NOTES_CATEGORIES",
-            "targetCode": "SEL_DROPDOWN_ITEM_NOTES_ALL",
+            "sourceCode": "GRP_NOTIFICATIONS_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_NOTIF_ALL",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -28,8 +28,8 @@
           "link": {
             "attributeCode": "LNK_CORE",
             "linkValue": "link",
-            "sourceCode": "GRP_NOTES_CATEGORIES",
-            "targetCode": "SEL_DROPDOWN_ITEM_NOTES_SYSTEM",
+            "sourceCode": "GRP_NOTIFICATIONS_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_NOTIF_INFO",
             "weight": 2
           },
           "updated": "2019-02-06T04:25:25",
@@ -41,16 +41,42 @@
           "link": {
             "attributeCode": "LNK_CORE",
             "linkValue": "link",
-            "sourceCode": "GRP_NOTES_CATEGORIES",
-            "targetCode": "SEL_DROPDOWN_ITEM_NOTES_USER",
+            "sourceCode": "GRP_NOTIFICATIONS_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_NOTIF_SUCCESS",
             "weight": 3
           },
           "updated": "2019-02-06T04:25:25",
           "valueString": "link",
           "weight": 3
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTIFICATIONS_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_NOTIF_WARNING",
+            "weight": 4
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 4
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTIFICATIONS_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_NOTIF_ERROR",
+            "weight": 5
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 5
         }
       ],
-      "name": "Notes Categories",
+      "name": "Notifications Categories",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,

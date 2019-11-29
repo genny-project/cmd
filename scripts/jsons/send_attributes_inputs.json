@@ -627,6 +627,70 @@
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_NOTES_CATEGORY",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS_NOTES_CATEGORIES",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_NOTES_CATEGORIES"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Notes Categories",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_NOTIFS_CATEGORY",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_DROPDOWN_ITEMS_NOTES_CATEGORIES",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_NOTIFICATIONS_CATEGORIES"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Notifications Categories",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     }
   ],
   "data_type": "Attribute",

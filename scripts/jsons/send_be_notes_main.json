@@ -60,7 +60,21 @@
           "updated": "2019-02-06T04:25:25",
           "valueString": "FRAME",
           "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_NOTES_MAIN",
+            "targetCode": "THM_ZINDEX_1",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1000
         }
+
       ],
       "name": "Notes Main",
       "realm": "genny",
