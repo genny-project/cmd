@@ -5,35 +5,24 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_FLEX_ONE",
+          "attributeCode": "PRI_TEXT",
+          "attributeName": "Text",
+          "baseEntityCode": "BEG_NOTIFICATION_TEST",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"flex\": 1 }"
-        },
-        {
-          "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_FLEX_ONE",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": false,
-          "valueBoolean": false
+          "value": "Notification Test",
+          "valueString": "Notification Test"
         }
       ],
-      "code": "THM_FLEX_ONE",
+      "code": "BEG_NOTIFICATION_TEST",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 1002,
       "index": 0,
-      "links": [
-      ],
-      "name": "Theme Flex 1",
+      "links": [],
+      "name": "Notification Test",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

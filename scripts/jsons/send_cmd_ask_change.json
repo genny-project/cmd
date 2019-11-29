@@ -1,0 +1,15 @@
+{
+  "data_type": "AskChange",
+  "items": [
+    {
+      "questionCode": "QUE_USER_ADDRESS_GRP",
+      "newChildAsks": [
+        "QUE_SEARCH"
+      ],
+      "targetsPrime": {
+        "delete": true
+      }
+    }
+  ],
+  "msg_type": "DATA_MSG"
+}

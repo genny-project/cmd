@@ -1,0 +1,78 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_NOTES_MAIN",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Notes Main",
+          "valueString": "Notes Main"
+        }
+      ],
+      "code": "FRM_NOTES_MAIN",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_NOTES_MAIN",
+            "targetCode": "FRM_NOTES_HEADER",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_NOTES_MAIN",
+            "targetCode": "FRM_NOTES_CONTENT",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "FRAME",
+            "sourceCode": "FRM_NOTES_MAIN",
+            "targetCode": "THM_PROJECT_COLOR_BACKGROUND",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "FRAME",
+          "weight": 1000
+        }
+      ],
+      "name": "Notes Main",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

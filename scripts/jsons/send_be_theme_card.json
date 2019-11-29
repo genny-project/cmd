@@ -5,19 +5,9 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_FLEX_ONE",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "{ \"flex\": 1 }"
-        },
-        {
           "attributeCode": "PRI_IS_INHERITABLE",
           "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_FLEX_ONE",
+          "baseEntityCode": "THM_CARD",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -26,23 +16,23 @@
           "valueBoolean": false
         }
       ],
-      "code": "THM_FLEX_ONE",
+      "code": "THM_CARD",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Flex 1",
+      "name": "Theme Card",
       "realm": "genny",
-      "replace": true,
+      "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": true,
+  "replace": false,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

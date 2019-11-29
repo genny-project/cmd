@@ -5,34 +5,24 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "Theme Display Vertical"
-        },
-        {
-          "attributeCode": "PRI_CONTENT",
+          "attributeCode": "PRI_CONTENT_CLOSED",
           "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "baseEntityCode": "THM_IMAGE_CLOSED",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "valueString": "{ \"imageWidth\": 40, \"imageHeight\": 40  }"
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "THM_IMAGE_CLOSED",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1000,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Display Vertical",
+      "name": "Theme Image Closed",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

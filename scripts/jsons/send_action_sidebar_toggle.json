@@ -1,0 +1,10 @@
+{
+  "cmd_type": "PANEL_TOGGLE",
+  "codes": [
+    "FRM_HEADER:WEST"
+  ],
+  "msg_type": "CMD_MSG",
+  "cache": "QUE_SIDEBAR_MENU_GRP:QUE_SIDEBAR_MENU_GRP:QUE_SIDEBAR_TOGGLE",
+  "exec": false,
+  "send": false
+}

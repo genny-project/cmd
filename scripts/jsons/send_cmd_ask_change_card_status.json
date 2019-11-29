@@ -1,0 +1,42 @@
+{
+  "data_type": "AskChange",
+  "items": [
+    {
+      "questionCode": "QUE_CARD_STATUS_GRP",
+      "newChildAsks": [
+        "QUE_CARD_STATUS"
+      ],
+      "targetsPrime": {
+        "delete": true
+      }
+    },
+    {
+      "questionCode": "QUE_CARD_LEFT_GRP",
+      "newChildAsks": [
+        "QUE_IMAGE_URL"
+      ],
+      "targetsPrime": {
+        "delete": true
+      }
+    },
+    {
+      "questionCode": "QUE_CARD_RIGHT_GRP",
+      "newChildAsks": [
+        "QUE_OPTIONS_GRP"
+      ],
+      "targetsPrime": {
+        "delete": true
+      }
+    },
+    {
+      "questionCode": "QUE_CARD_BOTTOM_GRP",
+      "newChildAsks": [
+        "QUE_TEST_CARD_BOTTOM_GRP"
+      ],
+      "targetsPrime": {
+        "delete": true
+      }
+    }
+  ],
+  "msg_type": "DATA_MSG"
+}

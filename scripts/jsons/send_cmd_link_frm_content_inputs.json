@@ -1,0 +1,40 @@
+{
+  "data_type": "Link",
+  "items": [
+    {
+      "code": "FRM_CONTENT",
+      "newLinks": [
+        {
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_CONTENT",
+            "targetCode": "QUE_INPUTS_GRP",
+            "weight": 1
+          },
+          "valueString": "CENTRE",
+          "weight": 1
+        }
+      ],
+      "targets": {
+      },
+      "targetsPrime": {
+        "delete": false,
+        "types": {
+          "include": [
+            "LNK_FRAME"
+          ],
+          "exclude": false
+        },
+        "fields": {
+          "weight": 0
+        }
+      },
+      "types": {
+        "include": false,
+        "exclude": false
+      }
+    }
+  ],
+  "msg_type": "DATA_MSG"
+}

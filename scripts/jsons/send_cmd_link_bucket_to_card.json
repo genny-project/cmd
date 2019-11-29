@@ -1,0 +1,41 @@
+{
+  "data_type": "Link",
+  "items": [
+    {
+      "code": "FRM_BUCKET_COLUMN_1",
+      "newLinks": [
+        {
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_BUCKET_COLUMN_1",
+            "targetCode": "QUE_COLUMN_GRP",
+            "weight": 3
+          },
+          "valueString": "CENTRE",
+          "weight": 3
+        }
+      ],
+      "targets": {
+        "delete": false,
+        "targetCodes": [
+          "THM_BACKGROUND_E4E4E4",
+          "THM_BUCKET_COLUMN_PADDING",
+          "THM_BUCKET_COLUMN",
+          "THM_BACKGROUND_NONE",
+          "FRM_GRP_AVAILABLE"
+        ],
+        "types": {
+          "include": [
+            "LNK_THEME"
+          ],
+          "exclude": false
+        }
+      },
+      "targetsPrime": {
+        "delete": true
+      }
+    }
+  ],
+  "msg_type": "DATA_MSG"
+}

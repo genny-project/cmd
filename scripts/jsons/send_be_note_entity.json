@@ -1,0 +1,185 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_TEXT",
+          "attributeName": "Text",
+          "baseEntityCode": "BEG_NOTE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Note Test",
+          "valueString": "Note Test"
+        }
+      ],
+      "code": "BEG_NOTE_TEST",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [],
+      "name": "Note Test",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "NOT_NOTE_ONE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Note One Test",
+          "valueString": "Note One Test"
+        },
+        {
+          "attributeCode": "PRI_CREATED_DATE",
+          "attributeName": "Created Data",
+          "baseEntityCode": "NOT_NOTE_ONE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "2019-02-06T04:24:10",
+          "valueString": "2019-02-06T04:24:10"
+        },
+        {
+          "attributeCode": "PRI_TEXT_AREA",
+          "attributeName": "Content",
+          "baseEntityCode": "NOT_NOTE_ONE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "valueString": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ],
+      "code": "NOT_NOTE_ONE_TEST",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [],
+      "name": "Note One Test",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "NOT_NOTE_TWO_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Note Two Test",
+          "valueString": "Note Two Test"
+        },
+        {
+          "attributeCode": "PRI_CREATED_DATE",
+          "attributeName": "Created Data",
+          "baseEntityCode": "NOT_NOTE_TWO_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "2019-02-07T04:24:10",
+          "valueString": "2019-02-06T04:24:10"
+        },
+        {
+          "attributeCode": "PRI_TEXT_AREA",
+          "attributeName": "Content",
+          "baseEntityCode": "NOT_NOTE_TWO_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "valueString": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      ],
+      "code": "NOT_NOTE_TWO_TEST",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [],
+      "name": "Note Two Test",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    },
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "NOT_NOTE_THREE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Note Three Test",
+          "valueString": "Note Three Test"
+        },
+        {
+          "attributeCode": "PRI_CREATED_DATE",
+          "attributeName": "Created Data",
+          "baseEntityCode": "NOT_NOTE_THREE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "2019-01-04T07:54:10",
+          "valueString": "2019-01-04T07:54:10"
+        },
+        {
+          "attributeCode": "PRI_TEXT_AREA",
+          "attributeName": "Content",
+          "baseEntityCode": "NOT_NOTE_THREE_TEST",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "valueString": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ],
+      "code": "NOT_NOTE_THREE_TEST",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [],
+      "name": "Note Three Test",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

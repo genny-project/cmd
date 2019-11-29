@@ -5,43 +5,50 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "attributeCode": "PRI_CONTROLLABLE_PANELS",
+          "attributeName": "Controllable Panels",
+          "baseEntityCode": "FRM_APP_CONTENT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "Theme Display Vertical"
+          "value": [
+            "WEST"
+          ]
         },
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "attributeCode": "PRI_SWIPEABLE_PANELS",
+          "attributeName": "Swipeable Panels",
+          "baseEntityCode": "FRM_APP_CONTENT",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "value": [
+            {
+              "panel": "ROW",
+              "index": 0
+            }
+          ]
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "FRM_APP_CONTENT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1004,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Display Vertical",
+      "name": "App Content Frame",
       "realm": "genny",
-      "replace": true,
+      "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": true,
+  "replace": false,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

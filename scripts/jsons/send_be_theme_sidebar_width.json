@@ -22,7 +22,7 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"width\": 300 }"
+          "valueString": "{}"
         },
         {
           "attributeCode": "PRI_CONTENT_CLOSED",
@@ -32,7 +32,7 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"width\": 50 }"
+          "valueString": "{}"
         }
       ],
       "code": "THM_SIDEBAR_WIDTH",

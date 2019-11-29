@@ -5,34 +5,35 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "attributeCode": "PRI_IS_UNITY_GROUP",
+          "attributeName": "Is Group Unity?",
+          "baseEntityCode": "THM_IS_UNITY_GROUP",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "Theme Display Vertical"
+          "value": true,
+          "valueBoolean": true
         },
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "attributeCode": "PRI_IS_INHERITABLE",
+          "attributeName": "Is Group Inheritable?",
+          "baseEntityCode": "THM_IS_UNITY_GROUP",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "value": false,
+          "valueBoolean": false
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "THM_IS_UNITY_GROUP",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1000,
       "index": 0,
-      "links": [
-      ],
-      "name": "Theme Display Vertical",
+      "links": [],
+      "name": "Theme Unity Group",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

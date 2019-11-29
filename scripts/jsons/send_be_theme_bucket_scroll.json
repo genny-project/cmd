@@ -1,0 +1,12 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

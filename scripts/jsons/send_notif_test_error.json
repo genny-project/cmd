@@ -1,0 +1,83 @@
+{
+  "data_type": "Notification2",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_TITLE",
+          "attributeName": "Title",
+          "baseEntityCode": "MSG_4444",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Error",
+          "valueString": "Error"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "MSG_4444",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "An error has occured. Please try again later.",
+          "valueString": "An error has occured. Please try again later."
+        },
+        {
+          "attributeCode": "PRI_TYPE",
+          "attributeName": "Type",
+          "baseEntityCode": "MSG_4444",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "error",
+          "valueString": "error"
+        },
+        {
+          "attributeCode": "PRI_CREATED_DATE",
+          "attributeName": "Created Data",
+          "baseEntityCode": "MSG_4444",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "2019-02-06T04:24:10",
+          "valueString": "2019-02-06T04:24:10"
+        },
+        {
+          "attributeCode": "PRI_STATUS_COLOR",
+          "attributeName": "Status Color",
+          "baseEntityCode": "MSG_4444",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "#cc0000",
+          "valueString": "#cc0000"
+        }
+      ],
+      "code": "MSG_4444",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 10230,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Notification",
+      "realm": "genny",
+      "replace": false,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": false,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

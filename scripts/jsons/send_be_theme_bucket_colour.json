@@ -5,35 +5,48 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_WIDTH_100PERCENT",
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_BUCKET_COLOUR",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Theme Width 100%",
-          "valueString": "Theme Width 100%"
-        },
+          "value": { "backgroundColor": "#EAEAEA" },
+          "valueString": { "backgroundColor": "#EAEAEA" }
+        }
+      ],
+      "code": "THM_BUCKET_COLOUR",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 10230,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Theme Bucket Colour",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    },
+    {
+      "baseEntityAttributes": [
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_WIDTH_100PERCENT",
+          "baseEntityCode": "THM_BUCKET_SCROLL",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": {
-            "width": "100%"
-          },
-          "valueString": {
-            "width": "100%"
-          }
+          "value": { "overflowY": "auto" },
+          "valueString": { "overflowY": "auto" }
         },
         {
           "attributeCode": "PRI_IS_INHERITABLE",
-          "attributeName": "Is Group Inheritable?",
-          "baseEntityCode": "THM_WIDTH_100PERCENT",
+          "attributeName": "Inherit",
+          "baseEntityCode": "THM_BUCKET_SCROLL",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
@@ -42,14 +55,14 @@
           "valueBoolean": false
         }
       ],
-      "code": "THM_WIDTH_100PERCENT",
+      "code": "THM_BUCKET_SCROLL",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 1000,
+      "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Width 100%",
+      "name": "Theme Bucket Scroll",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

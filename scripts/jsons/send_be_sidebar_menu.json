@@ -7,16 +7,16 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "FRM_PROJECT_NAME",
+          "baseEntityCode": "FRM_SIDEBAR_MENU",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": "Header Frame",
-          "valueString": "Header Frame"
+          "value": "Sidebar Menu Frame",
+          "valueString": "Sidebar Menu Frame"
         }
       ],
-      "code": "FRM_PROJECT_NAME",
+      "code": "FRM_SIDEBAR_MENU",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1004,
@@ -27,21 +27,8 @@
           "link": {
             "attributeCode": "LNK_ASK",
             "linkValue": "CENTRE",
-            "sourceCode": "FRM_PROJECT_NAME",
-            "targetCode": "QUE_HAMBURGER_GRP",
-            "weight": 1
-          },
-          "updated": "2019-02-06T04:25:25",
-          "valueString": "CENTRE",
-          "weight": 1
-        },
-        {
-          "created": "2019-02-06T04:24:58",
-          "link": {
-            "attributeCode": "LNK_THEME",
-            "linkValue": "CENTRE",
-            "sourceCode": "FRM_PROJECT_NAME",
-            "targetCode": "THM_DISPLAY_HORIZONTAL",
+            "sourceCode": "FRM_SIDEBAR_MENU",
+            "targetCode": "QUE_SIDEBAR_MENU_GRP",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -49,16 +36,16 @@
           "weight": 1
         }
       ],
-      "name": "Project Name Frame",
+      "name": "Sidebar Menu Frame",
       "realm": "genny",
-      "replace": false,
+      "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": false,
+  "replace": true,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

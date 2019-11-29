@@ -1,0 +1,91 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [],
+      "code": "GRP_NOTES_CATEGORIES",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTES_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_ONE",
+            "weight": 1
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 1
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTES_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_TWO",
+            "weight": 2
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 2
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTES_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_THREE",
+            "weight": 3
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 3
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTES_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_FOUR",
+            "weight": 4
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 4
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_CORE",
+            "linkValue": "link",
+            "sourceCode": "GRP_NOTES_CATEGORIES",
+            "targetCode": "SEL_DROPDOWN_ITEM_FIVE",
+            "weight": 5
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "link",
+          "weight": 5
+        }
+      ],
+      "name": "Notes Categories",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

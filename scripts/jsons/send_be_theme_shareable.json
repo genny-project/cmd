@@ -5,34 +5,25 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "attributeCode": "PRI_IS_SHAREABLE",
+          "attributeName": "Is Frame Shareable?",
+          "baseEntityCode": "THM_SHAREABLE",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "Theme Display Vertical"
-        },
-        {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "value": true,
+          "valueBoolean": true
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "THM_SHAREABLE",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1002,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Display Vertical",
+      "name": "Shareable",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

@@ -5,34 +5,35 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "Theme Display Vertical"
-        },
-        {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "baseEntityCode": "THM_JUSTIFY_BETWEEN",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "valueString": "{ \"justifyContent\": \"space-between\" }"
+        },
+        {
+          "attributeCode": "PRI_IS_INHERITABLE",
+          "attributeName": "Is Group Inheritable?",
+          "baseEntityCode": "THM_JUSTIFY_BETWEEN",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": false,
+          "valueBoolean": false
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "THM_JUSTIFY_BETWEEN",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1000,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Display Vertical",
+      "name": "Theme Justify Between",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

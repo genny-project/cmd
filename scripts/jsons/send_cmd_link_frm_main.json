@@ -1,0 +1,22 @@
+{
+  "data_type": "Link",
+  "items": [
+    {
+      "code": "FRM_APP_CONTENT",
+      "newLinks": [
+        {
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "EAST",
+            "sourceCode": "FRM_APP_CONTENT",
+            "targetCode": "FRM_NOTES",
+            "weight": 1
+          },
+          "valueString": "EAST",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "msg_type": "DATA_MSG"
+}

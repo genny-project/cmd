@@ -1,0 +1,14 @@
+{
+  "cmd_type": "SWIPEABLE_INDEX_CHANGE",
+  "codes": [
+    {
+      "code": "FRM_APP_CONTENT:ROW",
+      "index": 1,
+      "type": "toggleIndex"
+    }
+  ],
+  "msg_type": "CMD_MSG",
+  "cache": "QUE_TAB_VIEW:QUE_TAB_VIEW:QUE_TAB_VIEW",
+  "exec": false,
+  "send": true
+}

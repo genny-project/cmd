@@ -1,0 +1,83 @@
+{
+  "data_type": "Notification2",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_TITLE",
+          "attributeName": "Title",
+          "baseEntityCode": "MSG_2222",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Warning",
+          "valueString": "Warning"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "MSG_2222",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "You have 2 days left to sign your Internship Agreement Document.",
+          "valueString": "You have 2 days left to sign your Internship Agreement Document."
+        },
+        {
+          "attributeCode": "PRI_TYPE",
+          "attributeName": "Type",
+          "baseEntityCode": "MSG_2222",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "warning",
+          "valueString": "warning"
+        },
+        {
+          "attributeCode": "PRI_CREATED_DATE",
+          "attributeName": "Created Data",
+          "baseEntityCode": "MSG_2222",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "2019-02-06T04:24:10",
+          "valueString": "2019-02-06T04:24:10"
+        },
+        {
+          "attributeCode": "PRI_STATUS_COLOR",
+          "attributeName": "Status Color",
+          "baseEntityCode": "MSG_2222",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "#FFCC00",
+          "valueString": "#FFCC00"
+        }
+      ],
+      "code": "MSG_2222",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 10230,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Notification",
+      "realm": "genny",
+      "replace": false,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": false,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

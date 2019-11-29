@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "sourceCode": "PER_USER1",
+      "targetCode": "PER_USER1",
+      "questionCode": "QUE_NOTES_NEW_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": true,
+      "weight": 0.0,
+      "parentId": 0,
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "TextArea",
+                "typeName": "TextArea",
+                "validationList": [
+                  {
+                    "regex": "(?!^$|\\s+)",
+                    "selectionBaseEntityGroupList": [
+                      ""
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_NON_EMPTY",
+                    "index": 0,
+                    "created": "2019-02-14T03:24:50.034",
+                    "name": "EmptyandBlankValues",
+                    "realm": "genny"
+                  }
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TEXT_AREA",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input TextArea",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TEXT_AREA",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TEXT_AREA",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input TextArea",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_TEXT_AREA",
+          "attributeCode": "PRI_TEXT_AREA",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input TextArea",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "dropdown",
+                "typeName": "dropdown",
+                "validationList": [
+                  {
+                    "regex": ".*",
+                    "options": [
+                      {
+                        "name": "Option One",
+                        "code": "OPT_ONE"
+                      },
+                      {
+                        "name": "Option Two",
+                        "code": "OPT_TWO"
+                      },
+                      {
+                        "name": "Option Three",
+                        "code": "OPT_THREE"
+                      },
+                      {
+                        "name": "Option Four",
+                        "code": "OPT_FOUR"
+                      },
+                      {
+                        "name": "Option Five",
+                        "code": "OPT_FIVE"
+                      }
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_SELECT_OPTION_ITEMS",
+                    "index": 0,
+                    "created": "2019-02-25T04:00:34.1",
+                    "name": "dropdown",
+                    "realm": "genny"
+                  }
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_DROPDOWN",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Note Category",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_DROPDOWN",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_DROPDOWN",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Note Category",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_DROPDOWN",
+          "attributeCode": "PRI_DROPDOWN",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Note Category",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "EventButton",
+                "typeName": "EventButton",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_SUBMIT_BUTTON",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Add Note",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_SUBMIT_BUTTON",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_EVENT",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Add Note",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_EVENT",
+          "attributeCode": "PRI_SUBMIT_BUTTON",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Add Note",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_PROJECT_COLOR_SURFACE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_WIDTH_100_PERCENT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "GROUP_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_MARGIN_BOTTOM",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_BUTTONS_BEHAVIOUR",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_DEFAULT",
+            "dataType": "buttonEvent",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_PROJECT_COLOR_PRIMARY_VARIANT_LIGHT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_DEFAULT",
+            "dataType": "buttonEvent",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_BUTTONS_BORDER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "dataType": "buttonEvent",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_BUTTONS",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_WRAPPER",
+            "dataType": "buttonEvent",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_JUSTIFY_CONTENT_CENTRE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_WRAPPER",
+            "dataType": "buttonEvent",
+            "realm": "genny",
+            "weight": 1
+          }
+
+        ]
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "Notes New Group",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}

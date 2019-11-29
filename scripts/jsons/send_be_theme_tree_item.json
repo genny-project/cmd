@@ -5,43 +5,50 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "Theme Display Vertical"
-        },
-        {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "baseEntityCode": "THM_TREE_ITEM",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "value": { 
+            "color": "white",
+            "flexBasis": "auto",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "height": "auto",
+            "paddingLeft": 20,
+            "paddingY": 5
+           },
+          "valueString": { 
+            "color": "white",
+            "flexBasis": "auto",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "height": "auto",
+            "paddingLeft": 20,
+            "paddingY": 5
+           }
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "THM_TREE_ITEM",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Display Vertical",
+      "name": "Theme Tree View",
       "realm": "genny",
-      "replace": true,
+      "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": true,
+  "replace": false,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

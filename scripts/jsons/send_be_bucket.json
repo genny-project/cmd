@@ -1,0 +1,43 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_SWIPEABLE_PANELS",
+          "attributeName": "Swipeable Panels",
+          "baseEntityCode": "FRM_BUCKET",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": [
+            {
+              "panel": "WEST",
+              "index": 0
+            }
+          ]
+        }
+      ],
+      "code": "FRM_BUCKET",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Bucket",
+      "realm": "genny",
+      "replace": false,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": false,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

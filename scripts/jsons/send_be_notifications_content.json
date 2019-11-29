@@ -1,0 +1,65 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_NOTIFICATIONS_CONTENT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Notifications Content",
+          "valueString": "Notifications Content"
+        }
+      ],
+      "code": "FRM_NOTIFICATIONS_CONTENT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_NOTIFICATIONS_CONTENT",
+            "targetCode": "QUE_NOTIFICATIONS_CONTENT_GRP",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "NORTH",
+            "sourceCode": "FRM_NOTIFICATIONS_CONTENT",
+            "targetCode": "THM_SCROLL_VERTICAL",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "NORTH",
+          "weight": 1000
+        }
+      ],
+      "name": "Notifications Content",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

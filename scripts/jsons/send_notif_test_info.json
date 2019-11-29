@@ -1,0 +1,83 @@
+{
+  "data_type": "Notification2",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_TITLE",
+          "attributeName": "Title",
+          "baseEntityCode": "MSG_3333",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Notification",
+          "valueString": "Notification"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "MSG_3333",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "A comment has been left on one of your applications.",
+          "valueString": "A comment has been left on one of your applications."
+        },
+        {
+          "attributeCode": "PRI_TYPE",
+          "attributeName": "Type",
+          "baseEntityCode": "MSG_3333",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "info",
+          "valueString": "info"
+        },
+        {
+          "attributeCode": "PRI_CREATED_DATE",
+          "attributeName": "Created Data",
+          "baseEntityCode": "MSG_3333",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "2019-02-06T04:24:10",
+          "valueString": "2019-02-06T04:24:10"
+        },
+        {
+          "attributeCode": "PRI_STATUS_COLOR",
+          "attributeName": "Status Color",
+          "baseEntityCode": "MSG_3333",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "#03A9F4",
+          "valueString": "#03A9F4"
+        }
+      ],
+      "code": "MSG_3333",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 10230,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Notification",
+      "realm": "genny",
+      "replace": false,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": false,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

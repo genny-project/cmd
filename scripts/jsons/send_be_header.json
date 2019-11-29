@@ -14,6 +14,18 @@
           "readonly": false,
           "value": "Header Frame",
           "valueString": "Header Frame"
+        },
+        {
+          "attributeCode": "PRI_CONTROLLABLE_PANELS",
+          "attributeName": "Controllable Panels",
+          "baseEntityCode": "FRM_HEADER",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": [
+            "WEST"
+          ]
         }
       ],
       "code": "FRM_HEADER",
@@ -25,10 +37,10 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_ASK",
+            "attributeCode": "LNK_FRAME",
             "linkValue": "WEST",
             "sourceCode": "FRM_HEADER",
-            "targetCode": "QUE_PROJECT_HEADER_GRP",
+            "targetCode": "FRM_SIDEBAR_MENU",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
@@ -38,40 +50,40 @@
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "EAST",
+            "attributeCode": "LNK_THEME",
+            "linkValue": "WEST",
             "sourceCode": "FRM_HEADER",
-            "targetCode": "QUE_OPTIONS_GRP",
+            "targetCode": "THM_SIDEBAR_WIDTH",
             "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
-          "valueString": "EAST",
+          "valueString": "WEST",
           "weight": 1
         },
         {
           "created": "2019-02-06T04:24:58",
           "link": {
-            "attributeCode": "LNK_ASK",
-            "linkValue": "EAST",
+            "attributeCode": "LNK_THEME",
+            "linkValue": "WEST",
             "sourceCode": "FRM_HEADER",
-            "targetCode": "QUE_PROJECT_USER_OPTIONS_GRP",
-            "weight": 2
+            "targetCode": "THM_FIT_CONTENT",
+            "weight": 1
           },
           "updated": "2019-02-06T04:25:25",
-          "valueString": "EAST",
-          "weight": 2
+          "valueString": "WEST",
+          "weight": 1
         }
       ],
       "name": "Header Frame",
       "realm": "genny",
-      "replace": true,
+      "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": true,
+  "replace": false,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

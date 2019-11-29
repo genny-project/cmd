@@ -1,0 +1,66 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "FRM_TAB_NOTES",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": "Tab Notes",
+          "valueString": "Tab Notes"
+        }
+      ],
+      "code": "FRM_TAB_NOTES",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1002,
+      "index": 0,
+      "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "WEST",
+            "sourceCode": "FRM_TAB_NOTES",
+            "targetCode": "FRM_TAB_NOTES_HEADER",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "WEST",
+          "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_FRAME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_TAB_NOTES",
+            "targetCode": "FRM_TAB_NOTES_CONTENT",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1000
+        }
+
+      ],
+      "name": "Tab Notes",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

@@ -7,41 +7,45 @@
         {
           "attributeCode": "PRI_NAME",
           "attributeName": "Name",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
+          "baseEntityCode": "FRM_CONTENT_WRAPPER",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "Theme Display Vertical"
-        },
-        {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_DISPLAY_VERTICAL",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "valueString": "{ \"flexDirection\": \"column\" }"
+          "value": "Content Wrapper",
+          "valueString": "Content Wrapper"
         }
       ],
-      "code": "THM_DISPLAY_VERTICAL",
+      "code": "FRM_CONTENT_WRAPPER",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1002,
       "index": 0,
       "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "FRAME",
+            "sourceCode": "FRM_CONTENT_WRAPPER",
+            "targetCode": "THM_SHAREABLE",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "FRAME",
+          "weight": 1000
+        }
       ],
-      "name": "Theme Display Vertical",
+      "name": "Content Wrapper",
       "realm": "genny",
-      "replace": true,
+      "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": true,
+  "replace": false,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1
