@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "delete": false,
+      "replace": false,
+      "sourceCode": "PER_USER1",
+      "targetCode": "PER_USER1",
+      "questionCode": "QUE_USER_PROFILE_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_CANCEL_SUBMIT",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": false,
+      "weight": 1,
+      "parentId": 0,
+      "formTrigger": false,
+      "createOnTrigger": false,
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "progress",
+                "typeName": "progress",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_PROGRESS",
+              "index": 0,
+              "created": "2019-12-03T01:09:48.915",
+              "id": 343,
+              "name": "Progress",
+              "realm": "internmatch"
+            },
+            "contextList": {
+              "contexts": []
+            },
+            "attributeCode": "PRI_PROGRESS",
+            "mandatory": false,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_PROGRESS",
+            "index": 0,
+            "created": "2019-11-28T06:30:16.799",
+            "id": 71,
+            "name": "Progress",
+            "realm": "internmatch"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_PROGRESS",
+          "attributeCode": "PRI_PROGRESS",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 1,
+          "parentId": 0,
+          "formTrigger": false,
+          "createOnTrigger": false,
+          "contextList": {
+            "contexts": []
+          },
+          "created": "2019-11-28T23:36:07.874",
+          "id": 245,
+          "name": "Progress",
+          "realm": "internmatch"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "progress",
+                "typeName": "progress",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_PROGRESS",
+              "index": 0,
+              "created": "2019-12-03T01:09:48.915",
+              "id": 343,
+              "name": "Progress",
+              "realm": "internmatch"
+            },
+            "contextList": {
+              "contexts": []
+            },
+            "attributeCode": "PRI_PROGRESS",
+            "mandatory": false,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_PROGRESS2",
+            "index": 0,
+            "created": "2019-11-28T06:30:16.799",
+            "id": 71,
+            "name": "Progress",
+            "realm": "internmatch"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_PROGRESS2",
+          "attributeCode": "PRI_PROGRESS",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 1,
+          "parentId": 0,
+          "formTrigger": false,
+          "createOnTrigger": false,
+          "contextList": {
+            "contexts": []
+          },
+          "created": "2019-11-28T23:36:07.874",
+          "id": 245,
+          "name": "Progress",
+          "realm": "internmatch"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "progress",
+                "typeName": "progress",
+                "validationList": [
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_PROGRESS",
+              "index": 0,
+              "created": "2019-12-03T01:09:48.915",
+              "id": 343,
+              "name": "Progress",
+              "realm": "internmatch"
+            },
+            "contextList": {
+              "contexts": []
+            },
+            "attributeCode": "PRI_PROGRESS",
+            "mandatory": false,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_PROGRESS3",
+            "index": 0,
+            "created": "2019-11-28T06:30:16.799",
+            "id": 71,
+            "name": "Progress",
+            "realm": "internmatch"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_PROGRESS3",
+          "attributeCode": "PRI_PROGRESS",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 1,
+          "parentId": 0,
+          "formTrigger": false,
+          "createOnTrigger": false,
+          "contextList": {
+            "contexts": []
+          },
+          "created": "2019-11-28T23:36:07.874",
+          "id": 245,
+          "name": "Progress",
+          "realm": "internmatch"
+        }
+      ],
+      "contextList": {
+        "contexts": []
+      },
+      "created": "2019-11-28T23:36:42.112",
+      "id": 479,
+      "name": "Your Profile",
+      "realm": "internmatch"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG",
+  "option": "EXEC"
+}

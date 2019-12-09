@@ -12,7 +12,7 @@
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "valueString": "{ \"justifyContent\": \"centre\" }"
+          "valueString": "{ \"justifyContent\": \"center\" }"
         },
         {
           "attributeCode": "PRI_IS_INHERITABLE",
