@@ -1,0 +1,198 @@
+{
+  "items": [
+    {
+      "sourceCode": "PER_USER1",
+      "targetCode": "PER_USER1",
+      "questionCode": "QUE_TEXT_AREA",
+      "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": false,
+      "weight": 0.0,
+      "parentId": 0,
+      "question": {
+        "attribute": {
+          "dataType": {
+            "className": "TextArea",
+            "typeName": "TextArea",
+            "validationList": []
+          },
+          "defaultPrivacyFlag": false,
+          "code": "PRI_TEXTAREA",
+          "index": 0,
+          "created": "2019-02-10T10:40:32",
+          "updated": "2019-02-10T10:40:32",
+          "id": 171,
+          "name": "QuestionGroupInput",
+          "realm": "genny"
+        },
+        "attributeCode": "PRI_TEXT_AREA",
+        "mandatory": false,
+        "readonly": false,
+        "code": "TEST_INPUTS_GRP",
+        "index": 0,
+        "created": "2018-08-14T02:46:56",
+        "updated": "2018-10-04T23:29:19",
+        "id": 247,
+        "name": "Form Select",
+        "realm": "genny"
+      },
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "TextArea",
+                "typeName": "TextArea",
+                "validationList": [
+                  {
+                    "regex": "(?!^$|\\s+)",
+                    "selectionBaseEntityGroupList": [
+                      ""
+                    ],
+                    "recursiveGroup": false,
+                    "multiAllowed": false,
+                    "code": "VLD_NON_EMPTY",
+                    "index": 0,
+                    "created": "2019-02-14T03:24:50.034",
+                    "name": "EmptyandBlankValues",
+                    "realm": "genny"
+                  }
+                ]
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TEXT_AREA",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input TextArea",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TEXT_AREA",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TEXT_AREA",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input TextArea",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_TEXT_AREA",
+          "attributeCode": "PRI_TEXT_AREA",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input TextArea",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_FORM_DEFAULT_INPUT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ITEM_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_GROUP_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "GROUP_CONTENT_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_LABEL",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_LABEL",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_ERROR",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_ERROR",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTAINER",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "GROUP_WRAPPER",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_SELECTABLE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FILE_UPLOAD_BEHAVIOUR",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL_INPUT",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          }
+        ]
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "All Inputs",
+      "description": "Examples of all the different Input Components available for use with the Visual Control.",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}
