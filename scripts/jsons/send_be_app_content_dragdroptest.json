@@ -1,0 +1,39 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+      ],
+      "code": "FRM_CONTENT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1004,
+      "index": 0,
+      "links": [
+        {
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_CONTENT",
+            "targetCode": "QUE_DRAG_DROP_TEST_GRP",
+            "weight": 1
+          },
+          "valueString": "CENTRE",
+          "weight": 1
+        }
+      ],
+      "name": "Content Frame",
+      "realm": "genny",
+      "replace": false,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": false,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

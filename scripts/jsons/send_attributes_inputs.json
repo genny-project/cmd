@@ -709,6 +709,102 @@
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DND_FILL",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "fill",
+        "typeName": "fill",
+        "validationList": [
+          {
+            "code": "VLD_DRAGDROP_ITEMS_ONE",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DRAGDROP_ITEMS_ONE"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Drag Drop Fill",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DND_LIST",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "list",
+        "typeName": "list",
+        "validationList": [
+          {
+            "code": "VLD_DRAGDROP_ITEMS_ONE",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DRAGDROP_ITEMS_ONE"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Drag Drop List",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DND_MATCH",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "match",
+        "typeName": "match",
+        "validationList": [
+          {
+            "code": "VLD_DRAGDROP_ITEM_LIST_ONE",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DRAGDROP_ITEM_LIST_ONE"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Drag Drop Match",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     }
   ],
   "data_type": "Attribute",

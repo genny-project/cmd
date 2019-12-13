@@ -1,0 +1,49 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+        {
+          "attributeCode": "PRI_HAS_QUESTION_GRP_LABEL",
+          "attributeName": "Has Question Group Label?",
+          "baseEntityCode": "THM_QUESTION_GRP_LABEL",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": true,
+          "valueBoolean": true
+        },
+        {
+          "attributeCode": "PRI_IS_INHERITABLE",
+          "attributeName": "Is Content Inheritable?",
+          "baseEntityCode": "THM_QUESTION_GRP_LABEL",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "valueBoolean": false
+        }
+      ],
+      "code": "THM_QUESTION_GRP_LABEL",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 10230,
+      "index": 0,
+      "links": [
+      ],
+      "name": "Theme Question Group Label",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

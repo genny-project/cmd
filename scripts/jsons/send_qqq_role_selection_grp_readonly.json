@@ -2,7 +2,7 @@
   "items": [
     {
       "delete": false,
-      "replace": true,
+      "replace": false,
       "sourceCode": "PER_USER1",
       "targetCode": "PER_USER1",
       "questionCode": "QUE_SELECT_ROLE_GRP",
@@ -11,7 +11,7 @@
       "oneshot": false,
       "disabled": false,
       "hidden": false,
-      "readonly": false,
+      "readonly": true,
       "weight": 1,
       "parentId": 0,
       "formTrigger": false,
@@ -28,7 +28,7 @@
           "oneshot": false,
           "disabled": false,
           "hidden": false,
-          "readonly": false,
+          "readonly": true,
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
@@ -52,7 +52,7 @@
                 },
                 "attributeCode": "PRI_LOGO",
                 "mandatory": true,
-                "readonly": false,
+                "readonly": true,
                 "oneshot": false,
                 "code": "QUE_IMAGE_URL",
                 "index": 0,
@@ -70,7 +70,7 @@
               "oneshot": false,
               "disabled": false,
               "hidden": false,
-              "readonly": false,
+              "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
@@ -175,7 +175,7 @@
           "oneshot": false,
           "disabled": false,
           "hidden": false,
-          "readonly": false,
+          "readonly": true,
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
@@ -199,7 +199,7 @@
                 },
                 "attributeCode": "PRI_LOGO",
                 "mandatory": true,
-                "readonly": false,
+                "readonly": true,
                 "oneshot": false,
                 "code": "QUE_IMAGE_URL",
                 "index": 0,
@@ -217,7 +217,7 @@
               "oneshot": false,
               "disabled": false,
               "hidden": false,
-              "readonly": false,
+              "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
@@ -311,7 +311,6 @@
         },
 
 
-
         {
           "sourceCode": "PER_USER1",
           "targetCode": "PER_USER1",
@@ -321,7 +320,7 @@
           "oneshot": false,
           "disabled": false,
           "hidden": false,
-          "readonly": false,
+          "readonly": true,
           "weight": 0.0,
           "parentId": 0,
           "childAsks": [
@@ -345,7 +344,7 @@
                 },
                 "attributeCode": "PRI_LOGO",
                 "mandatory": true,
-                "readonly": false,
+                "readonly": true,
                 "oneshot": false,
                 "code": "QUE_IMAGE_URL",
                 "index": 0,
@@ -363,7 +362,7 @@
               "oneshot": false,
               "disabled": false,
               "hidden": false,
-              "readonly": false,
+              "readonly": true,
               "weight": 0.0,
               "parentId": 0,
               "contextList": {
@@ -461,7 +460,6 @@
       "contextList": {
         "contexts": [
 
-
           {
             "contextCode": "THM_DISPLAY_HORIZONTAL",
             "created": "2019-02-06T04:24:58",
@@ -477,154 +475,7 @@
             "visualControlType": "GROUP_CONTENT_WRAPPER",
             "realm": "genny",
             "weight": 1
-          },
-          {
-            "contextCode": "THM_JUSTIFY_CENTRE",
-            "created": "2019-02-06T04:24:58",
-            "name": "THEME",
-            "dataType": "Image",
-            "visualControlType": "INPUT_SELECTED_WRAPPER",
-            "realm": "genny",
-            "weight": 1
-          },
-          {
-            "weight": 3,
-            "contextCode": "THM_QUESTION_GRP_LABEL",
-            "visualControlType": "GROUP",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-
-
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_IMAGE_RESTRICTIONS_DIMENSION",
-            "dataType": "Image",
-            "visualControlType": "INPUT_SELECTED",
-            "created": "2019-12-04T14:03:23.213",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_PROJECT_COLOR_SURFACE",
-            "visualControlType": "INPUT_ITEM_WRAPPER",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 2,
-            "contextCode": "THM_FORM_VCL_INPUT_GENNY",
-            "visualControlType": "VCL_INPUT",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_BUTTONS_BORDER",
-            "dataType": "buttonEvent",
-            "visualControlType": "INPUT_FIELD",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_IMAGE_RESTRICTIONS",
-            "dataType": "Image",
-            "visualControlType": "VCL_INPUT",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_VCL_WRAPPER_GENNY",
-            "visualControlType": "VCL_WRAPPER",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 3,
-            "contextCode": "THM_BACKGROUND_NONE",
-            "visualControlType": "VCL_DEFAULT",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 3,
-            "contextCode": "THM_FORM_GROUP_LABEL_GENNY",
-            "visualControlType": "GROUP_LABEL",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_BUTTONS",
-            "dataType": "buttonEvent",
-            "visualControlType": "INPUT_WRAPPER",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_PROJECT_COLOR_PRIMARY_VARIANT_LIGHT",
-            "dataType": "buttonEvent",
-            "visualControlType": "VCL_DEFAULT",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 3,
-            "contextCode": "THM_FORM_GROUP_WRAPPER_GENNY",
-            "visualControlType": "GROUP_WRAPPER",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_BUTTONS_BEHAVIOUR",
-            "dataType": "buttonEvent",
-            "visualControlType": "VCL_DEFAULT",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_VCL_LABEL_GENNY",
-            "visualControlType": "VCL_LABEL",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_EVENT_BUTTONS_BEHAVIOUR",
-            "dataType": "Button",
-            "visualControlType": "VCL_DEFAULT",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
-          },
-          {
-            "weight": 1,
-            "contextCode": "THM_FORM_VCL_ERROR_GENNY",
-            "visualControlType": "VCL_ERROR",
-            "created": "2019-12-04T14:03:23.214",
-            "name": "THEME",
-            "realm": "internmatch"
           }
-
 
         ]
       },
@@ -636,7 +487,7 @@
   ],
   "data_type": "Ask",
   "delete": false,
-  "replace": true,
+  "replace": false,
   "msg_type": "DATA_MSG",
   "option": "EXEC"
 }

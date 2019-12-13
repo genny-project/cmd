@@ -1,0 +1,101 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DRAGDROP_ITEM_ONE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "DragDrop Item One",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DRAGDROP_ITEM_TWO",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "DragDrop Item Two",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DRAGDROP_ITEM_THREE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "DragDrop Item Three",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DRAGDROP_ITEM_FOUR",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "DragDrop Item Four",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DRAGDROP_ITEM_FIVE",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "DragDrop Item Five",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    },
+    {
+      "baseEntityAttributes": [],
+      "code": "SEL_DRAGDROP_ITEM_SIX",
+      "created": "2019-02-23T23:28:02",
+      "delete": false,
+      "id": 374,
+      "index": 0,
+      "links": [
+      ],
+      "name": "DragDrop Item Six",
+      "realm": "genny",
+      "replace": false,
+      "totalCount": 1,
+      "updated": "2019-02-23T23:28:02"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}
