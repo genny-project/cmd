@@ -1,0 +1,65 @@
+{
+  "data_type": "BaseEntity",
+  "delete": false,
+  "items": [
+    {
+      "baseEntityAttributes": [
+
+        {
+          "attributeCode": "PRI_HINT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_HINT_DEFAULT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": {
+            "position": "right",
+              "width": "100%",
+              "bottom": "100%",
+              "borderRadius": "3px",
+              "backgroundColor": "#fff",
+              "padding": "5px",
+              "marginBottom": "5px",
+              "color": "#000",
+              "textAlign": "center",
+              "fontSize": "12px",
+              "flexDirection": "row",
+              "offsetY": "4"
+          },
+          "valueString": {
+            "position": "right",
+            "width": "100%",
+            "bottom": "100%",
+            "borderRadius": "3px",
+            "backgroundColor": "#fff",
+            "padding": "5px",
+            "marginBottom": "5px",
+            "color": "#000",
+            "textAlign": "center",
+            "fontSize": "12px",
+            "flexDirection": "row",
+            "offsetY": "4"
+          }
+        }
+      ],
+      "code": "THM_HINT_DEFAULT",
+      "created": "2019-02-06T04:24:10",
+      "delete": false,
+      "id": 1000,
+      "index": 0,
+      "links": [],
+      "name": "Theme Hint Default",
+      "realm": "genny",
+      "replace": true,
+      "shouldDeleteLinkedBaseEntities": false,
+      "totalCount": 1,
+      "updated": "2019-02-06T04:24:10"
+    }
+  ],
+  "msg_type": "DATA_MSG",
+  "replace": true,
+  "returnCount": 1,
+  "shouldDeleteLinkedBaseEntities": false,
+  "total": -1
+}

@@ -805,6 +805,37 @@
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_HINT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_NON_EMPTY",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Hint",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
     }
   ],
   "data_type": "Attribute",
