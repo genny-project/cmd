@@ -6,7 +6,7 @@
       "baseEntityAttributes": [
 
         {
-          "attributeCode": "PRI_HINT",
+          "attributeCode": "PRI_CONTENT_HOVER",
           "attributeName": "Content",
           "baseEntityCode": "THM_HINT_DEFAULT",
           "created": "2018-08-29T03:00:39",
@@ -15,10 +15,9 @@
           "readonly": false,
           "value": {
             "position": "right",
-              "width": "100%",
               "bottom": "100%",
               "borderRadius": "3px",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#f7931d",
               "padding": "5px",
               "marginBottom": "5px",
               "color": "#000",
@@ -29,10 +28,9 @@
           },
           "valueString": {
             "position": "right",
-            "width": "100%",
             "bottom": "100%",
             "borderRadius": "3px",
-            "backgroundColor": "#fff",
+            "backgroundColor": "#f7931d",
             "padding": "5px",
             "marginBottom": "5px",
             "color": "#000",
