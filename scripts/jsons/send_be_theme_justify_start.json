@@ -7,32 +7,31 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_COLOR_BLUE",
+          "baseEntityCode": "THM_JUSTIFY_START",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "color": "blue" },
-          "valueString": { "color": "blue" }
+          "valueString": "{ \"justifyContent\": \"flex-start\" }"
         }
       ],
-      "code": "THM_COLOR_BLUE",
+      "code": "THM_JUSTIFY_START",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1000,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Color Blue",
+      "name": "Theme Justify Start",
       "realm": "genny",
-      "replace": true,
+      "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": true,
+  "replace": false,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

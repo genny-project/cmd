@@ -7,23 +7,33 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_COLOR_BLUE",
+          "baseEntityCode": "THM_FORM_GROUP_WRAPPER_GENNY",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "color": "blue" },
-          "valueString": { "color": "blue" }
+          "valueString": {
+            "valueBoolean": true,
+            "padding": 10,
+            "backgroundColor": "white",
+            "margin": "auto",
+            "shadowRadius": 5,
+            "borderColor": "silver",
+            "borderWidth": 1,
+            "width": "100%",
+            "shadowOpacity": 1,
+            "borderStyle": "solid",
+            "shadowColor": "silver"
+          }
         }
       ],
-      "code": "THM_COLOR_BLUE",
+      "code": "THM_FORM_GROUP_WRAPPER_GENNY",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1000,
       "index": 0,
-      "links": [
-      ],
-      "name": "Theme Color Blue",
+      "links": [],
+      "name": "Theme Form Group Wrapper Genny",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

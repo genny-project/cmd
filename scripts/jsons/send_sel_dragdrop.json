@@ -11,7 +11,7 @@
       "index": 0,
       "links": [
       ],
-      "name": "DragDrop Item One",
+      "name": "A) A hand-held light wand",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,
@@ -26,7 +26,7 @@
       "index": 0,
       "links": [
       ],
-      "name": "DragDrop Item Two",
+      "name": "B) Good approach sight distance",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,
@@ -41,7 +41,7 @@
       "index": 0,
       "links": [
       ],
-      "name": "DragDrop Item Three",
+      "name": "C) Knowledge of the local area",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,
@@ -56,7 +56,7 @@
       "index": 0,
       "links": [
       ],
-      "name": "DragDrop Item Four",
+      "name": "D) An escape route / path",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,
@@ -71,7 +71,7 @@
       "index": 0,
       "links": [
       ],
-      "name": "DragDrop Item Five",
+      "name": "E) A light tower to illuminate them",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,
@@ -86,7 +86,7 @@
       "index": 0,
       "links": [
       ],
-      "name": "DragDrop Item Six",
+      "name": "F) Conspicuous clothing",
       "realm": "genny",
       "replace": false,
       "totalCount": 1,

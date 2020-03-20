@@ -21,67 +21,6 @@
         {
           "question": {
             "attribute": {
-              "dataType": {
-                "className": "dropdownmultiple",
-                "typeName": "dropdownmultiple",
-                "validationList": [
-                  {
-                    "regex": ".*",
-                    "selectionBaseEntityGroupList": [
-                      "GRP_DROPDOWN_ITEMS"
-                    ],
-                    "recursiveGroup": false,
-                    "multiAllowed": false,
-                    "code": "VLD_SELECT_DROPDOWN_ITEMS",
-                    "index": 0,
-                    "created": "2019-02-25T04:00:34.1",
-                    "name": "dropdown",
-                    "realm": "genny"
-                  }
-                ]
-              },
-              "defaultPrivacyFlag": false,
-              "code": "PRI_DROPDOWN_MULTI",
-              "index": 0,
-              "created": "2019-02-10T10:40:30",
-              "updated": "2019-02-10T10:40:30",
-              "id": 151,
-              "name": "Input Dropdown Multi",
-              "realm": "genny"
-            },
-            "attributeCode": "PRI_DROPDOWN_MULTI",
-            "mandatory": true,
-            "readonly": false,
-            "oneshot": false,
-            "code": "QUE_DROPDOWN_MULTI",
-            "index": 0,
-            "created": "2018-08-14T02:46:56",
-            "updated": "2018-10-04T23:29:18",
-            "id": 237,
-            "name": "Input Dropdown Multi",
-            "realm": "genny"
-          },
-          "sourceCode": "PER_ADAMCROW63_AT_GMAILCOM",
-          "targetCode": "TEST_INPUTS_GRP",
-          "questionCode": "QUE_DROPDOWN_MULTI",
-          "attributeCode": "PRI_DROPDOWN_MULTI",
-          "mandatory": true,
-          "oneshot": false,
-          "disabled": false,
-          "hidden": false,
-          "readonly": false,
-          "weight": 0.0,
-          "parentId": 0,
-          "contextList": {},
-          "created": "2018-08-29T03:00:40",
-          "updated": "2018-12-12T02:22:34",
-          "id": 3671,
-          "name": "Input Dropdown (Multi)",
-          "realm": "genny"
-        },
-        {
-          "question": {
-            "attribute": {
               "code": "PRI_DND_FILL",
               "created": "2019-02-18T04:37:31",
               "dataType": {
@@ -150,14 +89,6 @@
         "contexts": [
 
 
-          {
-            "contextCode": "THM_DISPLAY_HORIZONTAL",
-            "created": "2019-02-06T04:24:58",
-            "name": "THEME",
-            "visualControlType": "GROUP_CONTENT_WRAPPER",
-            "realm": "genny",
-            "weight": 1
-          },
           {
             "contextCode": "THM_JUSTIFY_BETWEEN",
             "created": "2019-02-06T04:24:58",

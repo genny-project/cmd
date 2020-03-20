@@ -14,6 +14,18 @@
           "readonly": false,
           "value": "Tab Notes Content",
           "valueString": "Tab Notes Content"
+        },
+        {
+          "attributeCode": "PRI_CONTROLLABLE_PANELS",
+          "attributeName": "Controllable Panels",
+          "baseEntityCode": "FRM_TAB_NOTES_CONTENT",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": [
+            "CENTRE"
+          ]
         }
       ],
       "code": "FRM_TAB_NOTES_CONTENT",

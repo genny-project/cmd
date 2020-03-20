@@ -1,0 +1,253 @@
+{
+  "items": [
+    {
+      "sourceCode": "PER_USER1",
+      "targetCode": "PER_USER1",
+      "questionCode": "QUE_INPUTS_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": false,
+      "weight": 0.0,
+      "parentId": 0,
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "DTT_TEXT",
+                "typeName": "Text",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TEXT",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Text",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TEXT",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TEXT",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input Text",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_TEXT",
+          "attributeCode": "PRI_TEXT",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_DYNAMIC_WIDTH",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "VCL_INPUT",
+                "realm": "genny",
+                "weight": 1
+              }
+            ]
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Datatype Text",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "DTT_TEXT_ALT",
+                "typeName": "Text",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_TEXT_ALT",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Text Alt",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_TEXT_ALT",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_TEXT_ALT",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input Text",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_TEXT_ALT",
+          "attributeCode": "PRI_TEXT_ALT",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_DYNAMIC_WIDTH",
+                "created": "2019-02-06T04:24:58",
+                "name": "THEME",
+                "visualControlType": "VCL_INPUT",
+                "realm": "genny",
+                "weight": 1
+              }
+            ]
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Datatype Text Alt",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_FORM_DEFAULT_INPUT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ITEM_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_GROUP_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "GROUP_CONTENT_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_LABEL",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_LABEL",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_ERROR",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_ERROR",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTAINER",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "GROUP_WRAPPER",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_SELECTABLE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FILE_UPLOAD_BEHAVIOUR",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL_INPUT",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_COLOR_BLUE",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "INPUT_FIELD",
+            "dttCode": "DTT_TEXT",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_COLOR_RED",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "INPUT_FIELD",
+            "dttCode": "DTT_TEXT_ALT",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_BACKGROUNDCOLOR_GREEN",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "INPUT_FIELD",
+            "dataType": "Text",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 1
+          }
+        ]
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "All Inputs",
+      "description": "Examples of all the different Input Components available for use with the Visual Control.",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}

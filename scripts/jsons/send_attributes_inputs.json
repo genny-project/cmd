@@ -32,6 +32,22 @@
       "updated:": "2019-02-18T04:37:31"
     },
     {
+      "dataType": {
+        "className": "reduxButton",
+        "typeName": "reduxButton",
+        "dttCode": "DTT_REDUX_BUTTON",
+        "validationList": []
+      },
+      "defaultPrivacyFlag": false,
+      "code": "PRI_REDUX_BUTTON",
+      "index": 0,
+      "created": "2019-02-10T10:40:30",
+      "updated": "2019-02-10T10:40:30",
+      "id": 151,
+      "name": "Notes",
+      "realm": "genny"
+    },
+    {
       "code": "PRI_SUBMIT",
       "created": "2019-02-18T04:37:31",
       "dataType": {
@@ -66,6 +82,7 @@
       "code": "PRI_TEXT",
       "created": "2019-02-18T04:37:31",
       "dataType": {
+        "dttCode": "DTT_TEXT",
         "className": "Text",
         "typeName": "Text",
         "validationList": [
@@ -77,7 +94,7 @@
             "name": "EmptyandBlankValues",
             "realm": "genny",
             "recursiveGroup": false,
-            "regex": "(?!^$|\\s+)",
+            "regex": "^[a-zA-Z0-9_]*$",
             "selectionBaseEntityGroupList": [
               ""
             ],
@@ -90,6 +107,39 @@
       "id": 1,
       "index": 0,
       "name": "Input Text",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_TEXT_ALT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "dttCode": "DTT_TEXT_ALT",
+        "className": "Text",
+        "typeName": "Text",
+        "validationList": [
+          {
+            "code": "VLD_EMAIL",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmailOnly",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "^(\\w[-._+\\w]*\\w@\\w[-._\\w]*\\w\\.\\w{2,20})$",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "errorMessage": "Please enter a valid email address."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Text Alt",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"
@@ -782,7 +832,7 @@
         "typeName": "match",
         "validationList": [
           {
-            "code": "VLD_DRAGDROP_ITEM_LIST_ONE",
+            "code": "VLD_DRAGDROP_ITEMS_ONE",
             "created": "2019-02-18T21:19:28.414",
             "index": 0,
             "multiAllowed": false,
@@ -791,7 +841,7 @@
             "recursiveGroup": false,
             "regex": "(?!^$|\\s+)",
             "selectionBaseEntityGroupList": [
-              "GRP_DRAGDROP_ITEM_LIST_ONE"
+              "GRP_DRAGDROP_ITEMS_ONE"
             ],
             "errorMessage": "Please select an item."
           }
@@ -802,6 +852,287 @@
       "id": 1,
       "index": 0,
       "name": "Input Drag Drop Match",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_HTML_EDITOR",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "html-editor",
+        "typeName": "html-editor",
+        "validationList": [
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input HTML Editor",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_UNITY_BUTTONS",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "unitybuttons",
+        "typeName": "unitybuttons",
+        "validationList": [
+          {
+            "code": "VLD_ANYTHING",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "Anything",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": ".*",
+            "selectionBaseEntityGroupList": [
+              ""
+            ]
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Unity Buttons",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_UNITY_OBJECT",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "json",
+        "typeName": "json",
+        "validationList": [
+          {
+            "code": "VLD_NON_EMPTY",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              ""
+            ],
+            "errorMessage": "Please only enter letters or underscores."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Unity Object",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_S1_C_Q1",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_OPTIONS_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "options": [
+              {
+                "name": "Less than",
+                "code": "OPT_ONE"
+              },
+              {
+                "name": "Greater than",
+                "code": "OPT_TWO"
+              }
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Dropdown S1 C Q1",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_S1_C_Q2",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_OPTIONS_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "options": [
+              {
+                "name": "A ‘roadwork ahead’ sign",
+                "code": "OPT_ONE"
+              },
+              {
+                "name": "A ‘symbolic traffic controller’ sign",
+                "code": "OPT_TWO"
+              },
+              {
+                "name": "Providing the necessary sight distance to the traffic controller",
+                "code": "OPT_THREE"
+              }
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Dropdown S1 C Q2",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_S1_C_Q3",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_OPTIONS_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "options": [
+              {
+                "name": "A ‘roadwork ahead’ sign",
+                "code": "OPT_ONE"
+              },
+              {
+                "name": "A ‘symbolic traffic controller’ sign",
+                "code": "OPT_TWO"
+              },
+              {
+                "name": "Providing the necessary sight distance to the traffic controller",
+                "code": "OPT_THREE"
+              }
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Dropdown S1 C Q3",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_DROPDOWN_S1_C_Q4",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "dropdown",
+        "typeName": "dropdown",
+        "validationList": [
+          {
+            "code": "VLD_SELECT_OPTIONS_ITEMS",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "options": [
+              {
+                "name": "The second traffic controller",
+                "code": "OPT_ONE"
+              },
+              {
+                "name": "An ‘end roadwork’ sign",
+                "code": "OPT_TWO"
+              },
+              {
+                "name": "The bollards next to the traffic controller that drivers first encounter",
+                "code": "OPT_THREE"
+              }
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Dropdown S1 C Q4",
+      "realm": "genny",
+      "replace": false,
+      "updated:": "2019-02-18T04:37:31"
+    },
+    {
+      "code": "PRI_MATCH_S1_C_Q5",
+      "created": "2019-02-18T04:37:31",
+      "dataType": {
+        "className": "match",
+        "typeName": "match",
+        "validationList": [
+          {
+            "code": "VLD_DRAGDROP_ITEMS_ONE",
+            "created": "2019-02-18T21:19:28.414",
+            "index": 0,
+            "multiAllowed": false,
+            "name": "EmptyandBlankValues",
+            "realm": "genny",
+            "recursiveGroup": false,
+            "regex": "(?!^$|\\s+)",
+            "selectionBaseEntityGroupList": [
+              "GRP_DRAGDROP_ITEMS_ONE"
+            ],
+            "errorMessage": "Please select an item."
+          }
+        ]
+      },
+      "defaultPrivacyFlag": false,
+      "delete": false,
+      "id": 1,
+      "index": 0,
+      "name": "Input Match S1 C Q5",
       "realm": "genny",
       "replace": false,
       "updated:": "2019-02-18T04:37:31"

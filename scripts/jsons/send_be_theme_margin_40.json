@@ -5,25 +5,36 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_COLOR_BLUE",
+          "attributeCode": "PRI_NAME",
+          "attributeName": "Name",
+          "baseEntityCode": "THM_MARGIN_40",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "color": "blue" },
-          "valueString": { "color": "blue" }
+          "value": "Theme Margin 40",
+          "valueString": "Theme Margin 40"
+        },
+        {
+          "attributeCode": "PRI_CONTENT",
+          "attributeName": "Content",
+          "baseEntityCode": "THM_MARGIN_40",
+          "created": "2018-08-29T03:00:39",
+          "inferred": false,
+          "privacyFlag": false,
+          "readonly": false,
+          "value": { "margin": 40 },
+          "valueString": { "margin": 40 }
         }
       ],
-      "code": "THM_COLOR_BLUE",
+      "code": "THM_MARGIN_40",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Color Blue",
+      "name": "Theme Margin 40",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

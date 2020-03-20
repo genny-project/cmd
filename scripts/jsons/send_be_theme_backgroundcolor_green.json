@@ -7,23 +7,23 @@
         {
           "attributeCode": "PRI_CONTENT",
           "attributeName": "Content",
-          "baseEntityCode": "THM_COLOR_BLUE",
+          "baseEntityCode": "THM_BACKGROUNDCOLOR_GREEN",
           "created": "2018-08-29T03:00:39",
           "inferred": false,
           "privacyFlag": false,
           "readonly": false,
-          "value": { "color": "blue" },
-          "valueString": { "color": "blue" }
+          "value": { "backgroundColor": "green" },
+          "valueString": { "backgroundColor": "green" }
         }
       ],
-      "code": "THM_COLOR_BLUE",
+      "code": "THM_BACKGROUNDCOLOR_GREEN",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 10230,
       "index": 0,
       "links": [
       ],
-      "name": "Theme Color Blue",
+      "name": "Theme Backgroundcolor Green",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

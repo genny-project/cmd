@@ -25,14 +25,14 @@
       ],
       "name": "Content Frame",
       "realm": "genny",
-      "replace": false,
+      "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": false,
+  "replace": true,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

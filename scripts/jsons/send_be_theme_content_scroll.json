@@ -5,17 +5,6 @@
     {
       "baseEntityAttributes": [
         {
-          "attributeCode": "PRI_NAME",
-          "attributeName": "Name",
-          "baseEntityCode": "THM_CONTENT_SCROLL",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": "Theme Content Scroll",
-          "valueString": "Theme Content Scroll"
-        },
-        {
           "attributeCode": "PRI_IS_INHERITABLE",
           "attributeName": "Is Content Inheritable?",
           "baseEntityCode": "THM_CONTENT_SCROLL",
@@ -35,18 +24,10 @@
           "privacyFlag": false,
           "readonly": false,
           "value": {
-            "overflowY": "auto",
-            "justifyContent": "flex-start",
-            "alignItems": "center",
-            "height": "100%",
-            "paddingY": 40
+            "overflowY": "auto"
           },
           "valueString": {
-            "overflowY": "auto",
-            "justifyContent": "flex-start",
-            "alignItems": "center",
-            "height": "100%",
-            "paddingY": 40
+            "overflowY": "auto"
           }
         }
       ],

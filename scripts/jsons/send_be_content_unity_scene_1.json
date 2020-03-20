@@ -5,7 +5,7 @@
     {
       "baseEntityAttributes": [
       ],
-      "code": "FRM_CONTENT_WRAPPER",
+      "code": "FRM_CONTENT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1002,
@@ -23,18 +23,31 @@
           "updated": "2019-02-06T04:25:25",
           "valueString": "CENTRE",
           "weight": 1000
+        },
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_THEME",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_CONTENT",
+            "targetCode": "THM_JUSTIFY_START",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1000
         }
       ],
       "name": "Content",
       "realm": "genny",
-      "replace": false,
+      "replace": true,
       "shouldDeleteLinkedBaseEntities": false,
       "totalCount": 1,
       "updated": "2019-02-06T04:24:10"
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": false,
+  "replace": true,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
   "total": -1

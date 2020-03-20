@@ -4,26 +4,28 @@
   "items": [
     {
       "baseEntityAttributes": [
-        {
-          "attributeCode": "PRI_CONTENT",
-          "attributeName": "Content",
-          "baseEntityCode": "THM_COLOR_BLUE",
-          "created": "2018-08-29T03:00:39",
-          "inferred": false,
-          "privacyFlag": false,
-          "readonly": false,
-          "value": { "color": "blue" },
-          "valueString": { "color": "blue" }
-        }
       ],
-      "code": "THM_COLOR_BLUE",
+      "code": "FRM_CONTENT_WRAPPER",
       "created": "2019-02-06T04:24:10",
       "delete": false,
-      "id": 10230,
+      "id": 1002,
       "index": 0,
       "links": [
+        {
+          "created": "2019-02-06T04:24:58",
+          "link": {
+            "attributeCode": "LNK_ASK",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_CONTENT",
+            "targetCode": "QUE_HTML_TEST_GRP",
+            "weight": 1000
+          },
+          "updated": "2019-02-06T04:25:25",
+          "valueString": "CENTRE",
+          "weight": 1000
+        }
       ],
-      "name": "Theme Color Blue",
+      "name": "Content",
       "realm": "genny",
       "replace": true,
       "shouldDeleteLinkedBaseEntities": false,

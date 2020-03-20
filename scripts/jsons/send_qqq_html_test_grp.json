@@ -1,0 +1,203 @@
+{
+  "items": [
+    {
+      "sourceCode": "PER_USER1",
+      "targetCode": "DOC_HTML1",
+      "questionCode": "QUE_HTML_TEST_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP_BUTTON_SUBMIT",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": false,
+      "weight": 0.0,
+      "parentId": 0,
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "html-editor",
+                "typeName": "html-editor",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_HTML_EDITOR",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input HTML Editor",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_HTML_EDITOR",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_HTML_EDITOR",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input HTML Editor",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "DOC_HTML1",
+          "questionCode": "QUE_HTML_EDITOR",
+          "attributeCode": "PRI_HTML_EDITOR",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input HTML Editor",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "signature",
+                "typeName": "signature",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_SIGNATURE",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Input Signature",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_SIGNATURE",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_SIGNATURE",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Input Signature",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "DOC_HTML1",
+          "questionCode": "QUE_SIGNATURE",
+          "attributeCode": "PRI_SIGNATURE",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0.0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Input Signature",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_FORM_DEFAULT_INPUT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ITEM_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_GROUP_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "GROUP_CONTENT_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_LABEL",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_LABEL",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_ERROR",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_ERROR",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTAINER",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "GROUP_WRAPPER",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_SELECTABLE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FILE_UPLOAD_BEHAVIOUR",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL_INPUT",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          }
+        ]
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "HTML Test Group",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}

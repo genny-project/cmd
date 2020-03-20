@@ -4,20 +4,21 @@
       "question": {
         "attribute": {
           "dataType": {
-            "className": "Event",
-            "typeName": "event",
+            "className": "reduxButton",
+            "typeName": "reduxButton",
+            "dttCode": "DTT_REDUX_BUTTON",
             "validationList": []
           },
           "defaultPrivacyFlag": false,
-          "code": "PRI_EVENT",
+          "code": "PRI_REDUX_BUTTON",
           "index": 0,
           "created": "2019-02-10T10:40:30",
           "updated": "2019-02-10T10:40:30",
           "id": 151,
-          "name": "Notifs",
+          "name": "Notes",
           "realm": "genny"
         },
-        "attributeCode": "PRI_EVENT",
+        "attributeCode": "PRI_REDUX_BUTTON",
         "mandatory": true,
         "readonly": true,
         "oneshot": false,
@@ -32,7 +33,7 @@
       "sourceCode": "PER_USER1",
       "targetCode": "BEG_NOTE_TEST",
       "questionCode": "QUE_TAB_NOTIFICATIONS",
-      "attributeCode": "PRI_EVENT",
+      "attributeCode": "PRI_REDUX_BUTTON",
       "mandatory": true,
       "oneshot": false,
       "disabled": false,
