@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "code": "PRI_CONTENT_HOVER",
+      "code": "PRI_HINT",
       "created": "2019-02-18T04:37:31",
       "dataType": {
         "className": "text",

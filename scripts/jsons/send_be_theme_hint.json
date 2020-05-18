@@ -24,7 +24,8 @@
               "color": "#000",
               "textAlign": "center",
               "fontSize": "12px",
-              "flexDirection": "row"
+              "flexDirection": "row",
+              "opacity": "0.9"
           },
           "valueString": {
             "position": "right",
@@ -37,7 +38,8 @@
             "color": "#000",
             "textAlign": "center",
             "fontSize": "12px",
-            "flexDirection": "row"
+            "flexDirection": "row",
+            "opacity": "0.9"
           }
         }
       ],
