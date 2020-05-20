@@ -16,7 +16,7 @@
           "valueString": "Theme Show Hint"
         },
         {
-          "attributeCode": "PRI_HAS_HINT",
+          "attributeCode": "PRI_HAS_DESCRIPTION",
           "attributeName": "Has Hint?",
           "baseEntityCode": "THM_SHOW_HINT",
           "created": "2018-08-29T03:00:39",
