@@ -1,0 +1,8 @@
+{
+  "cmd_type": "DOWNLOAD_FILE",
+  "code": "http://localhost:7331/docs/438a09e5-dd03-4fd3-82f9-ec255496edf0.pdf",
+  "msg_type": "CMD_MSG",
+  "token": "",
+  "option": "EXEC",
+  "eventbus": "WRITE"
+}

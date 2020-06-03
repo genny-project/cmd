@@ -1,0 +1,5 @@
+{
+  "data_type": "QBulkPullMessage",
+  "pullUrl": "service/cache/read/FRM_ROOT_MSG",
+  "msg_type": "DATA_MSG"
+}

@@ -1,0 +1,266 @@
+{
+  "items": [
+    {
+      "sourceCode": "PER_USER1",
+      "targetCode": "PER_USER1",
+      "questionCode": "QUE_HINT_GRP",
+      "attributeCode": "QQQ_QUESTION_GROUP_HINT",
+      "mandatory": false,
+      "oneshot": false,
+      "disabled": false,
+      "hidden": false,
+      "readonly": false,
+      "weight": 0,
+      "parentId": 0,
+      "question": {
+        "attribute": {
+          "dataType": {
+            "className": "Event",
+            "typeName": "Event",
+            "validationList": []
+          },
+          "defaultPrivacyFlag": false,
+          "code": "PRI_EVENT",
+          "index": 0,
+          "created": "2019-02-10T10:40:32",
+          "updated": "2019-02-10T10:40:32",
+          "id": 171,
+          "name": "QuestionGroupHint",
+          "realm": "genny"
+        },
+        "attributeCode": "PRI_EVENT",
+        "mandatory": false,
+        "readonly": false,
+        "code": "TEST_HINTS_GRP",
+        "index": 0,
+        "created": "2018-08-14T02:46:56",
+        "updated": "2018-10-04T23:29:19",
+        "id": 247,
+        "realm": "genny"
+      },
+      "childAsks": [
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "text",
+                "typeName": "text",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_HINT",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "Hint",
+              "realm": "genny",
+              "description": "help"
+            },
+            "attributeCode": "PRI_HINT",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_HINT",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "Hint",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_HINT",
+          "attributeCode": "PRI_HINT",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0,
+          "parentId": 0,
+          "contextList": {
+            "contexts": [
+              {
+                "contextCode": "THM_HINT_DEFAULT",
+                "created": "2019-02-06T04:24:58",
+                "visualControlType": "VCL_HINT_CONTENT_WRAPPER",
+                "name": "THEME",
+                "realm": "genny",
+                "weight": 3
+              }
+            ]
+          },
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "Hint",
+          "realm": "genny"
+        },
+        {
+          "question": {
+            "attribute": {
+              "dataType": {
+                "className": "Text",
+                "typeName": "Text",
+                "validationList": []
+              },
+              "defaultPrivacyFlag": false,
+              "code": "PRI_FIRSTNAME",
+              "index": 0,
+              "created": "2019-02-10T10:40:30",
+              "updated": "2019-02-10T10:40:30",
+              "id": 151,
+              "name": "First Name",
+              "realm": "genny"
+            },
+            "attributeCode": "PRI_FIRSTNAME",
+            "mandatory": true,
+            "readonly": false,
+            "oneshot": false,
+            "code": "QUE_FIRSTNAME",
+            "index": 0,
+            "created": "2018-08-14T02:46:56",
+            "updated": "2018-10-04T23:29:18",
+            "id": 237,
+            "name": "FirstName",
+            "realm": "genny"
+          },
+          "sourceCode": "PER_USER1",
+          "targetCode": "PER_USER1",
+          "questionCode": "QUE_FIRSTNAME",
+          "attributeCode": "PRI_FIRSTNAME",
+          "mandatory": true,
+          "oneshot": false,
+          "disabled": false,
+          "hidden": false,
+          "readonly": false,
+          "weight": 0,
+          "parentId": 0,
+          "contextList": {},
+          "created": "2018-08-29T03:00:40",
+          "updated": "2018-12-12T02:22:34",
+          "id": 3671,
+          "name": "First Name",
+          "realm": "genny"
+        }
+      ],
+      "contextList": {
+        "contexts": [
+          {
+            "contextCode": "THM_FORM_DEFAULT_INPUT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_FIELD",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "INPUT_ITEM_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_GROUP_CONTENT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "GROUP_CONTENT_WRAPPER",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_LABEL",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_LABEL",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_WRAPPER",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_WRAPPER",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_ERROR",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "visualControlType": "VCL_ERROR",
+            "realm": "genny",
+            "weight": 1
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FORM_DEFAULT_CONTAINER",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "GROUP_WRAPPER",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 2
+          },
+          {
+            "contextCode": "THM_SELECTABLE",
+            "created": "2019-02-06T04:24:58",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_FILE_UPLOAD_BEHAVIOUR",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL_INPUT",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_HINT_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL_HINT_CONTENT_WRAPPER",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_HAS_HINT_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          },
+          {
+            "contextCode": "THM_HAS_LABEL_DEFAULT",
+            "created": "2019-02-06T04:24:58",
+            "visualControlType": "VCL",
+            "name": "THEME",
+            "realm": "genny",
+            "weight": 3
+          }
+        ]
+      },
+      "created": "2019-02-14T03:15:22",
+      "id": 46341,
+      "name": "All Inputs",
+      "description": "Examples of all the different Input Components available for use with the Visual Control.",
+      "realm": "genny"
+    }
+  ],
+  "data_type": "Ask",
+  "delete": false,
+  "replace": false,
+  "msg_type": "DATA_MSG"
+}

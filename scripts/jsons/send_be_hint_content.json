@@ -3,9 +3,8 @@
   "delete": false,
   "items": [
     {
-      "baseEntityAttributes": [
-      ],
-      "code": "FRM_APP_CONTENT",
+      "baseEntityAttributes": [],
+      "code": "FRM_CONTENT",
       "created": "2019-02-06T04:24:10",
       "delete": false,
       "id": 1004,
@@ -13,17 +12,17 @@
       "links": [
         {
           "link": {
-            "attributeCode": "LNK_FRAME",
-            "linkValue": "EAST",
-            "sourceCode": "FRM_APP_CONTENT",
-            "targetCode": "FRM_SIDEBAR_NOTES",
+            "attributeCode": "LNK_ASK",
+            "linkValue": "CENTRE",
+            "sourceCode": "FRM_CONTENT",
+            "targetCode": "QUE_HINT_GRP",
             "weight": 1
           },
-          "valueString": "EAST",
+          "valueString": "CENTRE",
           "weight": 1
         }
       ],
-      "name": "App Content Frame",
+      "name": "Content Frame",
       "realm": "genny",
       "replace": false,
       "shouldDeleteLinkedBaseEntities": false,
@@ -32,11 +31,8 @@
     }
   ],
   "msg_type": "DATA_MSG",
-  "replace": false,
+  "replace": true,
   "returnCount": 1,
   "shouldDeleteLinkedBaseEntities": false,
-  "total": -1,
-  "cache": "QUE_DASHBOARD_VIEW:QUE_DASHBOARD_VIEW:QUE_DASHBOARD_VIEW",
-  "exec": false,
-  "send": false
+  "total": -1
 }
